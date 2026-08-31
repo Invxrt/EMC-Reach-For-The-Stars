@@ -1,0 +1,7 @@
+#47F minecraft:birch_forest
+#2DC minecraft:deep_dark
+#010 minecraft:forest
+#527 quark:glimmering_weald
+#1DF minecraft:old_growth_birch_forest
+#5FF minecraft:river
+#51A minecraft:stony_shore

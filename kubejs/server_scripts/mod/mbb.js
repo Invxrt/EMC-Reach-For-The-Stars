@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-   event.remove({"output": "mbtool:mbtool"});
+  event.remove({"output": "mbtool:mbtool"});
   event.shaped("mbtool:mbtool", ["ABC", "DED", " F "], {
     A: "minecraft:iron_pickaxe",
     B: "immersiveengineering:heavy_engineering",

@@ -909,6 +909,22 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			description: ["Locate \"Reach For The Stars\" to see all the multiblock's in the pack!"]
+			id: "0948D3AD6DA1F9B3"
+			subtitle: "READ ME"
+			tasks: [{
+				id: "22E944D57EE8151B"
+				item: {
+					Count: 1
+					id: "mbtool:mbtool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
 	]
 	title: "&#FFFFFFI&#FFF8FBm&#FFF1F7m&#FFEAF3e&#FFE4EFr&#FFDDEBs&#FFD6E7i&#FFCFE3v&#FFC8DFe &#FFBBD7E&#FFB4D2n&#FFADCEg&#FFA6CAi&#FF9FC6n&#FF98C2e&#FF91BEe&#FF8BBAr&#FF84B6i&#FF7DB2n&#FF76AEg"
 }

@@ -278,6 +278,11 @@
 					item: "minecraft:coal"
 					type: "item"
 				}
+				{
+					id: "6B3A166AF9B8ADBC"
+					item: "immersiveengineering:nugget_aluminum"
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 0.0d

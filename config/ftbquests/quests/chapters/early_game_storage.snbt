@@ -44,6 +44,24 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["593D2788C5CD142A"]
+			id: "48BFF515DB66CB2F"
+			rewards: [{
+				count: 4
+				id: "31142B877305C918"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3E16FE01D0A98864"
+				item: { Count: 4, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	title: "&#7B5FFFE&#7C62F8a&#7D64F1r&#7E67EBl&#7F6AE4y &#816FD6g&#8272D0a&#8374C9m&#8477C2e &#867CB5s&#877FAEt&#8881A7o&#8984A0r&#8A879Aa&#8B8993g&#8C8C8Ce"
 }

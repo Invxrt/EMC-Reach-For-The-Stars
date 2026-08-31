@@ -10,6 +10,11 @@ ServerEvents.recipes((event) => {
         B: "#forge:ingots/steel",
         C: "minecraft:redstone_block"
     });
+    event.shaped(Item.of("mm:t2_rocket_assembly_controller", 1), ["ABA", "BCB", "ABA"], {
+        A: "ad_astra:desh_block",
+        B: "ad_astra:desh_ingot",
+        C: "mm:t1_rocket_assembly_controller"
+    });
 
     // PORTS
     event.shaped(Item.of("mm:fluid_port_input", 1), ["ABA", "BCB", "ABA"], {

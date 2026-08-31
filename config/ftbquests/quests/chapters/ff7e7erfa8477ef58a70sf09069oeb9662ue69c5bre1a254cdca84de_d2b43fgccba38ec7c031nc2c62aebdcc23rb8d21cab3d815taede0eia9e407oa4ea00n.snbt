@@ -55,7 +55,6 @@
 		{
 			dependencies: ["28DA36D1505B9EFF"]
 			id: "0B03B5CFC40DBD74"
-			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "5CE712220724BA06"
 				item: "kubejs:earth_ingot"
@@ -83,7 +82,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -105,7 +104,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -127,7 +126,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -177,7 +176,6 @@
 		{
 			dependencies: ["66D047417E090D57"]
 			id: "7B6B9572DEE72089"
-			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "199159C9E0B53BFF"
 				item: "kubejs:moon_ingot"
@@ -240,6 +238,61 @@
 			}]
 			x: 1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["28DA36D1505B9EFF"]
+			id: "24838EDF7D641488"
+			tasks: [{
+				id: "51233AD4FE5378AC"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "69B17CAD1B34214A"
+			tasks: [{
+				id: "75BC75EA918D3E8C"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "172CF0722D2829FE"
+			tasks: [{
+				id: "31C9736B6F3BC128"
+				item: "immersiveengineering:ingot_uranium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "419A7FC10C16CF1C"
+			tasks: [{
+				id: "2240FB06514879D7"
+				item: "thermal:nickel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "5EA3120B6AC6B5AB"
+			tasks: [{
+				id: "376642F3ED31A1F6"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"
