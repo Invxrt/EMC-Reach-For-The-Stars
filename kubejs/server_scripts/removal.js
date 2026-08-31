@@ -94,4 +94,5 @@ ServerEvents.recipes(event =>{
 
 	// Create
 	event.remove({ output: 'create:hand_crank' })
+	event.remove({ output: 'resource_capsules:item_output_hatch' })
 })
