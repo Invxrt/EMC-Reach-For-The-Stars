@@ -77,8 +77,8 @@ ServerEvents.recipes(event =>{
 	event.remove({output: 'projecte:collector_mk1'})
 	event.remove({output: 'projecte:collector_mk2'})
 	event.remove({output: 'projecte:collector_mk3'})
-	event.remove({output: 'projecte:condenser_mk1'})
-	event.remove({output: 'projecte:condenser_mk2'})
+	//event.remove({output: 'projecte:condenser_mk1'})
+	//event.remove({output: 'projecte:condenser_mk2'})
 	
 	// remove waystones
 	event.remove('waystones:waystone')

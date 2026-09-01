@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#2DC minecraft:deep_dark
+#008 minecraft:desert
+#010 minecraft:forest
+#4B0 minecraft:jungle
+#498 minecraft:lush_caves
+#5FF minecraft:river
+#67B minecraft:savanna
+#3AF minecraft:sparse_jungle
+#51A minecraft:stony_shore
