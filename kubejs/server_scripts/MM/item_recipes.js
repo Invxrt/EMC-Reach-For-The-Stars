@@ -15,6 +15,11 @@ ServerEvents.recipes((event) => {
         B: "ad_astra:desh_ingot",
         C: "mm:t1_rocket_assembly_controller"
     });
+    event.shaped(Item.of("mm:t3_rocket_assembly_controller", 1), ["ABA", "BCB", "ABA"], {
+        A: "ad_astra:ostrum_block",
+        B: "ad_astra:ostrum_ingot",
+        C: "mm:t2_rocket_assembly_controller"
+    });
     event.shaped(Item.of("mm:steel_drill_controller", 1), ["ABA", "BCB", "ABA"], {
         A: "#forge:plates/steel",
         B: "#forge:ingots/steel",

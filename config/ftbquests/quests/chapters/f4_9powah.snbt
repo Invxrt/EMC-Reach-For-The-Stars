@@ -243,11 +243,6 @@
 			dependencies: ["6DF2F45010B4DDD2"]
 			description: ["Now that you have access to Powah, you'll start to generate even more power using their reactors!"]
 			id: "79443B707CE8D18F"
-			rewards: [{
-				id: "025C7372F5C11965"
-				item: "kubejs:uraninite_resource_core"
-				type: "item"
-			}]
 			subtitle: "Time for a power upgrade!"
 			tasks: [{
 				id: "3259B68FA1C4AAB8"
@@ -496,7 +491,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
@@ -553,6 +548,17 @@
 			}]
 			x: -3.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["40B68ABDED4E2A57"]
+			id: "442D4609E397B640"
+			tasks: [{
+				id: "40C4ABB42D989067"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	title: "&#EAC700P&#EFB700O&#F5A700W&#FA9600A&#FF8600H"

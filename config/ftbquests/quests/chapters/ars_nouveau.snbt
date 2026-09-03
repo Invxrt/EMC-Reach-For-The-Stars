@@ -59,7 +59,7 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -212,6 +212,28 @@
 			]
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["786B269B887D7915"]
+			id: "13F6FD9FF8FF7859"
+			tasks: [{
+				id: "3AA3F2D070E7691F"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13F6FD9FF8FF7859"]
+			id: "24E48983F1B7BFC4"
+			tasks: [{
+				id: "3580AB8DDBB8A5BF"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "&#E43A96A&#DA34A1r&#D02EABs &#BC23C0N&#B21DCBo&#A817D5u&#9E11E0v&#940CEAe&#8A06F5a&#8000FFu"

@@ -1,3 +1,4 @@
 minecraft:overworld
 ad_astra:moon
 ad_astra:mars
+minecraft:the_nether

@@ -5,7 +5,7 @@
 	group: "1AF14BB13C8874E2"
 	icon: "ae2:controller"
 	id: "756685F2D321BF3A"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -138,6 +138,28 @@
 		}
 		{
 			id: "1BC58B8FB246A96B"
+			rewards: [
+				{
+					id: "50FA4C2D941C714D"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "13C2DCADFAD7F7F8"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "09031E17FC4A0CC1"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "0A94524B8C97F12B"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2262B4DF3F6B7CAC"
 				item: "ae2:sky_dust"

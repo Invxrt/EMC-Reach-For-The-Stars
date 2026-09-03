@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = /home/invxrt/Documents/curseforge/minecraft/Instances/EMC Reach For The Stars/saves/Serene Campsite Starter
+  is_server = true
+  world = 173.240.150.106:25565
 }
 

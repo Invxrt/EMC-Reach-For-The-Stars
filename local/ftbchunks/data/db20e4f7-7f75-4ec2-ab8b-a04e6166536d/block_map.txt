@@ -2,6 +2,7 @@
 #161AE7 minecraft:bamboo
 #9CC7E6 chipped:barred_dark_oak_trapdoor
 #3DE8FE minecraft:birch_leaves
+#51A065 powah:blazing_crystal_block
 #A68AEF minecraft:blue_stained_glass
 #9106BE minecraft:blue_stained_glass_pane
 #FC842A minecraft:campfire
@@ -21,9 +22,11 @@
 #F2BA47 kubejs:desh_drill_fluid
 #DD8A11 rechiseled:dirt_muddy
 #4FA7D0 minecraft:dirt_path
+#8C625C powah:energized_steel_block
 #A86BF7 pipez:fluid_pipe
 #2F436F minecraft:glass
 #F2A874 ad_astra:glowing_desh_pillar
+#77C790 ad_astra:glowing_ostrum_pillar
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
 #4480E5 create:gray_seat
@@ -51,9 +54,12 @@
 #F0D99D minecraft:mossy_stone_brick_stairs
 #483B67 minecraft:mossy_stone_bricks
 #52E3AF minecraft:mud
+#1B3420 powah:niotic_crystal_block
+#E37B3C powah:nitro_crystal_block
 #AD9EB5 minecraft:oak_leaves
 #79BDC3 minecraft:orange_stained_glass
 #B0786A minecraft:orange_stained_glass_pane
+#8D3F13 ad_astra:ostrum_block
 #E25823 chipped:overgrown_oak_log
 #B75237 minecraft:packed_ice
 #AB1C58 minecraft:peony
@@ -66,13 +72,16 @@
 #6DC9E1 minecraft:potted_cactus
 #4E2A71 pneumaticcraft:pressure_chamber_wall
 #38E01C minecraft:purple_stained_glass_pane
+#DF4F1B ae2:quartz_block
 #7EFF77 create:red_seat
 #CFE6E6 minecraft:red_stained_glass
 #858D27 minecraft:red_stained_glass_pane
 #079D5C immersiveengineering:sheetmetal_steel
+#C43AB6 ae2:smooth_sky_stone_block
 #872D76 minecraft:snow
 #12E6C4 minecraft:snow_block
 #82E150 ars_nouveau:sourcestone
+#1657F6 powah:spirited_crystal_block
 #13F5AC minecraft:spruce_leaves
 #6A8B3A minecraft:spruce_log
 #64F88A minecraft:spruce_slab
@@ -84,6 +93,7 @@
 #B21185 minecraft:stone_brick_slab
 #B96EB4 minecraft:structure_block
 #5CF3F1 minecraft:sugar_cane
+#ACEAAB mm:t2_rocket_assembly_controller
 #B5D07E minecraft:white_stained_glass
 #49E28F minecraft:white_stained_glass_pane
 #DBA41E minecraft:white_wall_banner

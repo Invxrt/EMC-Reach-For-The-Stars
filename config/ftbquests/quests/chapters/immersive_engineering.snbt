@@ -910,7 +910,13 @@
 			y: -2.0d
 		}
 		{
-			description: ["Locate \"Reach For The Stars\" to see all the multiblock's in the pack!"]
+			description: [
+				"&eLocate \"Reach For The Stars\" to see all the multiblock's in the pack!"
+				""
+				"&cSHIFT+SCROLL to rotate"
+				""
+				"&cIn the JEI menu hold down scroll wheel to rotate and hold right click to zoom in!"
+			]
 			id: "0948D3AD6DA1F9B3"
 			subtitle: "READ ME"
 			tasks: [{

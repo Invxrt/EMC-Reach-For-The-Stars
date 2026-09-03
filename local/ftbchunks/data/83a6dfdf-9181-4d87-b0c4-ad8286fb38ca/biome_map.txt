@@ -1,12 +1,17 @@
+#05B minecraft:bamboo_jungle
 #556 minecraft:beach
 #4F9 minecraft:dark_forest
 #2DC minecraft:deep_dark
 #008 minecraft:desert
+#4CA minecraft:dripstone_caves
 #010 minecraft:forest
 #508 minecraft:frozen_peaks
 #3A0 minecraft:frozen_river
 #527 quark:glimmering_weald
+#286 minecraft:grove
+#4B0 minecraft:jungle
 #498 minecraft:lush_caves
+#28D minecraft:mangrove_swamp
 #3EF ad_astra:martian_canyon_creek
 #2AC ad_astra:martian_polar_caps
 #078 ad_astra:martian_wastelands

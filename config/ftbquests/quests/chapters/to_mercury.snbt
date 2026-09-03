@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_mercury"
+	group: "1AF14BB13C8874E2"
+	id: "51167CF870B75798"
+	images: [{
+		height: 5.0d
+		image: "kubejs:item/cores/mercury_core"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "06797A5133B66231"
+			tasks: [
+				{
+					count: 8L
+					id: "6947941D6369A4B5"
+					item: { Count: 8, id: "ad_astra:ostrum_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5E9B80425BE414B3"
+					item: { Count: 5, id: "ae2:smooth_sky_stone_block" }
+					type: "item"
+				}
+				{
+					count: 56L
+					id: "730BEF4A08DF65D3"
+					item: { Count: 56, id: "ad_astra:glowing_ostrum_pillar" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "2ACC798C9A8526DD"
+					item: { Count: 44, id: "ae2:quartz_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3D8A1700E0C1801A"
+					item: { Count: 4, id: "powah:nitro_crystal_block" }
+					type: "item"
+				}
+				{
+					id: "14995CBD21C62FAF"
+					item: "mm:desh_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2091E8FB2A5B772C"
+					item: { Count: 36, id: "ae2:fluix_block" }
+					type: "item"
+				}
+				{
+					id: "7A29B0933765FBE9"
+					item: "powah:energy_cable_niotic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "375DECB63328F7E1"
+					item: { Count: 8, id: "powah:blazing_crystal_block" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5AA953EE7BDBBF43"
+					item: { Count: 10, id: "powah:energized_steel_block" }
+					type: "item"
+				}
+				{
+					id: "65BC6E8B3D440460"
+					item: "mm:t3_rocket_assembly_controller"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "48BE86FBFFEF7F49"
+					item: { Count: 25, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "551FB9D1BC53C8DB"
+					item: { Count: 10, id: "powah:niotic_crystal_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "62E5B087CA2353A0"
+					item: { Count: 8, id: "powah:spirited_crystal_block" }
+					type: "item"
+				}
+				{
+					id: "080E90C6695CFA15"
+					item: "mm:desh_item_port_input"
+					type: "item"
+				}
+				{
+					id: "37B1B127A56057C2"
+					item: "mm:desh_item_port_output"
+					type: "item"
+				}
+				{
+					id: "04CD6EB84A8513EA"
+					item: "powah:energy_cable_hardened"
+					type: "item"
+				}
+				{
+					id: "738142D80788838A"
+					item: "powah:energy_cable_blazing"
+					type: "item"
+				}
+				{
+					id: "0B01486C77452D6D"
+					item: "powah:energy_cable_spirited"
+					type: "item"
+				}
+				{
+					id: "16C1693888BC7512"
+					item: "powah:energy_cable_nitro"
+					type: "item"
+				}
+				{
+					id: "23E58958E246617D"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+				{
+					id: "418A55D88EA8BC70"
+					item: "powah:energizing_rod_blazing"
+					type: "item"
+				}
+				{
+					id: "6477C28399CF1CC2"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+				{
+					id: "199603A892282706"
+					item: "powah:energizing_rod_spirited"
+					type: "item"
+				}
+				{
+					id: "01A4299193926CB5"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
+			title: "Tier 3 Rocket Assembly"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06797A5133B66231"]
+			id: "02C82D39A458CEC6"
+			tasks: [{
+				id: "62FEF1FCA3291A56"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "&#8D0000M&#820000e&#760000r&#6B0000c&#5F0000u&#540000r&#480000y"
+}

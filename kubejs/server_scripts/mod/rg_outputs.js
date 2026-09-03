@@ -101,6 +101,9 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of('ae2:sky_dust'), ["S  ", "   ", "   "], {
     S: "kubejs:mars_shard",
   });
+  event.shaped(Item.of('thermal:lead_ingot'), ["SSS", "SSS", "   "], {
+    S: "kubejs:mars_shard",
+  });
   event.custom({
     type: "resource_capsules:resource_gen_tier_3",
     ingredients: [
