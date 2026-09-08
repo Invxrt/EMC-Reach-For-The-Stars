@@ -1,12 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "422737CD45FC3BC2", title: "Extra Mods" }
-		{ id: "78F30980440602A3", title: "Chapter 1: Terra" }
-		{ id: "2A747ED7DBA569C8", title: "Chapter 2: Luna" }
-		{ id: "1AF14BB13C8874E2", title: "Chapter 3: Mars" }
-		{ id: "35D43C6C8273A04E", title: "Chapter 4: Mercury" }
-		{ id: "3E6AC98947BE91E7", title: "Chapter 5: Venus" }
-		{ id: "71C656739B96EC1A", title: "Chapter 6: Glacio" }
-		{ id: "3760E46129CE9EBD", title: "Chapter 7: Creative" }
+		{ id: "32CF7CFF6EF49125", title: "&#1900BET&#170BC2h&#1616C7e &#122BCFS&#1136D4o&#0F41D8l&#0D4CDCa&#0C56E1r &#086CE9S&#0777EEy&#0582F2s&#038CF6t&#0297FBe&#00A2FFm" }
+		{ id: "422737CD45FC3BC2", title: "&#FFE05AS&#FFCC52t&#FFB74Ao&#FFA341r&#FF8F39a&#FF7A31g&#FF6629e &#FF3D19M&#FF2910o&#FF1408d&#FF0000s" }
+		{ id: "653044411A0AD7E6", title: "&#FCD05CT&#F1C46Be&#E6B87Bc&#DBAC8Ah&#D0A09An&#C493A9o&#B987B9l&#AE7BC8o&#A36FD8g&#9863E7y" }
+		{ id: "6BBACA2E9D7C6901", title: "&#41FF65M&#31FF84a&#21FFA3g&#10FFC1i&#00FFE0c" }
+		{ id: "3760E46129CE9EBD", title: "&#9A23FFC&#A81EFFr&#B619FFe&#C414FFa&#D20FFFt&#E00AFFi&#EE05FFv&#FC00FFe" }
 	]
 }

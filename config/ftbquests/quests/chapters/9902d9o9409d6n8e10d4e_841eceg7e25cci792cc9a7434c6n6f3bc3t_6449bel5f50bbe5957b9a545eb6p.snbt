@@ -2,10 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "9902d9o9409d6n8e10d4e_841eceg7e25cci792cc9a7434c6n6f3bc3t_6449bel5f50bbe5957b9a545eb6p"
-	group: "2A747ED7DBA569C8"
+	group: "32CF7CFF6EF49125"
 	icon: "kubejs:moon_core"
 	id: "22B0609A16EFE463"
-	order_index: 0
+	images: [{
+		height: 5.0d
+		image: "kubejs:item/cores/mars_core"
+		rotation: 0.0d
+		width: 5.0d
+		x: 4.5d
+		y: -3.5d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -208,6 +216,91 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "6991CC371654E1C1"
+			tasks: [
+				{
+					count: 8L
+					id: "7AF4B06CEEF5E6CB"
+					item: { Count: 8, id: "ad_astra:desh_block" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "62845CA9CC00CC76"
+					item: { Count: 20, id: "ad_astra:glowing_desh_pillar" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "3DD5E060BBA35EF6"
+					item: { Count: 22, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "419EE0CF9D6D7C3F"
+					item: { Count: 23, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "790ADD9774B5F9CF"
+					item: { Count: 12, id: "ad_astra:desh_pillar" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "49924B55BD57D8C3"
+					item: { Count: 9, id: "tconstruct:clear_glass" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "216080DDAB8B0A03"
+					item: { Count: 5, id: "ars_nouveau:arcane_platform" }
+					type: "item"
+				}
+				{
+					id: "53951C449ABC3496"
+					item: "mm:energy_port_input"
+					type: "item"
+				}
+				{
+					id: "1D5EEC1ECBB7B2E4"
+					item: "mm:item_port_input"
+					type: "item"
+				}
+				{
+					id: "69CC1274BEFA6B81"
+					item: "mm:item_port_output"
+					type: "item"
+				}
+				{
+					id: "496842D0D533D754"
+					item: "mm:t2_rocket_assembly_controller"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Rocket Assembly"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6991CC371654E1C1"]
+			id: "7E4DC5C532C87774"
+			tasks: [{
+				id: "3CFA460DAA8A91BC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
 			y: -4.0d
 		}
 	]

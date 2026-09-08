@@ -2,7 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "to_mercury"
-	group: "1AF14BB13C8874E2"
+	group: "32CF7CFF6EF49125"
+	icon: "kubejs:mercury_core"
 	id: "51167CF870B75798"
 	images: [{
 		height: 5.0d
@@ -12,7 +13,7 @@
 		x: 0.0d
 		y: 0.5d
 	}]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

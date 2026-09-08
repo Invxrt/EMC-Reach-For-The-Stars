@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: "2A747ED7DBA569C8"
+	group: "6BBACA2E9D7C6901"
 	icon: {
 		Count: 1
 		id: "ars_nouveau:arcanist_hood"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "6BEA3DAA1E87510E"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

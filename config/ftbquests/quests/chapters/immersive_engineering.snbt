@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "immersive_engineering"
-	group: "78F30980440602A3"
+	group: "653044411A0AD7E6"
 	icon: {
 		Count: 1
 		id: "immersiveengineering:hammer"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "3F13BEBABEB1F2B8"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

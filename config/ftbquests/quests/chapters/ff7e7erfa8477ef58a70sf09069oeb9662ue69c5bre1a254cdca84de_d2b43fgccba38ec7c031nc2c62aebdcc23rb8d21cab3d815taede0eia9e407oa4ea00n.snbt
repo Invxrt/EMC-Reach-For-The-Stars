@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ff7e7erfa8477ef58a70sf09069oeb9662ue69c5bre1a254cdca84de_d2b43fgccba38ec7c031nc2c62aebdcc23rb8d21cab3d815taede0eia9e407oa4ea00n"
-	group: "2A747ED7DBA569C8"
+	group: "32CF7CFF6EF49125"
 	icon: "kubejs:earth_core"
 	id: "23F1993A0AEC0A1E"
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -192,7 +192,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -214,7 +214,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -225,7 +225,7 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -315,6 +315,290 @@
 			}]
 			x: 2.5d
 			y: 5.5d
+		}
+		{
+			id: "10636E35A87E7C47"
+			tasks: [{
+				id: "2C49E56B1B4ABCD0"
+				title: "Tier 3 + 4"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10636E35A87E7C47"]
+			id: "6D388CCEC42BE9FC"
+			tasks: [{
+				id: "2CA3A83539FB5744"
+				item: "resource_capsules:resource_gen_tier_3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10636E35A87E7C47"]
+			id: "4ACECF31158F188E"
+			tasks: [{
+				id: "5C9429A0710F5E89"
+				item: "resource_capsules:resource_gen_tier_4"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D388CCEC42BE9FC"]
+			id: "63056FDB172F830B"
+			tasks: [{
+				id: "57818C13206266E7"
+				item: "kubejs:mars_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63056FDB172F830B"]
+			id: "691F847D7F36CCA7"
+			tasks: [{
+				id: "32893909AC7D2021"
+				item: "kubejs:mars_shard"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "56A01F521FCD7326"
+			tasks: [{
+				id: "49CD477C861EF971"
+				item: "kubejs:mars_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ACECF31158F188E"]
+			id: "789326192E08A966"
+			tasks: [{
+				id: "6A2A5D12118C8947"
+				item: "kubejs:mercury_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["789326192E08A966"]
+			id: "51CD961AC0CCA325"
+			tasks: [{
+				id: "3C6AF601539334C2"
+				item: "kubejs:mercury_shard"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "609253E7D3E24821"
+			tasks: [{
+				id: "7BEFBFCB373E52EA"
+				item: "kubejs:mercury_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "263C8207DC24AC04"
+			tasks: [{
+				id: "64EC8D65A6BE384D"
+				title: "Tier 5-6"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["263C8207DC24AC04"]
+			id: "63CC5A0D6CF55CB5"
+			tasks: [{
+				id: "4E0B5575E0E1D2B2"
+				item: "resource_capsules:resource_gen_tier_5"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["263C8207DC24AC04"]
+			id: "12FF0DB2DF7C138D"
+			tasks: [{
+				id: "406C592DD95F8D9D"
+				item: "resource_capsules:resource_gen_tier_6"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63CC5A0D6CF55CB5"]
+			id: "06CD04E5F122C70A"
+			tasks: [{
+				id: "237089FF3992A97B"
+				item: "kubejs:venus_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06CD04E5F122C70A"]
+			id: "5F019B36578580D3"
+			tasks: [{
+				id: "2A7147F22659DE2E"
+				item: "kubejs:venus_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "7F73E07B642C14DC"
+			tasks: [{
+				id: "70C0D97DFDC98FFE"
+				item: "kubejs:venus_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12FF0DB2DF7C138D"]
+			id: "426A7203A28C6567"
+			tasks: [{
+				id: "0DDD8E84B56A9CE0"
+				item: "kubejs:glacio_core"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["426A7203A28C6567"]
+			id: "7BBE74069261045A"
+			tasks: [{
+				id: "3971ED41E9E7CFFA"
+				item: "kubejs:glacio_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BBE74069261045A"]
+			id: "05F0576B8FC20ED8"
+			tasks: [{
+				id: "270BB2E1B6EE18AC"
+				item: "kubejs:glacio_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "0CDB4C2B14F0F279"
+			tasks: [{
+				id: "6BE9C959922AADD4"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "10106DE985E06D4E"
+			tasks: [{
+				id: "03ACB98C2F0E5EB2"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "1EEA5BAAC4A30EF4"
+			tasks: [{
+				id: "6A76C8290FBBA7B9"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "53EF191EF5435FE5"
+			tasks: [{
+				id: "1F0D3DC9CFADE780"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "50880BC0A330F9BF"
+			tasks: [{
+				id: "7C1C90E96B6C6A18"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "4852AE969C158744"
+			tasks: [{
+				id: "6025653AE4F2AE86"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["691F847D7F36CCA7"]
+			id: "0122AD6D3249DC21"
+			tasks: [{
+				id: "3B66A1DD0CB32BDC"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66D047417E090D57"]
+			id: "0545CA03B77C9409"
+			tasks: [{
+				id: "48A66327825EAEA3"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"

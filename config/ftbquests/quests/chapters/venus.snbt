@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "venus"
+	group: "32CF7CFF6EF49125"
+	icon: "kubejs:venus_core"
+	id: "01962ECA2E000C0B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Venus"
+}

@@ -7,6 +7,8 @@ ad_astra:pygro_tower
 ad_astra:pygro_village
 ad_astra:venus_bullet
 ae2:meteorite
+ae2lt:alien_starship
+ae2lt:firmament_starship
 ars_nouveau:guardian_wilden_den
 ars_nouveau:hunter_wilden_den
 ars_nouveau:stalker_wilden_den

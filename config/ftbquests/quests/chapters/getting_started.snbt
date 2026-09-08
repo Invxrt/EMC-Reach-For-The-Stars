@@ -2,17 +2,28 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "getting_started"
-	group: "78F30980440602A3"
+	group: "32CF7CFF6EF49125"
+	icon: "kubejs:earth_core"
 	id: "7D002DB5EA742D78"
-	images: [{
-		height: 15.0d
-		image: "kubejs:item/cores/earth_core"
-		rotation: 0.0d
-		width: 15.0d
-		x: 2.5d
-		y: -0.5d
-	}]
-	order_index: 0
+	images: [
+		{
+			height: 15.0d
+			image: "kubejs:item/cores/earth_core"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/cores/moon_core"
+			rotation: 0.0d
+			width: 15.0d
+			x: 14.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -393,6 +404,286 @@
 			}]
 			x: -0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["110E14A2F4077EFF"]
+			id: "208DBEF3DF508CF1"
+			tasks: [{
+				id: "67B03CA468C12D0D"
+				item: {
+					Count: 1
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["110E14A2F4077EFF"]
+			id: "75391B72E597C5CC"
+			tasks: [{
+				id: "6691FD5120D4A311"
+				item: {
+					Count: 1
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "110E14A2F4077EFF"
+			subtitle: "You need to be able to breath obviously"
+			tasks: [{
+				id: "3F8F9D87A04B0079"
+				title: "Space Suit"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["110E14A2F4077EFF"]
+			id: "7829B2AF81A366D5"
+			tasks: [{
+				id: "2F38841F2F4A6739"
+				item: {
+					Count: 1
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["110E14A2F4077EFF"]
+			id: "0CC4D704027CE954"
+			tasks: [{
+				id: "65F5DCFB10E48A61"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			id: "314F20A540EFEE53"
+			tasks: [{
+				id: "1067CECDF9BB9114"
+				title: "Ad Astra!"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "50FB418D9B850018"
+			tasks: [{
+				id: "233759F708D488D7"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50FB418D9B850018"]
+			id: "14A3B9E3DF2235F1"
+			tasks: [{
+				id: "46119CA90FB6A69E"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "53ED406C1257A716"
+			tasks: [
+				{
+					count: 8L
+					id: "3516B70B306A475A"
+					item: { Count: 8, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1B3F2287D028736A"
+					item: { Count: 12, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78E3622AD7EA7800"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46D8A351C1A7B0FF"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "38C7CC301E00152B"
+					item: "mm:item_port_input"
+					type: "item"
+				}
+				{
+					id: "5C5B2BC3BD41ED70"
+					item: "mm:item_port_output"
+					type: "item"
+				}
+				{
+					id: "5AEF588104B2FF09"
+					item: "mm:energy_port_input"
+					type: "item"
+				}
+				{
+					id: "6321B52DDE0A86D9"
+					item: "mm:t1_rocket_assembly_controller"
+					type: "item"
+				}
+			]
+			title: "T1 Rocket Assembly"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "75226C87238D8DD0"
+			tasks: [{
+				id: "212D03495BEB8210"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50FB418D9B850018"]
+			id: "63EE8C9A87C4C6F7"
+			tasks: [{
+				id: "1302FEE9EEE8147B"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "5322F98737A7589F"
+			tasks: [{
+				id: "371E30D6E8CBAB34"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71DF110557B6A77B"]
+			id: "3D897150394949F3"
+			tasks: [{
+				id: "772B5DC159A2DD91"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62052FCCC11456EA"]
+			id: "71DF110557B6A77B"
+			tasks: [{
+				id: "6F1F7A84D7BAE759"
+				item: "kubejs:rocket_fin_mold"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["314F20A540EFEE53"]
+			id: "62052FCCC11456EA"
+			tasks: [{
+				id: "5032F40BF125E259"
+				item: "kubejs:blank_mold"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62052FCCC11456EA"]
+			id: "6119C28A630CF7B4"
+			tasks: [{
+				id: "4577C5733C4D6CAA"
+				item: "kubejs:rocket_nose_mold"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6119C28A630CF7B4"]
+			id: "49E32B8953FFE089"
+			tasks: [{
+				id: "1698F37082240EE0"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"49E32B8953FFE089"
+				"3D897150394949F3"
+				"5322F98737A7589F"
+				"63EE8C9A87C4C6F7"
+				"53ED406C1257A716"
+			]
+			description: ["Cannot be made in a NASA workbench (Ad Astra sucks) so here's a multiblock!"]
+			id: "36F70BFF87F90F7C"
+			size: 2.5d
+			tasks: [{
+				id: "2CC461CDB50101A0"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
 		}
 	]
 	title: "&#FF9F9FG&#F598A6e&#EB92ADt&#E18BB4t&#D784BAi&#CD7DC1n&#C377C8g &#AE69D6S&#A463DDt&#9A5CE4a&#9055EAr&#864EF1t&#7C48F8e&#7241FFd"

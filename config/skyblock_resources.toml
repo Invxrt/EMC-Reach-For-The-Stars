@@ -1,0 +1,37 @@
+
+["Wooden Generators"]
+	#Number of ticks between cycles
+	WoodenTicksBetweenCycle = 40.0
+	#Maximum number of items held in internal inventory
+	WoodenMaxItems = 128.0
+
+["Stone Generators"]
+	#Number of ticks between cycles
+	StoneTicksBetweenCycles = 40.0
+	#Maximum number of items held in internal inventory
+	StoneMaxItems = 256.0
+
+["Iron Generators"]
+	#Number of ticks between cycles
+	IronTicksBetweenCycles = 40.0
+	#Maximum number of items held in internal inventory
+	IronMaxItems = 512.0
+
+["Gold Generators"]
+	#Number of ticks between cycles
+	GoldTicksBetweenCycles = 40.0
+	#Maximum number of items held in internal inventory
+	GoldMaxItems = 1024.0
+
+["Diamond Generators"]
+	#Number of ticks between cycles
+	DiamondTicksBetweenCycles = 40.0
+	#Maximum number of items held in internal inventory
+	DiamondMaxItems = 2048.0
+
+["Netherite Generators"]
+	#Number of ticks between cycles
+	NetheriteTicksBetweenCycles = 40.0
+	#Maximum number of items held in internal inventory
+	NetheriteMaxItems = 4096.0
+

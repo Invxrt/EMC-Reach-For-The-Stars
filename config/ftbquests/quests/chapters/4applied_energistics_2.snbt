@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4applied_energistics_2"
-	group: "1AF14BB13C8874E2"
+	group: "422737CD45FC3BC2"
 	icon: "ae2:controller"
 	id: "756685F2D321BF3A"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

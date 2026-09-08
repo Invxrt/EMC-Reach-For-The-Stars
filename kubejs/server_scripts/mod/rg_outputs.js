@@ -67,6 +67,9 @@ ServerEvents.recipes((event) => {
     event.shaped(Item.of('minecraft:lapis_lazuli', 1), ["S S", " SS", "S S"], {
     S: "kubejs:moon_shard",
   });
+  event.shaped(Item.of('mekanism:nugget_osmium', 1), ["SSS", "S S", "SSS"], {
+    S: "kubejs:moon_shard",
+  });
   event.custom({
     type: "resource_capsules:resource_gen_tier_2",
     ingredients: [
