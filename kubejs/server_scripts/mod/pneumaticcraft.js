@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
       },
     ],
     pressure: 3.0,
-    results: [Item.of("kubejs:earth_element", 1)],
+    results: [Item.of("reach_for_the_stars:earth_essence", 1)],
   });
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
       },
     ],
     pressure: 3.0,
-    results: [Item.of("kubejs:fire_element", 1)],
+    results: [Item.of("reach_for_the_stars:fire_essence", 1)],
   });
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
       },
     ],
     pressure: 3.0,
-    results: [Item.of("kubejs:water_element", 1)],
+    results: [Item.of("reach_for_the_stars:water_essence", 1)],
   });
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
@@ -51,34 +51,34 @@ ServerEvents.recipes((event) => {
       },
     ],
     pressure: 3.0,
-    results: [Item.of("kubejs:air_element", 1)],
+    results: [Item.of("reach_for_the_stars:air_essence", 1)],
   });
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
-        item: "kubejs:earth_element",
+        item: "reach_for_the_stars:earth_essence",
         count: 1,
       },
       {
         type: "pneumaticcraft:stacked_item",
-        item: "kubejs:fire_element",
+        item: "reach_for_the_stars:fire_essence",
         count: 1,
       },
       {
         type: "pneumaticcraft:stacked_item",
-        item: "kubejs:water_element",
+        item: "reach_for_the_stars:water_essence",
         count: 1,
       },
       {
         type: "pneumaticcraft:stacked_item",
-        item: "kubejs:air_element",
+        item: "reach_for_the_stars:air_essence",
         count: 1,
       },
     ],
     pressure: 4.0,
-    results: [Item.of("kubejs:earth_core", 1)],
+    results: [Item.of("reach_for_the_stars:earth_core", 1)],
   });
 
   // Tier 2
@@ -102,18 +102,18 @@ ServerEvents.recipes((event) => {
       },
     ],
     pressure: 4.0,
-    results: [Item.of("kubejs:moon_core", 1)],
+    results: [Item.of("reach_for_the_stars:moon_core", 1)],
   });
   event.custom({
     type: "pneumaticcraft:assembly_laser",
     input: {
       type: "pneumaticcraft:stacked_item",
-      item: "kubejs:moon_shard",
+      item: "reach_for_the_stars:moon_shard",
       count: 32,
     },
     program: "laser",
     result: {
-      item: "kubejs:moon_ingot",
+      item: "reach_for_the_stars:moon_ingot",
       count: 1,
     },
   })
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
     },
     fluid_output: {
       type: "pneumaticcraft:fluid",
-      fluid: "kubejs:steel_drill_fluid",
+      fluid: "reach_for_the_stars:steel_drill_fluid",
       amount: 500,
     },
     item_input: {
@@ -143,12 +143,12 @@ ServerEvents.recipes((event) => {
     exothermic: false,
     fluid_input: {
       type: "pneumaticcraft:fluid",
-      fluid: "kubejs:steel_drill_fluid",
+      fluid: "reach_for_the_stars:steel_drill_fluid",
       amount: 1000,
     },
     fluid_output: {
       type: "pneumaticcraft:fluid",
-      fluid: "kubejs:desh_drill_fluid",
+      fluid: "reach_for_the_stars:desh_drill_fluid",
       amount: 500,
     },
     item_input: {

@@ -3,12 +3,12 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: "32CF7CFF6EF49125"
-	icon: "kubejs:earth_core"
+	icon: "reach_for_the_stars:earth_core"
 	id: "7D002DB5EA742D78"
 	images: [
 		{
 			height: 15.0d
-			image: "kubejs:item/cores/earth_core"
+			image: "reach_for_the_stars:item/earth_core"
 			rotation: 0.0d
 			width: 15.0d
 			x: 2.5d
@@ -16,7 +16,7 @@
 		}
 		{
 			height: 15.0d
-			image: "kubejs:item/cores/moon_core"
+			image: "reach_for_the_stars:item/moon_core"
 			rotation: 0.0d
 			width: 15.0d
 			x: 14.5d
@@ -365,7 +365,7 @@
 			id: "7617D00C40051FA7"
 			tasks: [{
 				id: "18B2A664C6B3230F"
-				item: "kubejs:iron_flux_coil"
+				item: "reach_for_the_stars:iron_flux_coil"
 				type: "item"
 			}]
 			x: 5.5d
@@ -623,7 +623,7 @@
 			id: "71DF110557B6A77B"
 			tasks: [{
 				id: "6F1F7A84D7BAE759"
-				item: "kubejs:rocket_fin_mold"
+				item: "reach_for_the_stars:rocket_fin_mold"
 				type: "item"
 			}]
 			x: 13.5d
@@ -634,7 +634,7 @@
 			id: "62052FCCC11456EA"
 			tasks: [{
 				id: "5032F40BF125E259"
-				item: "kubejs:blank_mold"
+				item: "reach_for_the_stars:blank_mold"
 				type: "item"
 			}]
 			x: 13.5d
@@ -645,7 +645,7 @@
 			id: "6119C28A630CF7B4"
 			tasks: [{
 				id: "4577C5733C4D6CAA"
-				item: "kubejs:rocket_nose_mold"
+				item: "reach_for_the_stars:rocket_nose_mold"
 				type: "item"
 			}]
 			x: 12.5d

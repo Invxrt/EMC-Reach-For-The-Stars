@@ -1,4 +1,4 @@
-79 possible biomes found:
+80 possible biomes found:
 - "ars_nouveau:archwood_forest"
 - "minecraft:badlands"
 - "minecraft:bamboo_jungle"
@@ -36,6 +36,7 @@
 - "minecraft:lukewarm_ocean"
 - "ad_astra:lunar_wastelands"
 - "minecraft:lush_caves"
+- "compactmachines:machine"
 - "minecraft:mangrove_swamp"
 - "ad_astra:martian_canyon_creek"
 - "ad_astra:martian_polar_caps"

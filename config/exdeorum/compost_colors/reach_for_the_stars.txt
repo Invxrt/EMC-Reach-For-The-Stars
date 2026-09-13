@@ -1,0 +1,2 @@
+// Compost colors for reach_for_the_stars. You may add your own colors, change existing ones, or remove colors that aren't needed.
+stellar_odyssey_music_disc, #d290ff

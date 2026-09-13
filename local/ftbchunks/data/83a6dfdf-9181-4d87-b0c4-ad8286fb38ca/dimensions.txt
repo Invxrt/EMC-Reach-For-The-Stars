@@ -1,6 +1,0 @@
-minecraft:overworld
-ad_astra:moon
-ad_astra:mars
-minecraft:the_nether
-minecraft:the_end
-compactmachines:compact_world

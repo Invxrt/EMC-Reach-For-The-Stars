@@ -3,11 +3,11 @@
 	default_quest_shape: ""
 	filename: "9902d9o9409d6n8e10d4e_841eceg7e25cci792cc9a7434c6n6f3bc3t_6449bel5f50bbe5957b9a545eb6p"
 	group: "32CF7CFF6EF49125"
-	icon: "kubejs:moon_core"
+	icon: "reach_for_the_stars:moon_core"
 	id: "22B0609A16EFE463"
 	images: [{
 		height: 5.0d
-		image: "kubejs:item/cores/mars_core"
+		image: "reach_for_the_stars:item/mars_core"
 		rotation: 0.0d
 		width: 5.0d
 		x: 4.5d
@@ -116,8 +116,8 @@
 			dependencies: ["1BAFAE9F0F65E3BC"]
 			id: "15989E0C43EA7C65"
 			tasks: [{
-				id: "7E12AEB959DCD06B"
-				item: "kubejs:fire_element"
+				id: "6FE63D8658940C2B"
+				item: "reach_for_the_stars:fire_essence"
 				type: "item"
 			}]
 			x: -1.0d
@@ -128,7 +128,7 @@
 			id: "4D785155B5A63DD5"
 			tasks: [{
 				id: "4DA054955F861C53"
-				item: "kubejs:earth_element"
+				item: "reach_for_the_stars:earth_essence"
 				type: "item"
 			}]
 			x: -0.5d
@@ -142,7 +142,7 @@
 			id: "341D01C4BD53B85B"
 			tasks: [{
 				id: "7A7C3E50A208084F"
-				item: "kubejs:water_element"
+				item: "reach_for_the_stars:water_essence"
 				type: "item"
 			}]
 			x: 0.5d
@@ -153,7 +153,7 @@
 			id: "2A9E34320158017A"
 			tasks: [{
 				id: "26F6CB24E39D4AC4"
-				item: "kubejs:air_element"
+				item: "reach_for_the_stars:air_essence"
 				type: "item"
 			}]
 			x: 1.0d
@@ -169,7 +169,7 @@
 			id: "4C1221F3AD7DD2F6"
 			tasks: [{
 				id: "3B86F0374BD64F9F"
-				item: "kubejs:earth_core"
+				item: "reach_for_the_stars:earth_core"
 				type: "item"
 			}]
 			x: 0.0d

@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event.shaped('resource_capsules:resource_gen_tier_1', ['ABA', 'BCB', 'ABA'], {
         A: 'immersiveengineering:sheetmetal_steel',
         B: 'immersiveengineering:steel_scaffolding_standard',
-        C: 'kubejs:iron_flux_coil'
+        C: 'reach_for_the_stars:iron_flux_coil'
     })
     event.remove('resource_capsules:resource_gen_tier_2')
     event.shaped('resource_capsules:resource_gen_tier_2', ['ABA', 'BCB', 'ABA'], {

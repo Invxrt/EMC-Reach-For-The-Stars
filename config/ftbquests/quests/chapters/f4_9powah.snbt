@@ -455,7 +455,7 @@
 			id: "70A99A358ACFE743"
 			tasks: [{
 				id: "75C32C87E9FE6010"
-				item: "kubejs:mars_core"
+				item: "reach_for_the_stars:mars_core"
 				type: "item"
 			}]
 			x: -0.5d
@@ -466,7 +466,7 @@
 			id: "40B68ABDED4E2A57"
 			tasks: [{
 				id: "623E512239E991F8"
-				item: "kubejs:mars_shard"
+				item: "reach_for_the_stars:mars_shard"
 				type: "item"
 			}]
 			x: -2.5d

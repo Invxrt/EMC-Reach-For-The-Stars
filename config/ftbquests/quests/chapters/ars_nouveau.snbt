@@ -143,7 +143,7 @@
 			id: "2205C71D1400EBB2"
 			tasks: [{
 				id: "53475FCF0B4EE82B"
-				item: "kubejs:earth_ingot"
+				item: "reach_for_the_stars:earth_ingot"
 				type: "item"
 			}]
 			x: 3.0d

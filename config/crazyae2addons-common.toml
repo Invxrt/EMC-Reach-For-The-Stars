@@ -22,6 +22,25 @@
 		iconsEnabled = true
 		#Enable or disable dynamic rendering of resource amount changes over time on displays.
 		deltaEnabled = true
+		#Maximum size in bytes of a single uploaded image.
+		#Uploads are split into chunks, so this is not limited by the vanilla packet size.
+		#Range: 1048576 ~ 67108864
+		imageMaxBytes = 16777216
+		#Maximum width and height in pixels of a single uploaded image.
+		#Larger images are downscaled by the client before they are sent.
+		#Range: 16 ~ 4096
+		imageMaxDimension = 2048
+		#Total size in bytes of all images stored in the world.
+		#Identical images are stored once and shared, so copying a display with a memory card is free.
+		#Range: 67108864 ~ 536870912
+		imagesTotalBytes = 134217728
+		#Enable or disable playback of animated images such as GIFs.
+		#When disabled, animated images render their first frame only.
+		imageAnimationEnabled = true
+		#Maximum number of frames kept when an animated image is imported.
+		#Longer animations are sampled evenly down to this many frames.
+		#Range: 1 ~ 512
+		imageMaxFrames = 256
 
 	#Emitter terminal feature.
 	#The emitter terminal allows the player to access, query, and configure

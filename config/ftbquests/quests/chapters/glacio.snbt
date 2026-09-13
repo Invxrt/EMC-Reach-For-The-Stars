@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "glacio"
 	group: "32CF7CFF6EF49125"
-	icon: "kubejs:glacio_core"
+	icon: "reach_for_the_stars:glacio_core"
 	id: "3414EE4103E97A26"
 	order_index: 6
 	quest_links: [ ]

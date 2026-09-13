@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "ff7e7erfa8477ef58a70sf09069oeb9662ue69c5bre1a254cdca84de_d2b43fgccba38ec7c031nc2c62aebdcc23rb8d21cab3d815taede0eia9e407oa4ea00n"
 	group: "32CF7CFF6EF49125"
-	icon: "kubejs:earth_core"
+	icon: "reach_for_the_stars:earth_core"
 	id: "23F1993A0AEC0A1E"
 	order_index: 7
 	quest_links: [ ]
@@ -35,7 +35,7 @@
 			id: "484BF7F121B5AA11"
 			tasks: [{
 				id: "638793FFA67AD679"
-				item: "kubejs:earth_core"
+				item: "reach_for_the_stars:earth_core"
 				type: "item"
 			}]
 			x: -0.5d
@@ -46,7 +46,7 @@
 			id: "28DA36D1505B9EFF"
 			tasks: [{
 				id: "10427D9802DA2E87"
-				item: "kubejs:earth_shard"
+				item: "reach_for_the_stars:earth_shard"
 				type: "item"
 			}]
 			x: 0.5d
@@ -57,7 +57,7 @@
 			id: "0B03B5CFC40DBD74"
 			tasks: [{
 				id: "5CE712220724BA06"
-				item: "kubejs:earth_ingot"
+				item: "reach_for_the_stars:earth_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -82,7 +82,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -104,7 +104,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -126,7 +126,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -156,7 +156,7 @@
 			id: "099AB6673A3BF4C9"
 			tasks: [{
 				id: "4E47180C1D7BF5D0"
-				item: "kubejs:moon_core"
+				item: "reach_for_the_stars:moon_core"
 				type: "item"
 			}]
 			x: 1.5d
@@ -167,7 +167,7 @@
 			id: "66D047417E090D57"
 			tasks: [{
 				id: "19A067A339440B94"
-				item: "kubejs:moon_shard"
+				item: "reach_for_the_stars:moon_shard"
 				type: "item"
 			}]
 			x: 0.5d
@@ -178,7 +178,7 @@
 			id: "7B6B9572DEE72089"
 			tasks: [{
 				id: "199159C9E0B53BFF"
-				item: "kubejs:moon_ingot"
+				item: "reach_for_the_stars:moon_ingot"
 				type: "item"
 			}]
 			x: -0.5d
@@ -247,7 +247,7 @@
 				item: "immersiveengineering:ingot_aluminum"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -293,17 +293,6 @@
 			}]
 			x: -0.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["28DA36D1505B9EFF"]
-			id: "1D1CF1241CFE8111"
-			tasks: [{
-				id: "690B76E8E71719FE"
-				item: "thermal:silver_ingot"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["66D047417E090D57"]
@@ -353,7 +342,7 @@
 			id: "63056FDB172F830B"
 			tasks: [{
 				id: "57818C13206266E7"
-				item: "kubejs:mars_core"
+				item: "reach_for_the_stars:mars_core"
 				type: "item"
 			}]
 			x: 4.5d
@@ -364,7 +353,7 @@
 			id: "691F847D7F36CCA7"
 			tasks: [{
 				id: "32893909AC7D2021"
-				item: "kubejs:mars_shard"
+				item: "reach_for_the_stars:mars_shard"
 				type: "item"
 			}]
 			x: 5.5d
@@ -375,7 +364,7 @@
 			id: "56A01F521FCD7326"
 			tasks: [{
 				id: "49CD477C861EF971"
-				item: "kubejs:mars_ingot"
+				item: "reach_for_the_stars:mars_ingot"
 				type: "item"
 			}]
 			x: 6.5d
@@ -386,7 +375,7 @@
 			id: "789326192E08A966"
 			tasks: [{
 				id: "6A2A5D12118C8947"
-				item: "kubejs:mercury_core"
+				item: "reach_for_the_stars:mercury_core"
 				type: "item"
 			}]
 			x: 6.5d
@@ -397,7 +386,7 @@
 			id: "51CD961AC0CCA325"
 			tasks: [{
 				id: "3C6AF601539334C2"
-				item: "kubejs:mercury_shard"
+				item: "reach_for_the_stars:mercury_shard"
 				type: "item"
 			}]
 			x: 5.5d
@@ -408,7 +397,7 @@
 			id: "609253E7D3E24821"
 			tasks: [{
 				id: "7BEFBFCB373E52EA"
-				item: "kubejs:mercury_ingot"
+				item: "reach_for_the_stars:mercury_ingot"
 				type: "item"
 			}]
 			x: 4.5d
@@ -451,7 +440,7 @@
 			id: "06CD04E5F122C70A"
 			tasks: [{
 				id: "237089FF3992A97B"
-				item: "kubejs:venus_core"
+				item: "reach_for_the_stars:venus_core"
 				type: "item"
 			}]
 			x: 9.5d
@@ -462,7 +451,7 @@
 			id: "5F019B36578580D3"
 			tasks: [{
 				id: "2A7147F22659DE2E"
-				item: "kubejs:venus_shard"
+				item: "reach_for_the_stars:venus_shard"
 				type: "item"
 			}]
 			x: 10.5d
@@ -473,7 +462,7 @@
 			id: "7F73E07B642C14DC"
 			tasks: [{
 				id: "70C0D97DFDC98FFE"
-				item: "kubejs:venus_ingot"
+				item: "reach_for_the_stars:venus_ingot"
 				type: "item"
 			}]
 			x: 11.5d
@@ -484,7 +473,7 @@
 			id: "426A7203A28C6567"
 			tasks: [{
 				id: "0DDD8E84B56A9CE0"
-				item: "kubejs:glacio_core"
+				item: "reach_for_the_stars:glacio_core"
 				type: "item"
 			}]
 			x: 11.5d
@@ -495,7 +484,7 @@
 			id: "7BBE74069261045A"
 			tasks: [{
 				id: "3971ED41E9E7CFFA"
-				item: "kubejs:glacio_shard"
+				item: "reach_for_the_stars:glacio_shard"
 				type: "item"
 			}]
 			x: 10.5d
@@ -506,7 +495,7 @@
 			id: "05F0576B8FC20ED8"
 			tasks: [{
 				id: "270BB2E1B6EE18AC"
-				item: "kubejs:glacio_ingot"
+				item: "reach_for_the_stars:glacio_ingot"
 				type: "item"
 			}]
 			x: 9.5d

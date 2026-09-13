@@ -19,7 +19,7 @@
 			id: "3FC29C2EB203BF2E"
 			tasks: [{
 				id: "561B75EEDD1F8F3E"
-				item: "kubejs:moon_ingot"
+				item: "reach_for_the_stars:moon_ingot"
 				type: "item"
 			}]
 			x: 6.0d
@@ -306,7 +306,7 @@
 			id: "08C1DC1F4727F481"
 			tasks: [{
 				id: "244E44168CE7C377"
-				item: "kubejs:steel_drill_fluid_bucket"
+				item: "reach_for_the_stars:steel_drill_fluid_bucket"
 				type: "item"
 			}]
 			x: -5.0d

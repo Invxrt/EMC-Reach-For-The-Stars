@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "kubejs:earth_core"
+			icon: "reach_for_the_stars:earth_core"
 			id: "0C867DCEA00A2AC6"
 			rewards: [{
 				id: "6910E526DE1E9D2C"
@@ -26,7 +26,7 @@
 		}
 		{
 			dependencies: ["0C867DCEA00A2AC6"]
-			icon: "kubejs:moon_core"
+			icon: "reach_for_the_stars:moon_core"
 			id: "31FDF414770F0D53"
 			rewards: [{
 				id: "7CA2023D27FA30DA"
@@ -44,7 +44,7 @@
 		}
 		{
 			dependencies: ["31FDF414770F0D53"]
-			icon: "kubejs:mars_core"
+			icon: "reach_for_the_stars:mars_core"
 			id: "36E76325D5A079B6"
 			rewards: [
 				{
@@ -74,7 +74,7 @@
 		}
 		{
 			dependencies: ["36E76325D5A079B6"]
-			icon: "kubejs:mercury_core"
+			icon: "reach_for_the_stars:mercury_core"
 			id: "7DC81E0F7303BED2"
 			rewards: [{
 				id: "2659D7C61E797BDF"
@@ -92,7 +92,7 @@
 		}
 		{
 			dependencies: ["7DC81E0F7303BED2"]
-			icon: "kubejs:venus_core"
+			icon: "reach_for_the_stars:venus_core"
 			id: "03A029ACC46DA795"
 			rewards: [{
 				id: "20A544FCB096D38F"
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["03A029ACC46DA795"]
-			icon: "kubejs:glacio_core"
+			icon: "reach_for_the_stars:glacio_core"
 			id: "686E60E6DC19305F"
 			rewards: [{
 				id: "00E36DE266EE2C13"

@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
         E: 'minecraft:redstone'
     });
     // Random Progression items
-    event.shaped(Item.of('kubejs:mars_clay', 4), ['AB ', 'BA ', '   '], {
+    event.shaped(Item.of('reach_for_the_stars:mars_clay', 4), ['AB ', 'BA ', '   '], {
         A: "minecraft:clay",
         B: "ad_astra:mars_sand"
     });      

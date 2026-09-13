@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#010 minecraft:forest
+#527 quark:glimmering_weald
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna

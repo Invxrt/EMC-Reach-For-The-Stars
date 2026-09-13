@@ -3,11 +3,11 @@
 	default_quest_shape: ""
 	filename: "to_mercury"
 	group: "32CF7CFF6EF49125"
-	icon: "kubejs:mercury_core"
+	icon: "reach_for_the_stars:mercury_core"
 	id: "51167CF870B75798"
 	images: [{
 		height: 5.0d
-		image: "kubejs:item/cores/mercury_core"
+		image: "reach_for_the_stars:item/mercury_core"
 		rotation: 0.0d
 		width: 5.0d
 		x: 0.0d
