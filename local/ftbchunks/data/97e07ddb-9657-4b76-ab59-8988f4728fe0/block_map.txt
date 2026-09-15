@@ -10,6 +10,7 @@
 #9106BE minecraft:blue_stained_glass_pane
 #0DF28E antiblocksrechiseled:bright_green
 #422322 ad_astra:calorite_block
+#759F85 reach_for_the_stars:calorite_drill_controller
 #FC842A minecraft:campfire
 #76FDF5 minecraft:cherry_leaves
 #7FDE54 minecraft:clay
@@ -61,6 +62,7 @@
 #79BDC3 minecraft:orange_stained_glass
 #B0786A minecraft:orange_stained_glass_pane
 #8D3F13 ad_astra:ostrum_block
+#F852F4 reach_for_the_stars:ostrum_drill_controller
 #E25823 chipped:overgrown_oak_log
 #AB1C58 minecraft:peony
 #CABB0B minecraft:pink_stained_glass
@@ -88,6 +90,8 @@
 #CE37C4 mysticalagriculture:supremium_block
 #AFE2B3 reach_for_the_stars:t1_rocket_assembler_controller
 #4FABB5 reach_for_the_stars:t3_rocket_assembler_controller
+#9F9036 reach_for_the_stars:t4_rocket_assembler_controller
+#EF74B7 reach_for_the_stars:t5_rocket_assembler_controller
 #48863D botania:terrasteel_block
 #B5D07E minecraft:white_stained_glass
 #49E28F minecraft:white_stained_glass_pane

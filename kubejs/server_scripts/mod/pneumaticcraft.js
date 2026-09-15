@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
       item: "reach_for_the_stars:moon_ingot",
       count: 1,
     },
-  })
+  });
   // DRILL FLUID
   event.custom({
     type: "pneumaticcraft:thermo_plant",
@@ -132,12 +132,12 @@ ServerEvents.recipes((event) => {
       amount: 500,
     },
     item_input: {
-      tag: "minecraft:coals"
+      tag: "minecraft:coals",
     },
     temperature: {
-      min_temp: 373
-    }
-  })
+      min_temp: 373,
+    },
+  });
   event.custom({
     type: "pneumaticcraft:thermo_plant",
     exothermic: false,
@@ -152,10 +152,50 @@ ServerEvents.recipes((event) => {
       amount: 500,
     },
     item_input: {
-      item: "ad_astra:desh_block"
+      item: "ad_astra:desh_block",
     },
     temperature: {
-      min_temp: 373
-    }
-  })
+      min_temp: 373,
+    },
+  });
+  event.custom({
+    type: "pneumaticcraft:thermo_plant",
+    exothermic: false,
+    fluid_input: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:desh_drill_fluid",
+      amount: 1000,
+    },
+    fluid_output: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:ostrum_drill_fluid",
+      amount: 500,
+    },
+    item_input: {
+      item: "ad_astra:ostrum_block",
+    },
+    temperature: {
+      min_temp: 373,
+    },
+  });
+  event.custom({
+    type: "pneumaticcraft:thermo_plant",
+    exothermic: false,
+    fluid_input: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:ostrum_drill_fluid",
+      amount: 1000,
+    },
+    fluid_output: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:calorite_drill_fluid",
+      amount: 500,
+    },
+    item_input: {
+      item: "ad_astra:calorite_block",
+    },
+    temperature: {
+      min_temp: 373,
+    },
+  });
 });
