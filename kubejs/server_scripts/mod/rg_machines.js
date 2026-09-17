@@ -23,6 +23,12 @@ ServerEvents.recipes((event) => {
         B: 'ad_astra:glowing_calorite_pillar',
         C: 'resource_capsules:resource_gen_tier_3'
     })
+    event.remove('resource_capsules:resource_gen_tier_5')
+    event.shaped('resource_capsules:resource_gen_tier_5', ['ABA', 'BCB', 'ABA'], {
+        A: 'powah:nitro_crystal_block',
+        B: 'powah:crystal_nitro',
+        C: 'resource_capsules:resource_gen_tier_4'
+    })
 
 
 
