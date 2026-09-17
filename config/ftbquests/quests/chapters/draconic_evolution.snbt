@@ -9,6 +9,11 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3C6492458208D26D"
+		rewards: [{
+			id: "60837E88FCA249C7"
+			item: "draconicevolution:chaos_shard"
+			type: "item"
+		}]
 		tasks: [{
 			id: "5682334A0CDCA959"
 			title: "COMING SOON"

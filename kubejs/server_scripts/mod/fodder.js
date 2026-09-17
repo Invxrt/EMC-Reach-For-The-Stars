@@ -20,4 +20,9 @@ ServerEvents.recipes((event) => {
         A: "minecraft:clay",
         B: "ad_astra:mars_sand"
     });      
-})
+    // RANDOM
+    event.shaped(Item.of('tconstruct:sky_slime_ball', 1), ['AAA', 'ABA', 'AAA'], {
+        A: "reach_for_the_stars:air_essence",
+        B: "minecraft:slime_ball"
+    });
+});
