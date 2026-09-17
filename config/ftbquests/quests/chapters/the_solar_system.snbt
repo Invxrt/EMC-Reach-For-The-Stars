@@ -10,11 +10,20 @@
 		{
 			icon: "reach_for_the_stars:earth_core"
 			id: "0C867DCEA00A2AC6"
-			rewards: [{
-				id: "6910E526DE1E9D2C"
-				item: "waystones:waystone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6910E526DE1E9D2C"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "638BE11677E1A5FE"
+					item: "ad_astra:earth_globe"
+					type: "item"
+				}
+			]
+			subtitle: "The globes may be useful in the future"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "2252A3E53736E0A1"

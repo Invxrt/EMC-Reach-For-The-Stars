@@ -1,0 +1,1241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bees_and_flowers"
+	group: "6BBACA2E9D7C6901"
+	icon: "minecraft:bee_nest"
+	id: "3CFF04E397CCEEBA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4252B3F14235F113"]
+			description: ["Productive Bees is somewhat similar to Mystical Agriculture since it is also used to generate resources!"]
+			icon: "minecraft:honeycomb"
+			id: "551E193C27020837"
+			rewards: [
+				{
+					count: 2
+					id: "6BAE1CAA1E64F4A4"
+					item: "minecraft:bee_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "47C41D694E203CB3"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Buzzzz"
+			tasks: [{
+				id: "7052D9E20863BA72"
+				title: "Resourceful Bees!"
+				type: "checkmark"
+			}]
+			title: "Productive Bees!"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4252B3F14235F113"]
+			description: [
+				"All the seeds have not been added to the questline due to the amount of them there are."
+				""
+				"If you want to find all the seeds, their requirements and their tier in JEI put &6@mysticalagriculture"
+			]
+			icon: "mysticalagriculture:prosperity_seed_base"
+			id: "7F2F28B4F35FC096"
+			rewards: [{
+				id: "2F49060D01070D1F"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			subtitle: "The power of Flowers!"
+			tasks: [{
+				id: "500EFF650F14265D"
+				title: "Mystical Agriculture!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "4252B3F14235F113"
+			tasks: [{
+				id: "213FBBD0F4B26F7E"
+				title: "???"
+				type: "checkmark"
+			}]
+			title: "&6Bees &fand &dFlowers!"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47F972CB897CFDAF"]
+			id: "7687F761D991F741"
+			tasks: [{
+				id: "3F341D10C411A2C1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F2F28B4F35FC096"]
+			id: "29DBFEB84D07A38F"
+			tasks: [{
+				id: "0E2664891284398F"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "71F7B27B26EBC911"
+			tasks: [{
+				id: "3AE624C251F77FC4"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "57C5B1E772CD3454"
+			tasks: [{
+				id: "3AF7F7F2737AAC1D"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "33DD2AB01E4A86C2"
+			tasks: [{
+				id: "2B20E4BA81F817A5"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "55F6F0222CA6A09E"
+			tasks: [{
+				id: "3D00145BD5F86930"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "671E9307FB69F28C"
+			tasks: [{
+				id: "3DA20351FF53AC7D"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7687F761D991F741"]
+			id: "3C883090E60D299A"
+			tasks: [{
+				id: "4272B34F3B61E025"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["551E193C27020837"]
+			id: "47F972CB897CFDAF"
+			tasks: [{
+				id: "03A672CBA8836CB0"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["508677DFA0D77485"]
+			id: "763C3DD2DEBF6224"
+			tasks: [{
+				id: "1686D22B7A57C999"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["763C3DD2DEBF6224"]
+			id: "489FA7A4BEA82C38"
+			tasks: [{
+				id: "11745303AF12C0CF"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["489FA7A4BEA82C38"]
+			id: "547F7BF376537399"
+			tasks: [{
+				id: "7798875023E8C174"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47F972CB897CFDAF"]
+			id: "23C1E40CDBB1915A"
+			tasks: [{
+				id: "186A873FAA24B70A"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["508677DFA0D77485"]
+			id: "7F886C57A6B2F324"
+			tasks: [{
+				id: "54C070A2859D3473"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F886C57A6B2F324"]
+			id: "12519F8071971EBA"
+			tasks: [{
+				id: "5D9836CA6DC2A982"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12519F8071971EBA"]
+			id: "33275613DD6BDD36"
+			tasks: [{
+				id: "63269F38697F710B"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47F972CB897CFDAF"]
+			id: "5CA9FA733500B0B6"
+			tasks: [{
+				id: "3F97D79DD51383C6"
+				item: "productivebees:expansion_box_oak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["47F972CB897CFDAF"]
+			id: "38838905B3DA4C8A"
+			tasks: [{
+				id: "5932F2979D936BC1"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["551E193C27020837"]
+			id: "0D8C0101020713FF"
+			tasks: [{
+				id: "5B2E65F527E86356"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["551E193C27020837"]
+			id: "508677DFA0D77485"
+			tasks: [{
+				id: "34A70832C1056350"
+				title: "Machines"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "209EAC3EA0BE49EE"
+			tasks: [{
+				id: "3350E0D0EEA585FB"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "048B9D9D4467E6AD"
+			tasks: [{
+				id: "65A5F189009F792F"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "5F73BB4664F572B8"
+			tasks: [{
+				id: "426D024BE991C47C"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "77464D204AEA7602"
+			tasks: [{
+				id: "4683E73033E4833F"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "31CC546130C06E78"
+			tasks: [{
+				id: "11541F8C7BC3EF4B"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "27EE4083ED2DD20F"
+			tasks: [{
+				id: "5366F7096E09357B"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "557BB7D62C92F363"
+			tasks: [{
+				id: "5372FD702B6E5480"
+				item: "productivebees:upgrade_not_babee"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "11693B5E335CF394"
+			tasks: [{
+				id: "7C58717EC3EB7D79"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "1D7EF572AE9D6FF5"
+			tasks: [{
+				id: "0CE3402DEBEA5401"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "70EFD490824B4E3C"
+			tasks: [{
+				id: "6012ED18E39BDD5F"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "0F2FB0076F949CC7"
+			tasks: [{
+				id: "0F0D0CBFC2FD67D0"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "6740DAE095694252"
+			tasks: [{
+				id: "613C31D12236929D"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D8C0101020713FF"]
+			id: "7FB0CC66495F6AF3"
+			tasks: [{
+				id: "15B1155D5B96B557"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "311F205B092A937F"
+			tasks: [{
+				id: "60B914CA2B33C421"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F2F28B4F35FC096"]
+			description: ["This is used to create the seeds required in &dMystical Agriculture"]
+			id: "156D434B1EABABCB"
+			tasks: [
+				{
+					id: "6E8DC6209B1E1E68"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2351D10C88446074"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "5283E3AECAA4B008"
+			tasks: [
+				{
+					id: "554986D1F96874BB"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02828505DE00D920"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19697662DB30D499"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F16BD9E11FB8038"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "0F5B131BAB568DDE"
+			tasks: [
+				{
+					id: "294E39A395B952F1"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "568BAB8B6D029B5A"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A123F702846B80"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "114A5318F759F1BE"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "29AA496C4D88F185"
+			tasks: [{
+				id: "1DC1D23F82F4C6CD"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "5E4F904597E455B7"
+			tasks: [{
+				id: "2CF182CE591C2941"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "289A874C50CA24E7"
+			tasks: [{
+				id: "1FDFDC27895F0FFA"
+				item: "mysticalagriculture:prudentium_farmland"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "5B431371D8AFF32B"
+			tasks: [{
+				id: "0F6826D9EC6ACFB9"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prudentium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29DBFEB84D07A38F"]
+			id: "41C76BCF5489FC37"
+			tasks: [{
+				id: "5ACFEB1617B05DB9"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:inferium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "2BE1C515088DC2E4"
+			tasks: [
+				{
+					id: "1B5103F996C6F465"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19362A8BFCF10534"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66EDC5207F592676"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13863CD429484F3F"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "3F1F868507EF2BEE"
+			tasks: [
+				{
+					id: "17B893B5BAC897B2"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28323ABF9337357A"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06A57B6C745CF4C5"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D299EF940A51ED"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71F7B27B26EBC911"]
+			id: "4EFC3F6D55875BE3"
+			tasks: [{
+				id: "3EAA6765158C4E13"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "481B68A8A1099CD1"
+			tasks: [{
+				id: "0A62F04A58D8FA62"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tertium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "097EA79A4DD608D0"
+			tasks: [{
+				id: "35CA15DFA0CDD199"
+				item: "mysticalagriculture:tertium_farmland"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "7C70088ABB17742A"
+			tasks: [{
+				id: "041D464259EC6CC4"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:imperium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "7B7CD3EE8DB0F770"
+			tasks: [{
+				id: "5F4FAD9845E8D6F2"
+				item: "mysticalagriculture:imperium_farmland"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "623C7E64965370B2"
+			tasks: [{
+				id: "0A0CCC163FDB35D5"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:supremium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "1D65B0E8070292AD"
+			tasks: [{
+				id: "08E1C1D659778568"
+				item: "mysticalagriculture:supremium_farmland"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["671E9307FB69F28C"]
+			id: "3AFBC65A4F895B3E"
+			tasks: [{
+				id: "71C13A33C8E32875"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:insanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["671E9307FB69F28C"]
+			id: "1C2B6A784FB6A47A"
+			tasks: [{
+				id: "049BE728FD9EFB28"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "2C4DF9A5EAD090BC"
+			tasks: [
+				{
+					id: "7AAD5B9870B90FCD"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C3E9BFE3E8F291D"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C8FEC394BEE8D6"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22124E382889DCF4"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "1D1D43DFE951D07C"
+			tasks: [
+				{
+					id: "51183E03DFBCF97B"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08D59CD49D1B25B2"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0781B2FB9AA4FC7E"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B4AA40A5C1208B"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57C5B1E772CD3454"]
+			id: "219B783A92C3D54E"
+			tasks: [{
+				id: "77D75275C934A0C1"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "012E42E006FCFD68"
+			tasks: [
+				{
+					id: "6072BEEE853E370E"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53C07DCBFEDF772B"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12A899D19180CE53"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "329F88A71CB4807A"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "0AF87D3EE8749713"
+			tasks: [
+				{
+					id: "73F5A3DA29EDF429"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3471BAF6CBED5390"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3037FA16B30EC498"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "071D322A648401C4"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33DD2AB01E4A86C2"]
+			id: "1A7EED0493F5A72F"
+			tasks: [{
+				id: "55BA023267D991B3"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "6E43E706A38079A9"
+			tasks: [
+				{
+					id: "1D69BC7FEDA596D8"
+					item: "mysticalagriculture:supremium_sword"
+					type: "item"
+				}
+				{
+					id: "33D7BCE74A039E6E"
+					item: "mysticalagriculture:supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7BC6B66322E72175"
+					item: "mysticalagriculture:supremium_shovel"
+					type: "item"
+				}
+				{
+					id: "3D952B6E11209D60"
+					item: "mysticalagriculture:supremium_axe"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "175AA7FECAB93B7C"
+			tasks: [
+				{
+					id: "75477B96CE5A38E3"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:supremium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04BA348766377FF5"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:supremium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23E656A1E7FFAB10"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:supremium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "373105B3E8FE834C"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:supremium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55F6F0222CA6A09E"]
+			id: "28E8D6D7C23A0C27"
+			tasks: [{
+				id: "284E8307934A9364"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+	]
+	title: "&6Bees &fand &dFlowers!"
+}

@@ -85,4 +85,41 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of('thermal:lead_ingot'), ["SSS", "SSS", "   "], {
     S: "reach_for_the_stars:mars_shard",
   });
+
+  // MERCURY SHARD RECIPES
+  event.shaped(Item.of("powah:crystal_nitro"), ["SSS", "SSS", "SSS"], {
+    S: "reach_for_the_stars:mercury_shard",
+  });
+  event.shaped(Item.of("powah:crystal_spirited"), ["SSS", "S S", "SSS"], {
+    S: "reach_for_the_stars:mercury_shard",
+  });
+  event.shaped(Item.of("powah:crystal_blazing"), ["S S", "SSS", "S S"], {
+    S: "reach_for_the_stars:mercury_shard",
+  });
+  event.shaped(Item.of("powah:crystal_niotic"), ["SSS", " S ", "SSS"], {
+    S: "reach_for_the_stars:mercury_shard",
+  });
+  event.shaped(Item.of("powah:steel_energized"), ["S S", "S S", "S S"], {
+    S: "reach_for_the_stars:mercury_shard",
+});
+
+  // VENUS SHARD RECIPES
+  event.shaped(Item.of("botania:blacker_lotus"), ["SSS", "SSS", "SSS"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
+  event.shaped(Item.of("botania:manasteel_ingot"), ["SSS", "S  ", "SSS"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
+  event.shaped(Item.of("botania:terrasteel_ingot"), ["S S", "SSS", "S S"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
+  event.shaped(Item.of("botania:elementium_ingot"), ["SSS", " SS", "SSS"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
+  event.shaped(Item.of("mythicbotany:alfsteel_ingot"), ["S S", "S S", "S S"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
+  event.shaped(Item.of("botania:gaia_ingot"), [" SS", "SSS", "SSS"], {
+    S: "reach_for_the_stars:venus_shard",
+  });
 });

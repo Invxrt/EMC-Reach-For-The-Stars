@@ -3,9 +3,19 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "653044411A0AD7E6"
+	icon: "draconicevolution:chaos_shard"
 	id: "076ED7434AB8670F"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
-	title: "Draconic Evolution"
+	quests: [{
+		id: "3C6492458208D26D"
+		tasks: [{
+			id: "5682334A0CDCA959"
+			title: "COMING SOON"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&#F209FFD&#E908FDr&#DF08FAa&#D607F8c&#CC07F6o&#C306F3n&#B906F1i&#B005EFc &#9D04EAE&#9304E7v&#8A03E5o&#8003E3l&#7702E0u&#6D02DEt&#6401DCi&#5A01D9o&#5100D7n"
 }

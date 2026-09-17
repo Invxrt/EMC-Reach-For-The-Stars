@@ -51,7 +51,7 @@
 				}
 				{
 					id: "14995CBD21C62FAF"
-					item: "mm:desh_energy_port_input"
+					item: "reach_for_the_stars:energy_input_hatch"
 					type: "item"
 				}
 				{
@@ -79,7 +79,7 @@
 				}
 				{
 					id: "65BC6E8B3D440460"
-					item: "mm:t3_rocket_assembly_controller"
+					item: "reach_for_the_stars:t3_rocket_assembler_controller"
 					type: "item"
 				}
 				{
@@ -102,12 +102,12 @@
 				}
 				{
 					id: "080E90C6695CFA15"
-					item: "mm:desh_item_port_input"
+					item: "reach_for_the_stars:item_input_hatch"
 					type: "item"
 				}
 				{
 					id: "37B1B127A56057C2"
-					item: "mm:desh_item_port_output"
+					item: "reach_for_the_stars:item_output_hatch"
 					type: "item"
 				}
 				{
@@ -157,7 +157,7 @@
 				}
 			]
 			title: "Tier 3 Rocket Assembly"
-			x: 0.0d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -172,7 +172,51 @@
 				}
 				type: "item"
 			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02C82D39A458CEC6"]
+			id: "0C7204E09DB39A5F"
+			tasks: [{
+				id: "694977CC5E4532BB"
+				item: "reach_for_the_stars:ostrum_drill_controller"
+				type: "item"
+			}]
 			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C7204E09DB39A5F"]
+			id: "2A6373110A329DE0"
+			tasks: [{
+				id: "414F80AA28C1C320"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A6373110A329DE0"]
+			id: "5DA7805B4551E4E6"
+			tasks: [{
+				id: "555DF0C4E5524654"
+				item: "reach_for_the_stars:mercury_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA7805B4551E4E6"]
+			id: "230EE57253F869A6"
+			tasks: [{
+				id: "45CE106F3C7D996A"
+				item: "reach_for_the_stars:mercury_shard"
+				type: "item"
+			}]
+			x: 1.0d
 			y: -0.5d
 		}
 	]

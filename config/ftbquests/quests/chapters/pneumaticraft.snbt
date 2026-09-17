@@ -268,22 +268,22 @@
 				}
 				{
 					id: "63E7A33B8467D9A7"
-					item: "mm:energy_port_input"
+					item: "reach_for_the_stars:energy_input_hatch"
 					type: "item"
 				}
 				{
 					id: "3B6E6D01CE59FE8B"
-					item: "mm:item_port_output"
+					item: "reach_for_the_stars:item_output_hatch"
 					type: "item"
 				}
 				{
 					id: "17D08B8A9108D6AB"
-					item: "mm:fluid_port_input"
+					item: "reach_for_the_stars:fluid_input_hatch"
 					type: "item"
 				}
 				{
 					id: "193A06A055800173"
-					item: "mm:steel_drill_controller"
+					item: "reach_for_the_stars:steel_drill_controller"
 					type: "item"
 				}
 			]

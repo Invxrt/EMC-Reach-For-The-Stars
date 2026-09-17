@@ -3,9 +3,19 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "653044411A0AD7E6"
+	icon: "mekanism:metallurgic_infuser"
 	id: "11DE77356A8CCDAC"
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
-	title: "Mekanism"
+	quests: [{
+		id: "6B7B01257999B7A9"
+		tasks: [{
+			id: "4FAF1D3502885D24"
+			title: "COMING SOON"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&#F209FFM&#F41CEFe&#F62EDEk&#F841CEa&#F954BDn&#FB67ADi&#FD799Cs&#FF8C8Cm"
 }

@@ -362,6 +362,7 @@
 		{
 			dependencies: ["691F847D7F36CCA7"]
 			id: "56A01F521FCD7326"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "49CD477C861EF971"
 				item: "reach_for_the_stars:mars_ingot"
@@ -395,6 +396,7 @@
 		{
 			dependencies: ["51CD961AC0CCA325"]
 			id: "609253E7D3E24821"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "7BEFBFCB373E52EA"
 				item: "reach_for_the_stars:mercury_ingot"
@@ -460,6 +462,7 @@
 		{
 			dependencies: ["5F019B36578580D3"]
 			id: "7F73E07B642C14DC"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "70C0D97DFDC98FFE"
 				item: "reach_for_the_stars:venus_ingot"
@@ -493,6 +496,7 @@
 		{
 			dependencies: ["7BBE74069261045A"]
 			id: "05F0576B8FC20ED8"
+			subtitle: "UNOBTAINABLE"
 			tasks: [{
 				id: "270BB2E1B6EE18AC"
 				item: "reach_for_the_stars:glacio_ingot"
@@ -588,6 +592,127 @@
 			}]
 			x: 2.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "3A7B9E70F2F219A1"
+			tasks: [{
+				id: "1DB7C78DFA7BEC14"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "797E7FAF49594E02"
+			tasks: [{
+				id: "54E17B7D427BCF23"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "746F5F7FE64194CF"
+			tasks: [{
+				id: "0AC79071BFCD7040"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "188A87F5B2D5AE9D"
+			tasks: [{
+				id: "660ECA27BFAB80EA"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51CD961AC0CCA325"]
+			id: "2E3FF3E0F0C1EC03"
+			tasks: [{
+				id: "37EBFC8738F71193"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "0285E375101E3CFA"
+			tasks: [{
+				id: "113BD1BC6BAFCEB6"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "1C2391C8F6B6699A"
+			tasks: [{
+				id: "3217B3CD86BFABCE"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "28E57EA215AD26E9"
+			tasks: [{
+				id: "48C5C1E81E154424"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "143ACC44C3172AA3"
+			tasks: [{
+				id: "0EC9611C45D2002D"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "52676764FC7F35D0"
+			tasks: [{
+				id: "0CD03D67B2D283B9"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F019B36578580D3"]
+			id: "6953CD29543130F5"
+			tasks: [{
+				id: "2EE418B0CC8E5AC4"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
 		}
 	]
 	title: "&#00B2F8R&#03B2EAe&#07B2DCs&#0AB1CFo&#0DB1C1u&#10B1B3r&#14B1A5c&#17B098e &#1EB07CG&#21B06Ee&#24B060n&#27AF53e&#2BAF45r&#2EAF37a&#31AF29t&#34AE1Ci&#38AE0Eo&#3BAE00n"

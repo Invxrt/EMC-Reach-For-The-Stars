@@ -3,9 +3,19 @@
 	default_quest_shape: ""
 	filename: "hostile_neural_networks"
 	group: "653044411A0AD7E6"
+	icon: "hostilenetworks:sim_chamber"
 	id: "1C779F224447626E"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
-	title: "Hostile Neural Networks"
+	quests: [{
+		id: "2F1FE16E7FD45F32"
+		tasks: [{
+			id: "6BB8BB25BDFDC77C"
+			title: "COMING SOON"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&#FF0909H&#FA1014o&#F5161Fs&#EF1D2Bt&#EA2336i&#E52A41l&#E0304Ce &#D53D62N&#D0446Ee&#CB4A79u&#C65184r&#C0578Fa&#BB5E9Al &#B16AB1N&#AB71BCe&#A678C7t&#A17ED2w&#9C85DDo&#968BE9r&#9192F4k&#8C98FFs"
 }

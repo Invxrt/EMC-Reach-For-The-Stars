@@ -551,22 +551,22 @@
 				}
 				{
 					id: "38C7CC301E00152B"
-					item: "mm:item_port_input"
+					item: "reach_for_the_stars:item_input_hatch"
 					type: "item"
 				}
 				{
 					id: "5C5B2BC3BD41ED70"
-					item: "mm:item_port_output"
+					item: "reach_for_the_stars:item_output_hatch"
 					type: "item"
 				}
 				{
 					id: "5AEF588104B2FF09"
-					item: "mm:energy_port_input"
+					item: "reach_for_the_stars:energy_input_hatch"
 					type: "item"
 				}
 				{
 					id: "6321B52DDE0A86D9"
-					item: "mm:t1_rocket_assembly_controller"
+					item: "reach_for_the_stars:t1_rocket_assembler_controller"
 					type: "item"
 				}
 			]

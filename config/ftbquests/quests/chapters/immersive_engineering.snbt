@@ -836,22 +836,22 @@
 				}
 				{
 					id: "743497595C1D806F"
-					item: "mm:fluid_port_input"
+					item: "reach_for_the_stars:fluid_input_hatch"
 					type: "item"
 				}
 				{
 					id: "43574A0CB33C75F2"
-					item: "mm:fluid_port_output"
+					item: "reach_for_the_stars:fluid_output_hatch"
 					type: "item"
 				}
 				{
 					id: "2EFC84707C49AD29"
-					item: "mm:energy_port_input"
+					item: "reach_for_the_stars:energy_input_hatch"
 					type: "item"
 				}
 				{
 					id: "49759266AD8A2224"
-					item: "mm:fuel_distillery"
+					item: "reach_for_the_stars:fuel_distillery_controller"
 					type: "item"
 				}
 			]

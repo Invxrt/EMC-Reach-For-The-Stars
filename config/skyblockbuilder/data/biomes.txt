@@ -77,4 +77,9 @@ minecraft:windswept_gravelly_hills
 minecraft:windswept_hills
 minecraft:windswept_savanna
 minecraft:wooded_badlands
+mythicbotany:alfheim_hills
+mythicbotany:alfheim_lakes
+mythicbotany:alfheim_plains
+mythicbotany:dreamwood_forest
+mythicbotany:golden_fields
 quark:glimmering_weald

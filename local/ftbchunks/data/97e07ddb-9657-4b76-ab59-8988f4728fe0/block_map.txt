@@ -11,6 +11,7 @@
 #0DF28E antiblocksrechiseled:bright_green
 #422322 ad_astra:calorite_block
 #759F85 reach_for_the_stars:calorite_drill_controller
+#D19F3F reach_for_the_stars:calorite_drill_fluid
 #FC842A minecraft:campfire
 #76FDF5 minecraft:cherry_leaves
 #7FDE54 minecraft:clay
@@ -63,6 +64,7 @@
 #B0786A minecraft:orange_stained_glass_pane
 #8D3F13 ad_astra:ostrum_block
 #F852F4 reach_for_the_stars:ostrum_drill_controller
+#DA4270 reach_for_the_stars:ostrum_drill_fluid
 #E25823 chipped:overgrown_oak_log
 #AB1C58 minecraft:peony
 #CABB0B minecraft:pink_stained_glass

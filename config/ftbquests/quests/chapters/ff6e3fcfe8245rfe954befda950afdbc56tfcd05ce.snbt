@@ -3,9 +3,19 @@
 	default_quest_shape: ""
 	filename: "ff6e3fcfe8245rfe954befda950afdbc56tfcd05ce"
 	group: "653044411A0AD7E6"
+	icon: "create:wrench"
 	id: "6CF4079AAD8008D4"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7D128763ADF81940"
+		tasks: [{
+			id: "0EEB41116A667AD5"
+			title: "COMING SOON"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "&#FF6E3FC&#FE8245r&#FE954Be&#FDA950a&#FDBC56t&#FCD05Ce"
 }

@@ -5,6 +5,14 @@
 	group: "32CF7CFF6EF49125"
 	icon: "reach_for_the_stars:mars_core"
 	id: "279B5F8DF1CB6087"
+	images: [{
+		height: 15.0d
+		image: "reach_for_the_stars:item/mars_core"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: 0.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -78,22 +86,22 @@
 				}
 				{
 					id: "06A67596B1785057"
-					item: "mm:desh_item_port_output"
+					item: "reach_for_the_stars:item_output_hatch"
 					type: "item"
 				}
 				{
 					id: "46DD87181242AAEF"
-					item: "mm:desh_fluid_port_input"
+					item: "reach_for_the_stars:fluid_input_hatch"
 					type: "item"
 				}
 				{
 					id: "365BBF846B3547E7"
-					item: "mm:desh_energy_port_input"
+					item: "reach_for_the_stars:energy_input_hatch"
 					type: "item"
 				}
 				{
 					id: "5A3C04B815DDF772"
-					item: "mm:desh_drill_controller"
+					item: "reach_for_the_stars:desh_drill_controller"
 					type: "item"
 				}
 			]

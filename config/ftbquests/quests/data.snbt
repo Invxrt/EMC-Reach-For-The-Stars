@@ -11,7 +11,7 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	hide_excluded_quests: false
-	icon: "reach_for_the_stars:rfts_icon"
+	icon: "reach_for_the_stars:rfts"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

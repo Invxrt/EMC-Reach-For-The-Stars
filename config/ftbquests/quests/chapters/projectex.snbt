@@ -1,0 +1,651 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projectex"
+	group: "6BBACA2E9D7C6901"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "2581C2DA0FC26BB4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20402769AC93E787"]
+			id: "3C9EEC5BB222014F"
+			tasks: [{
+				id: "66AAA63B26A3E1E7"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20402769AC93E787"]
+			id: "24382CF8CF448B40"
+			tasks: [{
+				id: "09F8CF186C495AF9"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"You will need the Philosopher's Stone for many recipes but it also has other uses"
+				""
+				"You can R-Click many things in world with the Philosopher's Stone to change them to other items (check its uses in JEI for more information)"
+			]
+			id: "20402769AC93E787"
+			subtitle: "The Philosopher's Stone is a key component of ProjectE"
+			tasks: [{
+				id: "112AE3246397EFAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"24382CF8CF448B40"
+				"31B4D54B8130DA61"
+			]
+			description: [
+				"You can place the ring in a bauble slot so it does not take up space in your inventory"
+				""
+				"You will need some sort of EMC Battery to provide the ring with EMC (your first option is a klein star)"
+			]
+			id: "5721D8DF57700CD6"
+			subtitle: "Swiftwolf's Rending Gale can provide flight at the cost of personal EMC"
+			tasks: [{
+				id: "0616711697BD58B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20402769AC93E787"]
+			description: ["Don't worry too much about upgrading just yet unless you really want to. You won't lose any of the stored EMC when upgrading between the different Tiers"]
+			id: "31B4D54B8130DA61"
+			subtitle: "You can charge up the Klein star by placing it in one of the left slots of the table"
+			tasks: [{
+				id: "296A8732AD55FBE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24382CF8CF448B40"]
+			description: ["A Transmutation Tablet is a Transmutation Table that you can take with you! EMC and items available and with you at all times."]
+			id: "538878174A36026A"
+			tasks: [{
+				id: "77A6123AB6CE0ABB"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"538878174A36026A"
+				"14D8D8D9D6CB0A21"
+			]
+			description: [
+				"EMC Links are blocks that you can import/send items to and it will convert them to EMC. The lowest tier is \"Basic\", which can only import 1 item per second. The higher tiers have much higher limits, so we'd recommend you keep upgrading as you can. These also have EMC so you don't have to continually craft up through the tiers."
+				""
+				"EMC Links can also export items (and liquids!) using EMC. Exports are also limited by the items (or mB) per second metric. To configure the export, place the EMC link down, hold the item in your hand you want to export, and right-click. For liquids, hold a bucket of the liquid in your hand instead; note that not all liquids have EMC values."
+			]
+			id: "35A3086F9A7AE170"
+			tasks: [{
+				id: "3391029F069C29CA"
+				item: "projectexpansion:basic_emc_link"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"760CAC99A27D949E"
+				"35164E354D5E2D8D"
+				"1EDC6445A37B1ABB"
+			]
+			description: ["Alchemical Chests are *very* large chests, but they're also needed for the first tier of the EMC Link. They also don't cost a ton of EMC, so it's not a bad idea to use these next to a Tinker's Crafting Station for easier crafting."]
+			id: "14D8D8D9D6CB0A21"
+			tasks: [{
+				id: "1082C7106D197067"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			description: ["It's dusty in here."]
+			id: "35164E354D5E2D8D"
+			tasks: [{
+				count: 40L
+				id: "1D50EAC3207D8633"
+				item: "projecte:low_covalence_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			description: ["Really dusty in here."]
+			id: "1EDC6445A37B1ABB"
+			tasks: [{
+				count: 40L
+				id: "1EDAF72778F376AB"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: ["Really, really dusty in here."]
+			id: "760CAC99A27D949E"
+			tasks: [{
+				count: 40L
+				id: "530A69A9048A6DB1"
+				item: "projecte:high_covalence_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: ["If you are going to craft the Red Matter tools be careful when handling Resource Generators or any \"CustomMachinery\" block as they lose all items inside when broken with ProjectE Tools."]
+			id: "586B4DD90C9711F9"
+			tasks: [{
+				id: "61CD7B594B7FCB1F"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "64D27E45E06A483B"
+			tasks: [{
+				id: "042DE23761AB5368"
+				item: "projectexpansion:magenta_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "1C937D69CED88C29"
+			tasks: [{
+				id: "5084A54641564D1A"
+				item: "projectexpansion:pink_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "24146E820D713006"
+			tasks: [{
+				id: "121F4F9FB2E00AED"
+				item: "projectexpansion:purple_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "0B0664A1D5234219"
+			tasks: [{
+				id: "22B0D61B0072F030"
+				item: "projectexpansion:violet_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "7050411EE800332D"
+			tasks: [{
+				id: "264DAE30073A8EEC"
+				item: "projectexpansion:blue_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "57B5C57C0C3C17DE"
+			tasks: [{
+				id: "255463899429D7B7"
+				item: "projectexpansion:cyan_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "1AD27CA5701DF3FA"
+			tasks: [{
+				id: "3C15E481F815707D"
+				item: "projectexpansion:green_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "0E67E66B4F357863"
+			tasks: [{
+				id: "6F96663152C369BC"
+				item: "projectexpansion:lime_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "355D0ACD14E3C619"
+			tasks: [{
+				id: "421C8912E81C96D4"
+				item: "projectexpansion:yellow_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "75E32B2B38620AAF"
+			tasks: [{
+				id: "26360BEEA81FA629"
+				item: "projectexpansion:orange_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "755D288B504C72E7"
+			tasks: [{
+				id: "403F1B839D44EB49"
+				item: "projectexpansion:white_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "55AF081CF7805FCD"
+			tasks: [{
+				id: "6ED614AB3E7D74C6"
+				item: "projectexpansion:fading_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			description: ["ProjectE only contains Dark Matter and Red Matter. ProjectExpansion adds multiple colors/tiers after those two; the higher you go, the more EMC it takes to craft, but the higher tier EMC link you'll be able to craft as well."]
+			id: "4FFE27797DE0CB2A"
+			tasks: [{
+				id: "33FEEC355D261ECB"
+				title: "ProjectExtended Matter"
+				type: "checkmark"
+			}]
+			title: "ProjectExpansion Matter"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "1B1C57DCFFEA7FA5"
+			tasks: [{
+				id: "7B4F91FF44A53806"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "43070D609B0F30FF"
+			tasks: [{
+				id: "3B7DFDECA3E070F2"
+				item: "projectexpansion:magenta_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "4741CC541117C9EA"
+			tasks: [{
+				id: "46F090A646EEF3E1"
+				item: "projectexpansion:pink_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "7E98E76765468B9E"
+			tasks: [{
+				id: "4275BBEEC7168E34"
+				item: "projectexpansion:purple_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "4ED84EA0FDE3D7B6"
+			tasks: [{
+				id: "5A87E7923E8AAFDA"
+				item: "projectexpansion:violet_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "108E8DF1371D5EB2"
+			tasks: [{
+				id: "08249BFC08901E4E"
+				item: "projectexpansion:blue_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "0303E15A792E0C28"
+			tasks: [{
+				id: "073A3C8A320F237F"
+				item: "projectexpansion:cyan_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "6B57CFE3ECD4D4A0"
+			tasks: [{
+				id: "3F4078A6797CEECA"
+				item: "projectexpansion:green_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "0CD73EA5A20BCA54"
+			tasks: [{
+				id: "76D2223F05E9E8F0"
+				item: "projectexpansion:lime_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "35F267CC716DC98F"
+			tasks: [{
+				id: "7372C5D12FEFA285"
+				item: "projectexpansion:yellow_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "3C7637F343A5A086"
+			tasks: [{
+				id: "77E73E939CE30850"
+				item: "projectexpansion:orange_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "4541E1CC4BBB0501"
+			tasks: [{
+				id: "3C3B5BDBF6687F20"
+				item: "projectexpansion:white_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			description: ["ProjectE goes up to Aeternalis Fuel, after that ProjectExtended adds fuel tiers much like matter tiers. This fuel will be needed to craft the next tier of fuel and matter."]
+			id: "094A95F020899C86"
+			tasks: [{
+				id: "718214A53CF9D8AD"
+				title: "ProjectExpansion Fuel"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Each EMC Link tier will allow you to import or export more items per second and raise the EMC limit per second"]
+			id: "6865AE82C2F19E48"
+			tasks: [{
+				id: "6D59AB19BEFB4D25"
+				title: "EMC Links"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "696A08F3566FE06F"
+			tasks: [{
+				id: "4959DF36564B11B9"
+				item: "projectexpansion:dark_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "6C99FEAD86EDA0A3"
+			tasks: [{
+				id: "11A6F8A5A9C2E717"
+				item: "projectexpansion:red_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "1BD2D55AB453E344"
+			tasks: [{
+				id: "44BCE49982FB9FF2"
+				item: "projectexpansion:magenta_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "207E35469F93051E"
+			tasks: [{
+				id: "1A003E5261C603E8"
+				item: "projectexpansion:pink_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "53157626539A15D7"
+			tasks: [{
+				id: "02DD4C85A9F16F00"
+				item: "projectexpansion:purple_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "3DA779F0E997394B"
+			tasks: [{
+				id: "21CE510273A3EFEB"
+				item: "projectexpansion:blue_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "4538BA5E87B118ED"
+			tasks: [{
+				id: "0EDF0DFCB194EE7A"
+				item: "projectexpansion:cyan_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "05C2752F4F7322A0"
+			tasks: [{
+				id: "7B7EDF5E8839F539"
+				item: "projectexpansion:green_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "68E9585D8CCF12F6"
+			tasks: [{
+				id: "7DB0DB76A7355EFF"
+				item: "projectexpansion:lime_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "37B640DDE733F2E8"
+			tasks: [{
+				id: "3C82ED05637FC209"
+				item: "projectexpansion:yellow_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "507825A1510D6D9F"
+			tasks: [{
+				id: "6E0A261A8E61AF9B"
+				item: "projectexpansion:orange_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "717611B10AD08543"
+			tasks: [{
+				id: "22561967A7E3DCFF"
+				item: "projectexpansion:white_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "4737A109FADF6B2D"
+			tasks: [{
+				id: "2A92204797D0EB45"
+				item: "projectexpansion:fading_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			id: "525E7FF672956FDC"
+			tasks: [{
+				id: "2B268E3EE5A278FB"
+				item: "projectexpansion:final_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			id: "1EA90E195F162C54"
+			tasks: [{
+				id: "7FC05A1B112C2D77"
+				item: "projectexpansion:violet_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55AF081CF7805FCD"]
+			description: [
+				"The Watch of Flowing time is very powerful and can speed things up greatly. When put to good use, it can make EMC and resource generation much, much faster. Try crafting a pedestal from ProjectE and placing the watch. (Be careful around Bees though, they don't play nice with the watch and how it increases time)"
+				""
+				"(Note: If playing on a server this will most likely be disabled as it can very quickly break worlds if overused in a multiplayer environment)"
+			]
+			id: "7EC8974E1788EE7F"
+			tasks: [{
+				id: "057C3A18D5948BB1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+	]
+	title: "&dProjectE"
+}

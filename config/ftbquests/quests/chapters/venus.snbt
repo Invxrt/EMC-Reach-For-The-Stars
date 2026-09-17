@@ -5,8 +5,86 @@
 	group: "32CF7CFF6EF49125"
 	icon: "reach_for_the_stars:venus_core"
 	id: "01962ECA2E000C0B"
+	images: [{
+		height: 5.0d
+		image: "reach_for_the_stars:item/venus_core"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: -0.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0643149A35400A1E"
+			tasks: [{
+				id: "742E1E046AE84C3D"
+				item: "reach_for_the_stars:t4_rocket_assembler_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0643149A35400A1E"]
+			id: "596B62D63E1DB114"
+			tasks: [{
+				id: "1D2081756A104B62"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["596B62D63E1DB114"]
+			id: "095A213CB95085F9"
+			tasks: [{
+				id: "737C5A9B1038A08C"
+				item: "reach_for_the_stars:calorite_drill_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["095A213CB95085F9"]
+			id: "4FC7C868ED979643"
+			tasks: [{
+				id: "30FBBB4F34C6507D"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FC7C868ED979643"]
+			id: "716C51269D5B8EB9"
+			tasks: [{
+				id: "1517CF271EFE9081"
+				item: "reach_for_the_stars:venus_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["716C51269D5B8EB9"]
+			id: "5F613DB8654561F6"
+			tasks: [{
+				id: "76016E9B3DF4F6A4"
+				item: "reach_for_the_stars:venus_shard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
 	title: "Venus"
 }

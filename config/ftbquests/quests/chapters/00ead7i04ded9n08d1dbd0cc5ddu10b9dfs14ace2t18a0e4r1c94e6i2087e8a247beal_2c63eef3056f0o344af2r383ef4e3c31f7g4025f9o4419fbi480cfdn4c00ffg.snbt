@@ -3,9 +3,157 @@
 	default_quest_shape: ""
 	filename: "00ead7i04ded9n08d1dbd0cc5ddu10b9dfs14ace2t18a0e4r1c94e6i2087e8a247beal_2c63eef3056f0o344af2r383ef4e3c31f7g4025f9o4419fbi480cfdn4c00ffg"
 	group: "653044411A0AD7E6"
+	icon: "industrialforegoing:machine_frame_advanced"
 	id: "7EB4C2A8E68141E6"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["2E6DDB6218EB4FCA"]
+			id: "1C47A7D2755C3612"
+			tasks: [{
+				id: "4219F2FAF7C8A3EF"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "2789EE1D7650521C"
+			tasks: [{
+				id: "6F2BDD4159350D14"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58A16EE388709554"]
+			id: "595A8827E85D64EA"
+			tasks: [{
+				id: "43ABA778199726F9"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["680B5BEDEE379A25"]
+			id: "40170C36040EAC27"
+			tasks: [{
+				id: "438CDC43D497E559"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2789EE1D7650521C"]
+			id: "54A267B8B11E3FE8"
+			tasks: [{
+				id: "1D2E6CCA282A8107"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54A267B8B11E3FE8"]
+			id: "381EFADD053AC7F6"
+			tasks: [{
+				id: "006A7C7F90EF4E59"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["381EFADD053AC7F6"]
+			id: "2E6DDB6218EB4FCA"
+			tasks: [{
+				id: "059B53975725F6FC"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C47A7D2755C3612"]
+			id: "58A16EE388709554"
+			tasks: [{
+				id: "6591E474D515D787"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["595A8827E85D64EA"]
+			id: "680B5BEDEE379A25"
+			tasks: [
+				{
+					count: 4L
+					id: "34F4A4E49086A46D"
+					item: { Count: 4, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "3E5905747FCD59B4"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "332966295ED0E018"
+					item: "industrialforegoing:laser_lens10"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"58A16EE388709554"
+				"429A9E1456DED16B"
+			]
+			id: "0DBC036B577FBC93"
+			tasks: [{
+				id: "4441673E27DCF298"
+				item: "reach_for_the_stars:mercury_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["204545FC75DDCA09"]
+			id: "429A9E1456DED16B"
+			tasks: [{
+				id: "0860CD1548BDD70B"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "204545FC75DDCA09"
+			tasks: [{
+				id: "11A88CA3DCB1FF73"
+				item: "reach_for_the_stars:ostrum_drill_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
 	title: "&#00EAD7I&#04DED9n&#08D1DBd&#0CC5DDu&#10B9DFs&#14ACE2t&#18A0E4r&#1C94E6i&#2087E8a&#247BEAl &#2C63EEF&#3056F0o&#344AF2r&#383EF4e&#3C31F7g&#4025F9o&#4419FBi&#480CFDn&#4C00FFg"
 }

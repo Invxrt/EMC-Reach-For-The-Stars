@@ -54,6 +54,8 @@ minecraft:village_plains
 minecraft:village_savanna
 minecraft:village_snowy
 minecraft:village_taiga
+mythicbotany:andwari_cave
+mythicbotany:elven_house
 tconstruct:blood_island
 tconstruct:clay_island
 tconstruct:earth_slime_island
