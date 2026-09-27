@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00acffs00a8fcp00a4f9e00a0f6l009cf3l0098f0s_0090eaa008ce7n0088e4d_0080des007cdbp0078d8e0074d5l0070d2l006ccfb0068cco0064c9o0060c6k005cc3s"
+	group: "6BBACA2E9D7C6901"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:copper_spell_book"
+		tag: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 5
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "74511A5F1EF532FC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["An actual questline will be made soon."]
+		id: "5D11816B8C7EC3E8"
+		rewards: [
+			{
+				count: 16
+				id: "1D702A7E02665588"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "6B7B994DA801BF52"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "1C6BD16C7C103B8B"
+			title: "Iron's Spells and Spellbooks!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&#00ACFFI&#00A5FAr&#009FF5o&#0098F0n&#0091EB'&#008BE6s &#007DDCS&#0077D7p&#0070D2e&#0069CDl&#0063C8l&#005CC3s"
+}

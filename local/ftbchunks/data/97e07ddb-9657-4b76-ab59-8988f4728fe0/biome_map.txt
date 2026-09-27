@@ -1,6 +1,8 @@
 #556 minecraft:beach
 #47F minecraft:birch_forest
 #010 minecraft:forest
+#3B9 ad_astra:glacio_ice_peaks
+#1DB ad_astra:glacio_snowy_barrens
 #527 quark:glimmering_weald
 #1DF minecraft:old_growth_birch_forest
 #3DC minecraft:plains

@@ -30,6 +30,12 @@
 	TagMapper = true
 	#Recipe mapper for custom recipes that don't implement IRecipe
 	ProjectEIntegrationRecipeMapper = true
+	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
+	AE2P2PTunnels = true
+	#(AppliedE) Maps Applied Energistics 2 cable facades.
+	AE2FacadeMapper = true
+	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
+	AE2MatterCondenser = true
 
 [CraftingMapper]
 
@@ -343,5 +349,17 @@
 
 	[CraftingMapper.DraconicEvolutionFusionMapper]
 		#ProjectE-Integration Recipe Mapper for Draconic Evolution Fusion Mapper. Required Mods: [draconicevolution]
+		enabled = true
+
+	[CraftingMapper.AE2Transform]
+		#(AppliedE) Maps Applied Energistics 2 in-world transformation recipes.
+		enabled = true
+
+	[CraftingMapper.AE2Inscriber]
+		#(AppliedE) Maps Applied Energistics 2 inscriber recipes.
+		enabled = true
+
+	[CraftingMapper.AE2Charger]
+		#(AppliedE) Maps Applied Energistics 2 charger recipes.
 		enabled = true
 

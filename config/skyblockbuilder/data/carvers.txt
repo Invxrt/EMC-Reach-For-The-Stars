@@ -5,3 +5,5 @@ minecraft:cave_extra_underground
 minecraft:nether_cave
 mythicbotany:canyon
 mythicbotany:cave
+twilightforest:highland_caves
+twilightforest:tf_caves

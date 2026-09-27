@@ -55,6 +55,7 @@
 		{
 			dependencies: ["28DA36D1505B9EFF"]
 			id: "0B03B5CFC40DBD74"
+			subtitle: "Ars Nouveau"
 			tasks: [{
 				id: "5CE712220724BA06"
 				item: "reach_for_the_stars:earth_ingot"
@@ -176,6 +177,7 @@
 		{
 			dependencies: ["66D047417E090D57"]
 			id: "7B6B9572DEE72089"
+			subtitle: "Pneumaticcraft"
 			tasks: [{
 				id: "199159C9E0B53BFF"
 				item: "reach_for_the_stars:moon_ingot"
@@ -362,7 +364,7 @@
 		{
 			dependencies: ["691F847D7F36CCA7"]
 			id: "56A01F521FCD7326"
-			subtitle: "UNOBTAINABLE"
+			subtitle: "Thermal"
 			tasks: [{
 				id: "49CD477C861EF971"
 				item: "reach_for_the_stars:mars_ingot"
@@ -396,7 +398,7 @@
 		{
 			dependencies: ["51CD961AC0CCA325"]
 			id: "609253E7D3E24821"
-			subtitle: "UNOBTAINABLE"
+			subtitle: "Blood Magic"
 			tasks: [{
 				id: "7BEFBFCB373E52EA"
 				item: "reach_for_the_stars:mercury_ingot"
@@ -462,7 +464,7 @@
 		{
 			dependencies: ["5F019B36578580D3"]
 			id: "7F73E07B642C14DC"
-			subtitle: "UNOBTAINABLE"
+			subtitle: "Mekanism"
 			tasks: [{
 				id: "70C0D97DFDC98FFE"
 				item: "reach_for_the_stars:venus_ingot"
@@ -496,7 +498,7 @@
 		{
 			dependencies: ["7BBE74069261045A"]
 			id: "05F0576B8FC20ED8"
-			subtitle: "UNOBTAINABLE"
+			subtitle: "UNOBTAINABLE (Draconic Evolution)"
 			tasks: [{
 				id: "270BB2E1B6EE18AC"
 				item: "reach_for_the_stars:glacio_ingot"

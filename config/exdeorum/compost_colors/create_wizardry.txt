@@ -1,0 +1,6 @@
+// Compost colors for create_wizardry. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blood_bucket, #9d7979
+crushed_mithril, #aae3f0
+lightning_bucket, #a1c3cf
+mana_bucket, #90abb9
+mithril_nugget, #a5e3f2

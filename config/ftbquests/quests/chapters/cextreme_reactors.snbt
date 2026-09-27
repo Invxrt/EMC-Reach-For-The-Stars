@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cextreme_reactors"
+	group: "653044411A0AD7E6"
+	icon: "bigreactors:basic_reactorcontroller"
+	id: "1A53888255944826"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "209344F1C7DD214D"
+			tasks: [{
+				id: "22025E0944615F96"
+				item: "immersiveengineering:ingot_uranium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "3B7F70790DC6F364"
+			rewards: [{
+				id: "53D9E2ED244BBE0E"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47FA4A690C597369"
+				type: "checkmark"
+			}]
+			title: "Making your first reactor!"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B7F70790DC6F364"]
+			id: "43907DEC0DEA14F4"
+			tasks: [{
+				id: "78A2FC1C20E63190"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "2F11AF1D556A2254"
+			tasks: [{
+				count: 22L
+				id: "0C0B55A707ADF255"
+				item: { Count: 22, id: "bigreactors:basic_reactorcasing" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "3EF0DCB578D02D53"
+			tasks: [{
+				id: "0DD4A80115AAA4CB"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "59A8A19FCEE890D8"
+			tasks: [{
+				id: "7D81ABF349392E37"
+				item: "bigreactors:basic_reactorcontrolrod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "1E09E578D0CF6843"
+			tasks: [{
+				id: "13AE3044B604235B"
+				item: "bigreactors:basic_reactorfuelrod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "5ECDDE5CC44CDBA3"
+			tasks: [{
+				id: "68B4FE3069510CFF"
+				item: "bigreactors:basic_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43907DEC0DEA14F4"]
+			id: "545B5C28D0940300"
+			tasks: [{
+				id: "5F133C0EB33ACC42"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2F11AF1D556A2254"
+				"3EF0DCB578D02D53"
+				"545B5C28D0940300"
+				"59A8A19FCEE890D8"
+				"1E09E578D0CF6843"
+				"5ECDDE5CC44CDBA3"
+				"209344F1C7DD214D"
+			]
+			description: [
+				"&fOnce you have your first basic reactor built simply feed it plenty of Uranium! Uranium can be obtained through the &cNether Generator &fand then turned into a Resource Core for infinite Uranium"
+				""
+				""
+				"{image:kubejs:textures/quests/reactor.png width:100 height:100 align:center}"
+			]
+			id: "286C8BAA5D0C2A7B"
+			subtitle: "This is what your reactor should end up looking like"
+			tasks: [{
+				id: "65E093721B9DF652"
+				type: "checkmark"
+			}]
+			title: "Wow a reactor!"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "&#5CFC6DE&#4AE15Ex&#37C650t&#25AB41r&#129033e&#007524m&#129033e &#37C650R&#4AE15Ee&#5CFC6Da&#4AE15Ec&#37C650t&#25AB41o&#129033r&#007524s"
+}

@@ -5,17 +5,191 @@
 	group: "6BBACA2E9D7C6901"
 	icon: "bloodmagic:altar"
 	id: "233C628A30E8435A"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "574D7411B758D972"
-		tasks: [{
-			id: "363461358070D2D7"
-			title: "COMING SOON"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["More will be added soon."]
+			id: "574D7411B758D972"
+			tasks: [{
+				id: "363461358070D2D7"
+				title: "COMING SOON"
+				type: "checkmark"
+			}]
+			title: "Blood Magic!"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"574D7411B758D972"
+				"7C55C14DEA848F85"
+			]
+			id: "7B07A23E468CBB16"
+			tasks: [{
+				id: "697289E48F082A49"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7C55C14DEA848F85"
+			tasks: [{
+				id: "275DAFDEAE4E74B6"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"03C92267E7C9F755"
+				"5C0B059A43C191ED"
+			]
+			id: "07C6BB1FE592D166"
+			tasks: [{
+				id: "777CBEB80230BC5C"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B07A23E468CBB16"]
+			id: "5C0B059A43C191ED"
+			tasks: [{
+				id: "698297B611FCFBE2"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B07A23E468CBB16"]
+			id: "03C92267E7C9F755"
+			tasks: [{
+				id: "0464E151D402AF3D"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07C6BB1FE592D166"]
+			id: "04F855F656842555"
+			tasks: [
+				{
+					id: "63F900E1FF1563A7"
+					item: "bloodmagic:speedrune"
+					type: "item"
+				}
+				{
+					id: "6A28BFD89B5C6D45"
+					item: "bloodmagic:sacrificerune"
+					type: "item"
+				}
+				{
+					id: "1A61F2E121291FE5"
+					item: "bloodmagic:selfsacrificerune"
+					type: "item"
+				}
+				{
+					id: "3CA68630B6BAEAF3"
+					item: "bloodmagic:dislocationrune"
+					type: "item"
+				}
+				{
+					id: "4F2E38F6BA75DEF2"
+					item: "bloodmagic:altarcapacityrune"
+					type: "item"
+				}
+				{
+					id: "347400FC13AA5398"
+					item: "bloodmagic:bettercapacityrune"
+					type: "item"
+				}
+				{
+					id: "6ED427F23DF75509"
+					item: "bloodmagic:orbcapacityrune"
+					type: "item"
+				}
+				{
+					id: "13DC556C489BAF6F"
+					item: "bloodmagic:accelerationrune"
+					type: "item"
+				}
+				{
+					id: "4DF3884F2ED272D8"
+					item: "bloodmagic:chargingrune"
+					type: "item"
+				}
+			]
+			title: "All The Runes"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03C92267E7C9F755"]
+			id: "32BDFD91DA277C28"
+			tasks: [
+				{
+					id: "45DF34CC2D8D28DA"
+					item: "bloodmagic:apprenticebloodorb"
+					type: "item"
+				}
+				{
+					id: "01E85B117EF3B71C"
+					item: "bloodmagic:magicianbloodorb"
+					type: "item"
+				}
+				{
+					id: "4578EA583CE2313C"
+					item: "bloodmagic:masterbloodorb"
+					type: "item"
+				}
+				{
+					id: "088743D104142B9F"
+					item: "bloodmagic:archmagebloodorb"
+					type: "item"
+				}
+			]
+			title: "The other blood orbs"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07C6BB1FE592D166"]
+			description: ["{image:kubejs:textures/quests/tier_3_altar.png width:125 height:100 align:center}"]
+			id: "062F01AF2E12CC24"
+			tasks: [{
+				id: "693142CA78A12DF9"
+				title: "Tier 3 Altar"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["062F01AF2E12CC24"]
+			id: "49668D7644B9E7CA"
+			tasks: [{
+				id: "17998E38DF159FB7"
+				item: "reach_for_the_stars:mercury_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
 	title: "&#FF0909B&#EF0808l&#DF0707o&#CF0606o&#BF0505d &#A00404M&#900303a&#800202g&#700101i&#600000c"
 }

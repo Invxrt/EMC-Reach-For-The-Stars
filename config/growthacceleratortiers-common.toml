@@ -1,0 +1,11 @@
+#If true, Boosted Accelerators will conflict with each other and shut down.
+enableBoostedConflicts = true
+#If true, Directional Accelerators will conflict with each other and shut down.
+enableDirectionalConflicts = true
+#Number of ticks in between ticks
+#Range: 1 ~ 16
+acceleratorSpeed = 8
+#Multiplier on the power usage, its 8 x this multiplier
+#Range: 1 ~ 16
+powerUsageMultiplier = 3
+

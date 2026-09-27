@@ -1,0 +1,5 @@
+// Compost colors for dysoncubeproject. You may add your own colors, change existing ones, or remove colors that aren't needed.
+beam, #bebebe
+beam_package, #a7a5a2
+solar_sail, #aaa1b4
+solar_sail_package, #7a6f76

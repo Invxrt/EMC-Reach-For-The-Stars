@@ -1,0 +1,2 @@
+// Compost colors for productive_bees_upgrades. You may add your own colors, change existing ones, or remove colors that aren't needed.
+speedier_upgrade, #fff2e6

@@ -12,4 +12,13 @@ ServerEvents.recipes((event) => {
     3: "#forge:stone",
     4: "minecraft:redstone",
   });
+  event.custom({
+    type: "thermal:crystallizer",
+    ingredients: [
+      { fluid: "tconstruct:molten_amethyst", amount: 1000 },
+      { item: "reach_for_the_stars:mars_shard", count: 64 }
+    ],
+    result: { item: "reach_for_the_stars:mars_ingot" }
+  });
+  event.recipes.thermal.crucible(Fluid.of("tconstruct:molten_amethyst", 1000), "minecraft:amethyst_block");
 });

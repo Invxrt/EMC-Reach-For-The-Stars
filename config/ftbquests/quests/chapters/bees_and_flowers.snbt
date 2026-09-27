@@ -5,7 +5,7 @@
 	group: "6BBACA2E9D7C6901"
 	icon: "minecraft:bee_nest"
 	id: "3CFF04E397CCEEBA"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,11 +51,18 @@
 			]
 			icon: "mysticalagriculture:prosperity_seed_base"
 			id: "7F2F28B4F35FC096"
-			rewards: [{
-				id: "2F49060D01070D1F"
-				item: "mysticalagriculture:prosperity_seed_base"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F49060D01070D1F"
+					item: "mysticalagriculture:prosperity_seed_base"
+					type: "item"
+				}
+				{
+					id: "7A1B77AFD70B5835"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+			]
 			subtitle: "The power of Flowers!"
 			tasks: [{
 				id: "500EFF650F14265D"

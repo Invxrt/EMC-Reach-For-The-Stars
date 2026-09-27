@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "422737CD45FC3BC2"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0D30DD1320EFCBC0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["More will be added to this chapter soon."]
+			id: "3EBFD347D10DC7B7"
+			rewards: [{
+				id: "719757ADEED5BA7F"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "77174AB4BDB676AC"
+				type: "dimension"
+			}]
+			title: "Visit the Twilight Forest"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EBFD347D10DC7B7"]
+			id: "441910E811CD0C2C"
+			tasks: [{
+				id: "1318E3FC081C5B94"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["441910E811CD0C2C"]
+			id: "3C92E910867F39FD"
+			tasks: [{
+				id: "414A06BF75C1A4C4"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C92E910867F39FD"]
+			id: "66CBAC671A077A1D"
+			tasks: [{
+				id: "68F613D737F8F321"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66CBAC671A077A1D"]
+			id: "142C9EE23D5B5061"
+			tasks: [{
+				id: "2B322B5085783810"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["142C9EE23D5B5061"]
+			id: "3396DC7E0FC69EA6"
+			tasks: [{
+				id: "711876B39D4B4C11"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3396DC7E0FC69EA6"]
+			id: "5309EF3DC5C53F5D"
+			tasks: [{
+				id: "741900BD9885DF19"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5309EF3DC5C53F5D"]
+			id: "5233F6202D48A92A"
+			tasks: [{
+				id: "576A858D58824019"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5233F6202D48A92A"]
+			id: "29231E6F11E2ABD1"
+			tasks: [{
+				id: "13A01ED2F72479E9"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "&#C43AFFT&#BE43FFw&#B94DFEi&#B356FEl&#AD5FFEi&#A869FEg&#A272FDh&#9D7CFDt &#918EFCF&#8C98FCo&#86A1FCr&#80AAFCe&#7BB4FBs&#75BDFBt"
+}

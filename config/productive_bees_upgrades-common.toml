@@ -1,0 +1,4 @@
+#Time bonus gained from time upgrade. 0.25 means 25% reduction of incubator and breeding chamber processing time.
+#Range: 0.0 ~ 1.0
+timeBonus = 0.25
+

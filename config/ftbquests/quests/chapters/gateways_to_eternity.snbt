@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gateways_to_eternity"
+	group: "422737CD45FC3BC2"
+	icon: {
+		Count: 1
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:hellish_fortress"
+		}
+	}
+	id: "7B722729FBA524A6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "338ED817C9519147"
+			tasks: [{
+				id: "5BAE152A389B2EC6"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/blaze"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "713D1CB13127FDFC"
+			tasks: [{
+				id: "5FDE9D9526113307"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/enderman"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "18EA14B5EFC87057"
+			tasks: [{
+				id: "6B0E1B595379EC6C"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/slime"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "71EDE256A1A2C553"
+			tasks: [{
+				id: "1FE7FB81FDDE9AAB"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "02D5CD05626371E0"
+			tasks: [{
+				id: "5B5663509A9FD60A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:endless/blaze"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "5D0E1F31D6E5E078"
+			tasks: [{
+				id: "626795B6979EE9C7"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:overworldian_nights"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CE0D4D69F9578AE"]
+			id: "508E472204B74205"
+			tasks: [{
+				id: "73D6DC60B22B169E"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:hellish_fortress"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "2CE0D4D69F9578AE"
+			tasks: [{
+				id: "2C7083D0F4B61A3E"
+				title: "Gateways to Eternity!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "&#FF1923G&#EC151Da&#D91117t&#C60D12e&#B2080Cw&#9F0406a&#8C0000y&#9C0405s &#BD0B0FT&#CE0E14o &#EF151EE&#FF1923t&#EC151De&#D91117r&#C60D12n&#B2080Ci&#9F0406t&#8C0000y"
+}

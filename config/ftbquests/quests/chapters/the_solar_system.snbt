@@ -71,6 +71,12 @@
 					item: "minecraft:jukebox"
 					type: "item"
 				}
+				{
+					count: 16
+					id: "51A8738EEF3558ED"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
 			]
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -85,11 +91,19 @@
 			dependencies: ["36E76325D5A079B6"]
 			icon: "reach_for_the_stars:mercury_core"
 			id: "7DC81E0F7303BED2"
-			rewards: [{
-				id: "2659D7C61E797BDF"
-				item: "waystones:waystone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2659D7C61E797BDF"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "19E22C6C08B0F959"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				id: "28CA4943CDDD70A3"

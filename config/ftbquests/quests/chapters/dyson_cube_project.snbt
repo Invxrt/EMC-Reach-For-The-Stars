@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dyson_cube_project"
+	group: "653044411A0AD7E6"
+	icon: "dysoncubeproject:em_railejector_controller"
+	id: "2CCF467F8D0C3902"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["While you not only just conquer the planets you also get to harness the power of the sun!"]
+			id: "11ECB4F27AEB8A72"
+			tasks: [{
+				id: "0AA9021E0DBE521F"
+				title: "Dyson Cube Project"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11ECB4F27AEB8A72"]
+			id: "7E9849A75CF26C1A"
+			tasks: [{
+				id: "03EA4C18222A5383"
+				item: "dysoncubeproject:em_railejector_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11ECB4F27AEB8A72"]
+			id: "015E672D25296BEC"
+			tasks: [{
+				id: "561A3FF662EA786E"
+				item: "dysoncubeproject:ray_receiver_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11ECB4F27AEB8A72"]
+			id: "619171E0ECBDD94A"
+			tasks: [{
+				id: "29693496C6A081CB"
+				item: "dysoncubeproject:solar_sail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11ECB4F27AEB8A72"]
+			id: "4E0D10080AB44A2A"
+			tasks: [{
+				id: "56338E174B78C18B"
+				item: "dysoncubeproject:beam"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["619171E0ECBDD94A"]
+			id: "1ED81ED429A25354"
+			tasks: [{
+				id: "48E05489E3665E90"
+				item: "dysoncubeproject:solar_sail_package"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E0D10080AB44A2A"]
+			id: "33410F91E14BD81E"
+			tasks: [{
+				id: "1D6045CA69568D9D"
+				item: "dysoncubeproject:beam_package"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "&#5CFCE2D&#51D2E4y&#45A8E6s&#3A7EE9o&#2E54EBn &#1700EFC&#2532ECu&#3365EAb&#4097E7e &#5CFCE2P&#51D2E4r&#45A8E6o&#3A7EE9j&#2E54EBe&#232AEDc&#1700EFt"
+}

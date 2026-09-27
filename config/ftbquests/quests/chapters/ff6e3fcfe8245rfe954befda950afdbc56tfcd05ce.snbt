@@ -1,21 +1,226 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "gear"
 	filename: "ff6e3fcfe8245rfe954befda950afdbc56tfcd05ce"
 	group: "653044411A0AD7E6"
 	icon: "create:wrench"
 	id: "6CF4079AAD8008D4"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "7D128763ADF81940"
-		tasks: [{
-			id: "0EEB41116A667AD5"
-			title: "COMING SOON"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "7D128763ADF81940"
+			rewards: [
+				{
+					id: "40255CFBEE7C59D8"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "34A5BF780DBE594F"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EEB41116A667AD5"
+				title: "COMING SOON"
+				type: "checkmark"
+			}]
+			title: "Create!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D128763ADF81940"]
+			id: "71BBE240E8663D0F"
+			tasks: [{
+				id: "7183CABE71002CB7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71BBE240E8663D0F"]
+			id: "1F8DD44426D920A5"
+			tasks: [{
+				id: "10416801ED309475"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F8DD44426D920A5"]
+			id: "1679C762F00D02DF"
+			tasks: [{
+				id: "3C5605D5BDAFA9E9"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F8DD44426D920A5"]
+			id: "45D9077B07D18BB5"
+			tasks: [{
+				id: "30206340C6BB5189"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "742A2552FF4AF30D"
+			tasks: [{
+				id: "0F51C87BF96A1274"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "692C054F5BC6E6F3"
+			tasks: [
+				{
+					id: "2AE82802BE8CBB71"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "348A221E97046555"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "6FB11F441BD5ACBC"
+			tasks: [{
+				count: 21L
+				id: "13D2BEBF839A1CB9"
+				item: { Count: 21, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "37DD7012748E6099"
+			tasks: [{
+				count: 2L
+				id: "2D3D9B739037A41A"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "478EE82CF6055FC6"
+			tasks: [{
+				id: "171F0DC2277E1FC7"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "6C880F25FAF3D348"
+			tasks: [{
+				id: "188F9F47FD28552A"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74FFC7A8852B6499"]
+			id: "4196912AF25D2494"
+			tasks: [{
+				id: "6545154C42D6C32D"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "74FFC7A8852B6499"
+			tasks: [{
+				id: "58385E2E0BDCE278"
+				title: "The Basics"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "3D5847D29CD13652"
+			tasks: [{
+				id: "06ADBDBB7A72D4E7"
+				title: "Power Generation"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D5847D29CD13652"]
+			id: "497EAF3DAD2159ED"
+			tasks: [
+				{
+					id: "3E2343626704C989"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "485B2FFBC0C392B9"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D5847D29CD13652"]
+			id: "559AC1FCF46D8E9C"
+			tasks: [{
+				id: "7864B75CE7E5082D"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D5847D29CD13652"]
+			id: "27A318FEDCFABF95"
+			tasks: [{
+				id: "60453442444076D4"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
 	title: "&#FF6E3FC&#FE8245r&#FE954Be&#FDA950a&#FDBC56t&#FCD05Ce"
 }

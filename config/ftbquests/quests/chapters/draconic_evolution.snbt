@@ -5,7 +5,7 @@
 	group: "653044411A0AD7E6"
 	icon: "draconicevolution:chaos_shard"
 	id: "076ED7434AB8670F"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [{
 		id: "3C6492458208D26D"

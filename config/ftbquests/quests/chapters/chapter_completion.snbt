@@ -1,0 +1,799 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_completion"
+	group: ""
+	icon: "reach_for_the_stars:exclamation_mark"
+	id: "0C99B86F2C8F3337"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D002DB5EA742D78"]
+			icon: "reach_for_the_stars:earth_core"
+			id: "4D9B6B7A3B1984C5"
+			rewards: [{
+				count: 32
+				id: "7AC6304685F32954"
+				item: "reach_for_the_stars:earth_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36ED8A4EFBD921BA"
+				title: "Earth"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22B0609A16EFE463"]
+			icon: "reach_for_the_stars:moon_core"
+			id: "7A4E79DE009DDFD6"
+			rewards: [{
+				count: 32
+				id: "5AAD2EACC2E85E15"
+				item: "reach_for_the_stars:moon_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36AAA051CE25B0EE"
+				title: "Moon"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["279B5F8DF1CB6087"]
+			icon: "reach_for_the_stars:mars_core"
+			id: "37D5B982A59707F1"
+			rewards: [{
+				count: 32
+				id: "17336D5F8347FADC"
+				item: "reach_for_the_stars:mars_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75C66CB1F057CE17"
+				title: "Mars"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51167CF870B75798"]
+			icon: "reach_for_the_stars:mercury_core"
+			id: "07A7114508D339FE"
+			rewards: [{
+				count: 32
+				id: "29BAE5BC1BEAEC31"
+				item: "reach_for_the_stars:mercury_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2898E91C6B53AE2C"
+				title: "Mercury"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01962ECA2E000C0B"]
+			icon: "reach_for_the_stars:venus_core"
+			id: "1E5CF73FE322EAA1"
+			rewards: [{
+				count: 32
+				id: "129707D4B471F12E"
+				item: "reach_for_the_stars:venus_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FA35406B5263D95"
+				title: "Venus"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3414EE4103E97A26"]
+			icon: "reach_for_the_stars:glacio_core"
+			id: "6717E0F04763E420"
+			tasks: [{
+				id: "6187FD675A107B0F"
+				title: "Glacio"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["756685F2D321BF3A"]
+			icon: "chisel:futura/controller"
+			id: "1318289226308573"
+			rewards: [
+				{
+					count: 64
+					id: "097509DE03B020B9"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1391EDF9EC7131B2"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "46AB2B9E83598130"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19962E5366EEA4F4"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F13BEBABEB1F2B8"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21BB3333E8F4D465"
+			rewards: [{
+				count: 512
+				id: "22CE0EE11498A2E8"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A24C99E7049E6F"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CF4079AAD8008D4"]
+			icon: "create:cogwheel"
+			id: "05322FC0BB8AA1D4"
+			rewards: [
+				{
+					count: 128
+					id: "58AD68D0848E139F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5FD65698714D2D74"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "62B0A15FFA72422F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66B199B010D9E652"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D04E5FFE0AD7BFA"]
+			icon: "pneumaticcraft:pressure_chamber_interface"
+			id: "7C17C0F31B8D5E3A"
+			rewards: [
+				{
+					id: "1A8C90A7F04A639D"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABBD1C91EB4CC54"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51FDD7349DD875E0"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185E0A4E3F14D35C"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A404E673D8FEE17"
+					item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B31ECF91B657971"
+				title: "Pneumaticcraft"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["336F5F5B10E971EF"]
+			icon: "powah:energizing_rod_nitro"
+			id: "4D4641FC7465BA1A"
+			rewards: [
+				{
+					count: 64
+					id: "09253E8352967538"
+					item: "powah:energized_steel_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "37A00DEACCC836F6"
+					item: "powah:blazing_crystal_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "43101B602D40F38D"
+					item: "powah:niotic_crystal_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7AEA0054DC95AFD1"
+					item: "powah:spirited_crystal_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B5244F0BF1C0515"
+					item: "powah:nitro_crystal_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2146E3F39BB9733B"
+					item: "powah:uraninite_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7934EED726EE17B7"
+				title: "Powah"
+				type: "checkmark"
+			}]
+			title: "POWAH"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68A0CE49EF7BA5F6"]
+			icon: "tconstruct:crafting_station"
+			id: "021E74B1E1B014AE"
+			rewards: [
+				{
+					id: "776B09139E62AC1A"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:manyullyn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511B68C1040B2C89"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:manyullyn"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29A4881139C067F6"
+				title: "Tinker's Construct"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["267FB880F13AB438"]
+			icon: "thermal:machine_frame"
+			id: "7C7530B742AE971E"
+			rewards: [
+				{
+					count: 32
+					id: "7C0B68C7E98EE994"
+					item: "thermal:upgrade_augment_1"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "610ECBC0453AF3D7"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2C74814BD75BE85F"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3232A380D03F9366"
+				title: "Thermal"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EB4C2A8E68141E6"]
+			icon: "industrialforegoing:machine_frame_supreme"
+			id: "4BFA3839445E49C8"
+			rewards: [
+				{
+					count: 64
+					id: "7EFB28AB88BF37C1"
+					item: "industrialforegoing:machine_frame_supreme"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "07AB9AAC9736F89D"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3D6B710D2922A4D5"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C7A10620E08A615"
+					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E96A8109E7C000B"
+				title: "Industrial Foregoing"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54237AC74E6DAA55"]
+			icon: "fluxnetworks:flux_core"
+			id: "0ACBEC7462398874"
+			rewards: [
+				{
+					count: 64
+					id: "33D45CD2B0D64135"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E903188F594055B"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26DB2406E33B53EC"
+				title: "Flux Networks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C779F224447626E"]
+			icon: "hostilenetworks:loot_fabricator"
+			id: "4A0CB985BECEFA34"
+			rewards: [{
+				count: 512
+				id: "5A1196CB362CE529"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5282D5AB03923C24"
+				title: "Hostile Neural Networks"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71BBF355231AF2E8"]
+			icon: "justdirethings:raw_coal_t1_ore"
+			id: "6CA01835A66D120A"
+			rewards: [{
+				count: 32
+				id: "79EBC2BEE511E73C"
+				item: "justdirethings:time_crystal_budding_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DDE781CEBB20D5F"
+				title: "Just Dire Things#"
+				type: "checkmark"
+			}]
+			title: "Just Dire Things"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11DE77356A8CCDAC"]
+			icon: "mekanism:metallurgic_infuser"
+			id: "7806265299AFE70E"
+			tasks: [{
+				id: "3E090697A24780F4"
+				title: "Mekanism"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["076ED7434AB8670F"]
+			icon: "draconicevolution:chaos_shard"
+			id: "70267978BDB174FD"
+			rewards: [
+				{
+					count: 128
+					id: "02C2A5059E9DEE86"
+					item: "draconicevolution:chaos_shard"
+					type: "item"
+				}
+				{
+					id: "6945B3B24B8A1A80"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:chaos"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73120E3D7138B066"
+				title: "Draconic Evolution"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A53888255944826"]
+			icon: "bigreactors:basic_reactorcontroller"
+			id: "1CFAB031FB405A17"
+			rewards: [{
+				id: "51427DC355967CB5"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			tasks: [{
+				id: "1007981B55522E62"
+				title: "Extreme Reactors"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E2C0DEA59BB0856"]
+			icon: "laserio:laser_node"
+			id: "4C30DA0BCBF22FCB"
+			rewards: [
+				{
+					count: 64
+					id: "3C9F685773196357"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1C48B1797575AF6E"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "17F6D9583CD4E357"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C9C1425C32E1742"
+					item: "laserio:card_energy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75DB418A4D0D3349"
+				title: "Laserio"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CCF467F8D0C3902"]
+			icon: "dysoncubeproject:em_railejector_controller"
+			id: "38835F1A59E47C4F"
+			rewards: [
+				{
+					count: 128
+					id: "46CC30CFBEB05362"
+					item: "dysoncubeproject:solar_sail_package"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0B3625158CCB780D"
+					item: "dysoncubeproject:beam_package"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "533CE9FDFF40C4B9"
+				title: "Dyson Cube Project"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BEA3DAA1E87510E"]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "2224FD8F3264C6AA"
+			rewards: [{
+				id: "64D3A43F6D3A81F5"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4C5CB5EF230E5C"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74511A5F1EF532FC"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "2836A56A4DB6BCC6"
+			rewards: [{
+				id: "138D1AE9CB526276"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cursed_doll_spell_book"
+					tag: {
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"irons_spellbooks:blood_slash": 1
+								"irons_spellbooks:blood_step": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4724ABD39C2FFD5A"
+				title: "Iron's Spells "
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2581C2DA0FC26BB4"]
+			icon: "projecte:transmutation_tablet"
+			id: "1E42C6940B8B51DD"
+			rewards: [
+				{
+					id: "0A73B470C3C41B08"
+					item: "projectexpansion:transmutation_interface"
+					type: "item"
+				}
+				{
+					id: "3025B5E9140D30D7"
+					item: "projectexpansion:final_power_flower"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37841B6715C482E6"
+				title: "ProjectE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05590C18C8013735"]
+			icon: "botania:gaia_pylon"
+			id: "1646797801118C4E"
+			rewards: [{
+				id: "5DDDDDED67B6C382"
+				item: "mythicbotany:mjoellnir"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D121FE794C6F62"
+				title: "Botania"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["233C628A30E8435A"]
+			icon: "bloodmagic:altar"
+			id: "32F1B8DBA7F4BC70"
+			rewards: [{
+				id: "29B9F5E6FDDC4379"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "001398EFD203E0D3"
+				title: "Blood Magic"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CFF04E397CCEEBA"]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "470E7CFC75AF2334"
+			rewards: [
+				{
+					id: "539FDC80CD3BB300"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:arcane_essence"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67E18C5DED298741"
+					item: "mysticalagriculture:nether_star_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BFDE9B012FCC040"
+				title: "Bees and Flowers"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B722729FBA524A6"]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:hellish_fortress"
+				}
+			}
+			id: "728FFDAB42864C67"
+			tasks: [{
+				id: "3994AD6A265F21FD"
+				title: "Gateways to Eternity"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D30DD1320EFCBC0"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "0E015DC0637B61CF"
+			rewards: [{
+				id: "1C5002F9A1423D40"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BE23B827DB2D11E"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "&#98537AC&#926590h&#8C76A5a&#8788BBp&#819AD0t&#7BABE6e&#75BDFBr &#8181BEC&#87649Fo&#8D4681m&#932862p&#8A2D74l&#803186e&#773698t&#6D3AAAi&#643FBCo&#5A43CEn"
+}

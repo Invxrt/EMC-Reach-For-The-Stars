@@ -5,17 +5,75 @@
 	group: "653044411A0AD7E6"
 	icon: "hostilenetworks:sim_chamber"
 	id: "1C779F224447626E"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		id: "2F1FE16E7FD45F32"
-		tasks: [{
-			id: "6BB8BB25BDFDC77C"
-			title: "COMING SOON"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "2F1FE16E7FD45F32"
+			tasks: [{
+				id: "6BB8BB25BDFDC77C"
+				title: "COMING SOON"
+				type: "checkmark"
+			}]
+			title: "Hostile Neural Networks"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F1FE16E7FD45F32"]
+			id: "4B122DF40F8AF8D0"
+			tasks: [{
+				id: "25341750484A7345"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F1FE16E7FD45F32"]
+			id: "082389B777C3E613"
+			tasks: [{
+				id: "0387BF81C26978D3"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F1FE16E7FD45F32"]
+			id: "6FBF4722091509BA"
+			tasks: [{
+				id: "1F02BD300D40BB47"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1FE16E7FD45F32"]
+			id: "71051B4B91F0D50C"
+			tasks: [{
+				id: "4446E1CCBED33906"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1FE16E7FD45F32"]
+			id: "44D128FBEFF14D35"
+			tasks: [{
+				id: "52CEBB311F4DC214"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
 	title: "&#FF0909H&#FA1014o&#F5161Fs&#EF1D2Bt&#EA2336i&#E52A41l&#E0304Ce &#D53D62N&#D0446Ee&#CB4A79u&#C65184r&#C0578Fa&#BB5E9Al &#B16AB1N&#AB71BCe&#A678C7t&#A17ED2w&#9C85DDo&#968BE9r&#9192F4k&#8C98FFs"
 }

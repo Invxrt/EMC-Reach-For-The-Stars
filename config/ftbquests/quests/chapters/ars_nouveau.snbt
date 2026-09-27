@@ -235,6 +235,23 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			icon: "reach_for_the_stars:exclamation_mark"
+			id: "6753329400D4AD18"
+			rewards: [{
+				id: "5E991C3CE0F4B4A1"
+				item: "ars_caelum:ritual_conjure_island_flourishing"
+				type: "item"
+			}]
+			subtitle: "Here's a free one!"
+			tasks: [{
+				id: "7A7165BC84F96BE5"
+				title: "Island Rituals!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
 	]
 	title: "&#E43A96A&#DA34A1r&#D02EABs &#BC23C0N&#B21DCBo&#A817D5u&#9E11E0v&#940CEAe&#8A06F5a&#8000FFu"
 }
