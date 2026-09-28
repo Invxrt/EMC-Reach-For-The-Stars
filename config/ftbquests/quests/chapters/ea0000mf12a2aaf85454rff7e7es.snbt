@@ -65,6 +65,7 @@
 		{
 			dependencies: ["146FE43D3DD2F004"]
 			id: "2173B557C551FEAF"
+			subtitle: "ALL DRILLS MUST BE ON THEIR PLANET"
 			tasks: [
 				{
 					count: 38L
@@ -105,6 +106,7 @@
 					type: "item"
 				}
 			]
+			title: "Desh Drill"
 			x: -2.0d
 			y: 0.0d
 		}

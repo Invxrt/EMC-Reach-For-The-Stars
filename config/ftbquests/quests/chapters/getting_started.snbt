@@ -685,6 +685,16 @@
 			x: 14.5d
 			y: -3.0d
 		}
+		{
+			id: "4A864CFC89B9D119"
+			tasks: [{
+				id: "22FFB3527C5CA29E"
+				item: "exdeorum:end_cake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
 	]
 	title: "&#FF9F9FG&#F598A6e&#EB92ADt&#E18BB4t&#D784BAi&#CD7DC1n&#C377C8g &#AE69D6S&#A463DDt&#9A5CE4a&#9055EAr&#864EF1t&#7C48F8e&#7241FFd"
 }

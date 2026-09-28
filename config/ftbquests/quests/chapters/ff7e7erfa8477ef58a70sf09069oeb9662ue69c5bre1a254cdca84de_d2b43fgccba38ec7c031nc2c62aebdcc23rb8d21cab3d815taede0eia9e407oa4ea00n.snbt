@@ -464,7 +464,7 @@
 		{
 			dependencies: ["5F019B36578580D3"]
 			id: "7F73E07B642C14DC"
-			subtitle: "Mekanism"
+			subtitle: "Mekanism (UNOBTAINABLE)"
 			tasks: [{
 				id: "70C0D97DFDC98FFE"
 				item: "reach_for_the_stars:venus_ingot"
@@ -498,7 +498,7 @@
 		{
 			dependencies: ["7BBE74069261045A"]
 			id: "05F0576B8FC20ED8"
-			subtitle: "UNOBTAINABLE (Draconic Evolution)"
+			subtitle: "Draconic Evolution (UNOBTAINABLE)"
 			tasks: [{
 				id: "270BB2E1B6EE18AC"
 				item: "reach_for_the_stars:glacio_ingot"

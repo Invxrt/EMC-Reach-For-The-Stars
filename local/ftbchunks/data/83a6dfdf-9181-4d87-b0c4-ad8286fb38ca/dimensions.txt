@@ -5,3 +5,7 @@ ad_astra:mars
 ad_astra:mercury
 ad_astra:moon
 minecraft:the_end
+ad_astra:venus
+mythicbotany:alfheim
+ad_astra:glacio
+twilightforest:twilight_forest

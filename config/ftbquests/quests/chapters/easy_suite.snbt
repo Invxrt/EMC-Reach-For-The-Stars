@@ -3,9 +3,121 @@
 	default_quest_shape: ""
 	filename: "easy_suite"
 	group: "422737CD45FC3BC2"
+	icon: "easy_villagers:villager"
 	id: "3698026F3A5E6758"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
-	title: "Easy Suite"
+	quests: [
+		{
+			id: "659161C7FBA99A95"
+			rewards: [{
+				count: 2
+				id: "6272040ECFBE60A1"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			tasks: [{
+				id: "338D4570CB9FCE61"
+				title: "Easy Suite!"
+				type: "checkmark"
+			}]
+			title: "Easy Villagers!"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "15CA86DBE28B9AA0"
+			tasks: [{
+				id: "0E8243ABCC4F728E"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "76AD3AD566A3D636"
+			tasks: [{
+				id: "60B7F4CF372FA00A"
+				item: "easy_villagers:auto_trader"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "4A6CE6E6AEE7775D"
+			tasks: [{
+				id: "730AA9EFE282F5E2"
+				item: "easy_villagers:farmer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "7BE456D852E7BF64"
+			tasks: [{
+				id: "45C5D02AB3CD0EFD"
+				item: "easy_villagers:breeder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "0D5E4E7F0CC953A2"
+			tasks: [{
+				id: "3E6808CCAC4373A4"
+				item: "easy_villagers:converter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "796D27EB22E1C447"
+			tasks: [{
+				id: "034BD486E648FC22"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "4E602D1472C9DEEC"
+			tasks: [{
+				id: "0A28898117583165"
+				item: "easy_villagers:incubator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["659161C7FBA99A95"]
+			id: "14EF2BBADE571F26"
+			rewards: [{
+				id: "2752DC069CE12134"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "64D25DC90BBD3A1B"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "&#00FF83E&#00F285a&#00E587s&#00D789y &#00BD8CV&#00B08Ei&#00A290l&#009592l&#008894a&#007B95g&#006D97e&#006099r&#00539Bs"
 }

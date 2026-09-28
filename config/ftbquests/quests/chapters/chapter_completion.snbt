@@ -497,27 +497,20 @@
 			dependencies: ["076ED7434AB8670F"]
 			icon: "draconicevolution:chaos_shard"
 			id: "70267978BDB174FD"
-			rewards: [
-				{
-					count: 128
-					id: "02C2A5059E9DEE86"
-					item: "draconicevolution:chaos_shard"
-					type: "item"
-				}
-				{
-					id: "6945B3B24B8A1A80"
-					item: {
-						Count: 1
-						id: "productivebees:spawn_egg_configurable_bee"
-						tag: {
-							EntityTag: {
-								type: "productivebees:chaos"
-							}
+			rewards: [{
+				count: 2
+				id: "6945B3B24B8A1A80"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chaos"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "73120E3D7138B066"
 				title: "Draconic Evolution"
