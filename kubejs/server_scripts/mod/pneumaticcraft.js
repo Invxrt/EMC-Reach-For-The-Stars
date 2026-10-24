@@ -198,4 +198,24 @@ ServerEvents.recipes((event) => {
       min_temp: 373,
     },
   });
+  event.custom({
+    type: "pneumaticcraft:thermo_plant",
+    exothermic: false,
+    fluid_input: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:calorite_drill_fluid",
+      amount: 1000,
+    },
+    fluid_output: {
+      type: "pneumaticcraft:fluid",
+      fluid: "reach_for_the_stars:glacio_drill_fluid",
+      amount: 500,
+    },
+    item_input: {
+      item: "reach_for_the_stars:venus_ingot",
+    },
+    temperature: {
+      min_temp: 373,
+    },
+  });
 });

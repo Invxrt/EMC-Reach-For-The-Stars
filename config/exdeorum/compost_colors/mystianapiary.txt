@@ -1,0 +1,14 @@
+// Compost colors for mystianapiary. You may add your own colors, change existing ones, or remove colors that aren't needed.
+flower_upgrade_1, #c2cad2
+flower_upgrade_2, #e7b93d
+flower_upgrade_3, #6cd6cf
+input_upgrade_1, #c2cad2
+input_upgrade_2, #e7b93d
+input_upgrade_3, #6cd6cf
+output_upgrade_1, #c2cad2
+output_upgrade_2, #e7b93d
+output_upgrade_3, #6cd6cf
+upgrade_centrifuge, #ffffff
+upgrade_centrifuge_t1, #c2cad2
+upgrade_centrifuge_t2, #e7b93d
+upgrade_centrifuge_t3, #6cd6cf

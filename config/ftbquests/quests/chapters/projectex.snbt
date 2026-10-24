@@ -16,7 +16,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["20402769AC93E787"]
+			dependencies: [
+				"20402769AC93E787"
+				"4A689F6470318B4A"
+			]
 			id: "3C9EEC5BB222014F"
 			tasks: [{
 				id: "66AAA63B26A3E1E7"
@@ -645,6 +648,163 @@
 			}]
 			x: 5.0d
 			y: 8.5d
+		}
+		{
+			id: "4A689F6470318B4A"
+			rewards: [{
+				id: "0CC1394D3069DAF1"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:coal_block"
+										}
+										ItemAmount: 29
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:coal_block\"}},\"translate\":\"block.minecraft.coal_block\"},{\"color\":\"black\",\"text\":\"\\n x29\"},{\"color\":\"gray\",\"text\":\" | 0▤ +29\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "antiblocksrechiseled:bright_black"
+										}
+										ItemAmount: 27
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"antiblocksrechiseled:bright_black\"}},\"translate\":\"block.antiblocksrechiseled.bright_black\"},{\"color\":\"black\",\"text\":\"\\n x27\"},{\"color\":\"gray\",\"text\":\" | 0▤ +27\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "projectexpansion:magenta_fuel_block"
+										}
+										ItemAmount: 13
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"projectexpansion:magenta_fuel_block\"}},\"translate\":\"block.projectexpansion.magenta_fuel_block\"},{\"color\":\"black\",\"text\":\"\\n x13\"},{\"color\":\"gray\",\"text\":\" | 0▤ +13\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:orange_stained_glass_pane"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:orange_stained_glass_pane\"}},\"translate\":\"block.minecraft.orange_stained_glass_pane\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:pink_concrete"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:pink_concrete\"}},\"translate\":\"block.minecraft.pink_concrete\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:red_stained_glass_pane"
+										}
+										ItemAmount: 11
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:red_stained_glass_pane\"}},\"translate\":\"block.minecraft.red_stained_glass_pane\"},{\"color\":\"black\",\"text\":\"\\n x11\"},{\"color\":\"gray\",\"text\":\" | 0▤ +11\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:transmutation_constructor_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:transmutation_constructor_controller\"}},\"translate\":\"block.reach_for_the_stars.transmutation_constructor_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:white_concrete"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:white_concrete\"}},\"translate\":\"block.minecraft.white_concrete\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:white_terracotta"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:white_terracotta\"}},\"translate\":\"block.minecraft.white_terracotta\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "antiblocksrechiseled:wool_magenta"
+										}
+										ItemAmount: 54
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"antiblocksrechiseled:wool_magenta\"}},\"translate\":\"block.antiblocksrechiseled.wool_magenta\"},{\"color\":\"black\",\"text\":\"\\n x54\"},{\"color\":\"gray\",\"text\":\" | 0▤ +54\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:yellow_stained_glass_pane"
+										}
+										ItemAmount: 13
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:yellow_stained_glass_pane\"}},\"translate\":\"block.minecraft.yellow_stained_glass_pane\"},{\"color\":\"black\",\"text\":\"\\n x13\"},{\"color\":\"gray\",\"text\":\" | 0▤ +13\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						PreviouslyOpenedPage: 1
+						Readonly: 1b
+						Type: 1
+						display: {
+							Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7143F5A60DF25FBB"
+				item: "reach_for_the_stars:transmutation_constructor_controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
 		}
 	]
 	title: "&dProjectE"

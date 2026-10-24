@@ -51,12 +51,644 @@
 		{
 			dependencies: ["589B5793D73A980A"]
 			id: "7C16AC020E4C43B5"
+			rewards: [{
+				id: "06409E57B89E2E5C"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:alu_scaffolding_standard"
+										}
+										ItemAmount: 69
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:alu_scaffolding_standard\"}},\"translate\":\"block.immersiveengineering.alu_scaffolding_standard\"},{\"color\":\"black\",\"text\":\"\\n x69\"},{\"color\":\"gray\",\"text\":\" | 1▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:sheetmetal_aluminum"
+										}
+										ItemAmount: 13
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:sheetmetal_aluminum\"}},\"translate\":\"block.immersiveengineering.sheetmetal_aluminum\"},{\"color\":\"black\",\"text\":\"\\n x13\"},{\"color\":\"gray\",\"text\":\" | 0▤ +13\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:slab_sheetmetal_aluminum"
+										}
+										ItemAmount: 4
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:slab_sheetmetal_aluminum\"}},\"translate\":\"block.immersiveengineering.slab_sheetmetal_aluminum\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mythicbotany:alfsteel_block"
+										}
+										ItemAmount: 11
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mythicbotany:alfsteel_block\"}},\"translate\":\"block.mythicbotany.alfsteel_block\"},{\"color\":\"black\",\"text\":\"\\n x11\"},{\"color\":\"gray\",\"text\":\" | 0▤ +11\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:nitro_crystal_block"
+										}
+										ItemAmount: 11
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:nitro_crystal_block\"}},\"translate\":\"block.powah.nitro_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x11\"},{\"color\":\"gray\",\"text\":\" | 0▤ +11\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "botania:terrasteel_block"
+										}
+										ItemAmount: 11
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:terrasteel_block\"}},\"translate\":\"block.botania.terrasteel_block\"},{\"color\":\"black\",\"text\":\"\\n x11\"},{\"color\":\"gray\",\"text\":\" | 0▤ +11\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chipped:blue_tube_soul_lantern"
+										}
+										ItemAmount: 21
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chipped:blue_tube_soul_lantern\"}},\"translate\":\"block.chipped.blue_tube_soul_lantern\"},{\"color\":\"black\",\"text\":\"\\n x21\"},{\"color\":\"gray\",\"text\":\" | 0▤ +21\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:breaker_switch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:breaker_switch\"}},\"translate\":\"block.immersiveengineering.breaker_switch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "quark:calcite_vertical_slab"
+										}
+										ItemAmount: 24
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"quark:calcite_vertical_slab\"}},\"translate\":\"block.quark.calcite_vertical_slab\"},{\"color\":\"black\",\"text\":\"\\n x24\"},{\"color\":\"gray\",\"text\":\" | 0▤ +24\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:chiseled_permafrost_bricks"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:chiseled_permafrost_bricks\"}},\"translate\":\"block.ad_astra.chiseled_permafrost_bricks\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "create:clutch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:clutch\"}},\"translate\":\"block.create.clutch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "enderio:dark_steel_bars"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"enderio:dark_steel_bars\"}},\"translate\":\"block.enderio.dark_steel_bars\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "enderio:dark_steel_ladder"
+										}
+										ItemAmount: 5
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"enderio:dark_steel_ladder\"}},\"translate\":\"block.enderio.dark_steel_ladder\"},{\"color\":\"black\",\"text\":\"\\n x5\"},{\"color\":\"gray\",\"text\":\" | 0▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "botania:dreamwood_fence_gate"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:dreamwood_fence_gate\"}},\"translate\":\"block.botania.dreamwood_fence_gate\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "botania:dreamwood_wall"
+										}
+										ItemAmount: 60
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:dreamwood_wall\"}},\"translate\":\"block.botania.dreamwood_wall\"},{\"color\":\"black\",\"text\":\"\\n x60\"},{\"color\":\"gray\",\"text\":\" | 0▤ +60\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:dynamic_tank"
+										}
+										ItemAmount: 22
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:dynamic_tank\"}},\"translate\":\"block.mekanism.dynamic_tank\"},{\"color\":\"black\",\"text\":\"\\n x22\"},{\"color\":\"gray\",\"text\":\" | 0▤ +22\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:dynamic_valve"
+										}
+										ItemAmount: 3
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:dynamic_valve\"}},\"translate\":\"block.mekanism.dynamic_valve\"},{\"color\":\"black\",\"text\":\"\\n x3\"},{\"color\":\"gray\",\"text\":\" | 0▤ +3\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "create:encased_chain_drive"
+										}
+										ItemAmount: 4
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:encased_chain_drive\"}},\"translate\":\"block.create.encased_chain_drive\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chisel:factory/platex"
+										}
+										ItemAmount: 73
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chisel:factory/platex\"}},\"translate\":\"block.chisel.factory.platex\"},{\"color\":\"black\",\"text\":\"\\n x73\"},{\"color\":\"gray\",\"text\":\" | 1▤ +9\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "create:framed_glass_trapdoor"
+										}
+										ItemAmount: 60
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:framed_glass_trapdoor\"}},\"translate\":\"block.create.framed_glass_trapdoor\"},{\"color\":\"black\",\"text\":\"\\n x60\"},{\"color\":\"gray\",\"text\":\" | 0▤ +60\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glacio_stone_brick_wall"
+										}
+										ItemAmount: 9
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glacio_stone_brick_wall\"}},\"translate\":\"block.ad_astra.glacio_stone_brick_wall\"},{\"color\":\"black\",\"text\":\"\\n x9\"},{\"color\":\"gray\",\"text\":\" | 0▤ +9\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_steel_pillar"
+										}
+										ItemAmount: 16
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_steel_pillar\"}},\"translate\":\"block.ad_astra.glowing_steel_pillar\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:heavy_engineering"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:heavy_engineering\"}},\"translate\":\"block.immersiveengineering.heavy_engineering\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:honey_block"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:honey_block\"}},\"translate\":\"block.minecraft.honey_block\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:light_engineering"
+										}
+										ItemAmount: 14
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:light_engineering\"}},\"translate\":\"block.immersiveengineering.light_engineering\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "create:mechanical_bearing"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:mechanical_bearing\"}},\"translate\":\"block.create.mechanical_bearing\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:permafrost_brick_stairs"
+										}
+										ItemAmount: 96
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:permafrost_brick_stairs\"}},\"translate\":\"block.ad_astra.permafrost_brick_stairs\"},{\"color\":\"black\",\"text\":\"\\n x96\"},{\"color\":\"gray\",\"text\":\" | 1▤ +32\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:permafrost_brick_wall"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:permafrost_brick_wall\"}},\"translate\":\"block.ad_astra.permafrost_brick_wall\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:permafrost_bricks"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:permafrost_bricks\"}},\"translate\":\"block.ad_astra.permafrost_bricks\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:permafrost_pillar"
+										}
+										ItemAmount: 163
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:permafrost_pillar\"}},\"translate\":\"block.ad_astra.permafrost_pillar\"},{\"color\":\"black\",\"text\":\"\\n x163\"},{\"color\":\"gray\",\"text\":\" | 2▤ +35\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:polished_permafrost"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:polished_permafrost\"}},\"translate\":\"block.ad_astra.polished_permafrost\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:polished_permafrost_slab"
+										}
+										ItemAmount: 126
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:polished_permafrost_slab\"}},\"translate\":\"block.ad_astra.polished_permafrost_slab\"},{\"color\":\"black\",\"text\":\"\\n x126\"},{\"color\":\"gray\",\"text\":\" | 1▤ +62\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:polished_permafrost_stairs"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:polished_permafrost_stairs\"}},\"translate\":\"block.ad_astra.polished_permafrost_stairs\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "advanced_ae:quantum_alloy_block"
+										}
+										ItemAmount: 40
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"advanced_ae:quantum_alloy_block\"}},\"translate\":\"block.advanced_ae.quantum_alloy_block\"},{\"color\":\"black\",\"text\":\"\\n x40\"},{\"color\":\"gray\",\"text\":\" | 0▤ +40\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "advanced_ae:quantum_alloy_stairs"
+										}
+										ItemAmount: 28
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"advanced_ae:quantum_alloy_stairs\"}},\"translate\":\"block.advanced_ae.quantum_alloy_stairs\"},{\"color\":\"black\",\"text\":\"\\n x28\"},{\"color\":\"gray\",\"text\":\" | 0▤ +28\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "create:radial_chassis"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:radial_chassis\"}},\"translate\":\"block.create.radial_chassis\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "pneumaticcraft:wall_lamp_red"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"pneumaticcraft:wall_lamp_red\"}},\"translate\":\"block.pneumaticcraft.wall_lamp_red\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:rs_engineering"
+										}
+										ItemAmount: 3
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:rs_engineering\"}},\"translate\":\"block.immersiveengineering.rs_engineering\"},{\"color\":\"black\",\"text\":\"\\n x3\"},{\"color\":\"gray\",\"text\":\" | 0▤ +3\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "minecraft:repeater"
+										}
+										ItemAmount: 2
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:repeater\"}},\"translate\":\"block.minecraft.repeater\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:metal_ladder_alu"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:metal_ladder_alu\"}},\"translate\":\"block.immersiveengineering.metal_ladder_alu\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:metal_ladder_steel"
+										}
+										ItemAmount: 2
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:metal_ladder_steel\"}},\"translate\":\"block.immersiveengineering.metal_ladder_steel\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:chute_aluminum"
+										}
+										ItemAmount: 3
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:chute_aluminum\"}},\"translate\":\"block.immersiveengineering.chute_aluminum\"},{\"color\":\"black\",\"text\":\"\\n x3\"},{\"color\":\"gray\",\"text\":\" | 0▤ +3\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "megacells:sky_steel_block"
+										}
+										ItemAmount: 30
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"megacells:sky_steel_block\"}},\"translate\":\"block.megacells.sky_steel_block\"},{\"color\":\"black\",\"text\":\"\\n x30\"},{\"color\":\"gray\",\"text\":\" | 0▤ +30\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ae2:sky_stone_slab"
+										}
+										ItemAmount: 148
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:sky_stone_slab\"}},\"translate\":\"block.ae2.sky_stone_slab\"},{\"color\":\"black\",\"text\":\"\\n x148\"},{\"color\":\"gray\",\"text\":\" | 2▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:steel_drill_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:steel_drill_controller\"}},\"translate\":\"block.reach_for_the_stars.steel_drill_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:steel_panel"
+										}
+										ItemAmount: 2
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:steel_panel\"}},\"translate\":\"block.ad_astra.steel_panel\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:steel_plateblock"
+										}
+										ItemAmount: 45
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:steel_plateblock\"}},\"translate\":\"block.ad_astra.steel_plateblock\"},{\"color\":\"black\",\"text\":\"\\n x45\"},{\"color\":\"gray\",\"text\":\" | 0▤ +45\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:steel_plating"
+										}
+										ItemAmount: 9
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:steel_plating\"}},\"translate\":\"block.ad_astra.steel_plating\"},{\"color\":\"black\",\"text\":\"\\n x9\"},{\"color\":\"gray\",\"text\":\" | 0▤ +9\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:steel_scaffolding_grate_top"
+										}
+										ItemAmount: 116
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:steel_scaffolding_grate_top\"}},\"translate\":\"block.immersiveengineering.steel_scaffolding_grate_top\"},{\"color\":\"black\",\"text\":\"\\n x116\"},{\"color\":\"gray\",\"text\":\" | 1▤ +52\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:slab_steel_scaffolding_wooden_top"
+										}
+										ItemAmount: 197
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:slab_steel_scaffolding_wooden_top\"}},\"translate\":\"block.immersiveengineering.slab_steel_scaffolding_wooden_top\"},{\"color\":\"black\",\"text\":\"\\n x197\"},{\"color\":\"gray\",\"text\":\" | 3▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chisel:technical/engineering"
+										}
+										ItemAmount: 4
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chisel:technical/engineering\"}},\"translate\":\"block.chisel.technical.engineering\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:thermoelectric_generator"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:thermoelectric_generator\"}},\"translate\":\"block.immersiveengineering.thermoelectric_generator\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mysticalagriculture:witherproof_glass"
+										}
+										ItemAmount: 167
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mysticalagriculture:witherproof_glass\"}},\"translate\":\"block.mysticalagriculture.witherproof_glass\"},{\"color\":\"black\",\"text\":\"\\n x167\"},{\"color\":\"gray\",\"text\":\" | 2▤ +39\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chipped:yellow_tube_lantern"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chipped:yellow_tube_lantern\"}},\"translate\":\"block.chipped.yellow_tube_lantern\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						PreviouslyOpenedPage: 0
+						Readonly: 1b
+						Type: 1
+						display: {
+							Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "78BEBC45F13A74FD"
-				title: "COMING SOON!"
-				type: "checkmark"
+				id: "39E00DF59089AEDC"
+				item: "reach_for_the_stars:glacio_drill_controller"
+				type: "item"
 			}]
 			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C16AC020E4C43B5"]
+			id: "6AD38DAD0E9ADF48"
+			tasks: [{
+				id: "7AE40D7CA82F7F40"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD38DAD0E9ADF48"]
+			id: "3B4095A3D902B124"
+			tasks: [{
+				id: "100D2149D00AE738"
+				item: "reach_for_the_stars:glacio_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B4095A3D902B124"]
+			id: "0A49060EC8D66320"
+			tasks: [{
+				id: "2B7638BF075EEE4D"
+				item: "reach_for_the_stars:glacio_shard"
+				type: "item"
+			}]
+			x: 1.0d
 			y: -2.0d
 		}
 	]

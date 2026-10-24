@@ -86,7 +86,7 @@
 				}
 			}
 			id: "79F9C7F98A898C0B"
-			subtitle: "Created the Resource Capsules mod"
+			subtitle: "Created the Resource Capsules mod, Reach For The Stars Core mod, Dyson Cube Project downport + more"
 			tasks: [{
 				id: "0F3C5A22AFA32094"
 				type: "checkmark"
@@ -124,7 +124,7 @@
 				}
 			}
 			id: "514E92210A7DF119"
-			subtitle: "Helped with creative recipes"
+			subtitle: "Made the creative recipes"
 			tasks: [{
 				id: "16DC10B27D125345"
 				title: "Fowlgorithm"
@@ -172,7 +172,7 @@
 				}
 			}
 			id: "5228FF3B12B89DE2"
-			subtitle: "Created the starter island"
+			subtitle: "Created the starter island + some multiblocks"
 			tasks: [{
 				id: "10BAE3E4C1847453"
 				type: "checkmark"

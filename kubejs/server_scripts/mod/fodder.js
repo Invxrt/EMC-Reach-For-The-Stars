@@ -34,14 +34,34 @@ ServerEvents.recipes((event) => {
         E: "minecraft:book",
         F: "minecraft:stick",
   });
-  // PLANET CONGLOMERATE
-  event.shaped(Item.of('reach_for_the_stars:planet_core_conglomerate', 1), ['123', '4 4', '567'], {
+  // PLANET CONGLOMERATE + Winner Planet
+  event.shaped(Item.of('reach_for_the_stars:winner_planet', 1), ['123', '   ', '567'], {
     1: "reach_for_the_stars:earth_core",
     2: "reach_for_the_stars:moon_core",
     3: "reach_for_the_stars:mars_core",
-    4: "ad_astra:earth_globe",
     5: "reach_for_the_stars:mercury_core",
     6: "reach_for_the_stars:venus_core",
     7: "reach_for_the_stars:glacio_core"
   });
-});
+  event.shaped(Item.of('reach_for_the_stars:planet_core_conglomerate', 1), ['123', '444', '567'], {
+    1: "reach_for_the_stars:earth_ingot",
+    2: "reach_for_the_stars:moon_ingot",
+    3: "reach_for_the_stars:mars_ingot",
+    4: "reach_for_the_stars:winner_planet",
+    5: "reach_for_the_stars:mercury_ingot",
+    6: "reach_for_the_stars:venus_ingot",
+    7: "reach_for_the_stars:glacio_ingot",
+  });
+  event.custom({
+      type: "reach_for_the_stars:glacio_drill",
+      fluid: {
+        amount: 1000,
+        fluid: "reach_for_the_stars:glacio_drill_fluid",
+    },
+        dimension: "ad_astra:glacio",
+        result: {
+            count: 1,
+            item: "ad_astra:glacio_globe",
+        }
+    }).id("glacio_drill");
+})

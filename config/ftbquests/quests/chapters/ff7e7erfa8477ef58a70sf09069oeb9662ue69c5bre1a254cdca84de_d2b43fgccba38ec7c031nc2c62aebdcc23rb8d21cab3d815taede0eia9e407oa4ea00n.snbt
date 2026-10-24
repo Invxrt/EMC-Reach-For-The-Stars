@@ -464,7 +464,7 @@
 		{
 			dependencies: ["5F019B36578580D3"]
 			id: "7F73E07B642C14DC"
-			subtitle: "Mekanism (UNOBTAINABLE)"
+			subtitle: "Mekanism"
 			tasks: [{
 				id: "70C0D97DFDC98FFE"
 				item: "reach_for_the_stars:venus_ingot"

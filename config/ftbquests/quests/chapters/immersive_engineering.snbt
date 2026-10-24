@@ -831,7 +831,7 @@
 				{
 					count: 8L
 					id: "301B576527D41FD1"
-					item: { Count: 8, id: "minecraft:glass" }
+					item: "tconstruct:clear_glass"
 					type: "item"
 				}
 				{

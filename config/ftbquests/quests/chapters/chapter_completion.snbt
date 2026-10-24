@@ -775,9 +775,9 @@
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "0E015DC0637B61CF"
 			rewards: [{
-				id: "1C5002F9A1423D40"
-				item: "twilightforest:uncrafting_table"
-				type: "item"
+				id: "0C2BC72CA6E0EAF2"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 			tasks: [{
 				id: "0BE23B827DB2D11E"

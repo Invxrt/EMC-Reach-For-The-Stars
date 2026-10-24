@@ -7,20 +7,178 @@
 	id: "076ED7434AB8670F"
 	order_index: 11
 	quest_links: [ ]
-	quests: [{
-		id: "3C6492458208D26D"
-		rewards: [{
-			id: "60837E88FCA249C7"
-			item: "draconicevolution:chaos_shard"
-			type: "item"
-		}]
-		tasks: [{
-			id: "5682334A0CDCA959"
-			title: "COMING SOON"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "548D116A630375A1"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "3C513C8E99E358C2"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["548D116A630375A1"]
+			id: "7F7E2692A3DC8E11"
+			tasks: [{
+				id: "3D5439673E8DB88E"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F7E2692A3DC8E11"]
+			id: "565A97D09F40F134"
+			tasks: [{
+				id: "06C512E077B7A4E5"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["565A97D09F40F134"]
+			id: "7DEB1BED4CC430DF"
+			tasks: [{
+				id: "29D7D8C8BB5CD9C3"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DEB1BED4CC430DF"]
+			id: "539CBCD9EB9A5206"
+			tasks: [{
+				id: "4EDD69F908FE4BC4"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["539CBCD9EB9A5206"]
+			id: "10E844438547EC7C"
+			tasks: [{
+				id: "638D8A01D8EA9163"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10E844438547EC7C"]
+			id: "36CAFEB1644C8164"
+			tasks: [{
+				id: "266937481F1A5D72"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36CAFEB1644C8164"]
+			id: "2472726F710116F4"
+			tasks: [{
+				id: "61A4B090493319E9"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["10E844438547EC7C"]
+			id: "6A3C3A5246C01054"
+			tasks: [{
+				id: "38A12901DBBB7B4A"
+				item: "reach_for_the_stars:glacio_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36CAFEB1644C8164"]
+			id: "4DE6CD666DC8AE43"
+			tasks: [{
+				id: "40DC8E875131639B"
+				item: "reach_for_the_stars:glacio_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["548D116A630375A1"]
+			icon: "draconicevolution:chaos_shard"
+			id: "41F2D34A8EC44C22"
+			rewards: [{
+				id: "2DE7C60B317E4A51"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5352587033434DA2"
+				title: "Free Chaotic Shards!"
+				type: "checkmark"
+			}]
+			title: "Free Chaos Shard!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2472726F710116F4"]
+			id: "75D0D6EB52F14E03"
+			tasks: [{
+				id: "03D296BAE67C7539"
+				item: "reach_for_the_stars:printer_3d_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2472726F710116F4"]
+			id: "2006049F6235673B"
+			tasks: [{
+				id: "1CF6577FDE8395DE"
+				item: "reach_for_the_stars:skyblock_builder_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2472726F710116F4"]
+			id: "2BA4A9931C3DD5FC"
+			tasks: [{
+				id: "7E98241EDC031A6C"
+				item: "reach_for_the_stars:ritual_site_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["548D116A630375A1"]
+			id: "638BE1E7609B4FE9"
+			tasks: [{
+				id: "52A1A3BD6D885F0F"
+				title: "More will be added to this chapter in a later update!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "&#F209FFD&#E908FDr&#DF08FAa&#D607F8c&#CC07F6o&#C306F3n&#B906F1i&#B005EFc &#9D04EAE&#9304E7v&#8A03E5o&#8003E3l&#7702E0u&#6D02DEt&#6401DCi&#5A01D9o&#5100D7n"
 }

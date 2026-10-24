@@ -20,6 +20,12 @@ showJeiMaxParallel = true
 #How often ports with enabled auto push/pull sides transfer, in ticks. Default: 10
 #Range: 1 ~ 200
 portAutoIOInterval = 10
+#How many blocks the controller's Assemble places per tick. Default: 2
+#Range: 1 ~ 64
+assemblyBlocksPerTick = 2
+#In JEI, show a flex recipe's input slot once per kind a run can take ("max_types", up to 9),
+#so players see how many kinds they can put in. When false, one slot. Default: true
+showJeiFlexInputCopies = true
 
 #Preview features that are not yet stable or ready for use.
 [preview_features]
@@ -38,4 +44,39 @@ portAutoIOInterval = 10
 	#How far from a port to look for the controller it belongs to. Must cover your largest multiblock. Default: 16
 	#Range: 4 ~ 64
 	controllerSearchRadius = 16
+
+#Multiblock Tool: item block store energy.
+[tool]
+	#Max FE the Multiblock Tool can store. Default: 1,000,000
+	#Range: > 1
+	energyCapacity = 1000000
+	#FE cost per block placed by the Multiblock Tool. Default: 50
+	#Range: > 0
+	energyPerPlacedBlock = 50
+	#FE cost per block dismantled by the Multiblock Tool. Default: 25
+	#Range: > 0
+	energyPerDismantledBlock = 25
+	#Max FE/t the Multiblock Tool accepts from an external charger. Default: 10,000
+	#Range: > 1
+	energyReceiveRate = 10000
+	#Structure Builder targeting, anchor and placement distance in blocks. Loaded chunks only. Default: 64
+	#Range: 5 ~ 128
+	buildRange = 64
+	#Structure Builder blocks placed per tick in sequential/layer mode. Default: 2
+	#Range: 1 ~ 1024
+	buildBlocksPerTick = 2
+	#Structure Builder placement: SEQUENTIAL, LAYER_BY_LAYER (bottom up), INSTANT (one tick).
+	#Allowed Values: SEQUENTIAL, LAYER_BY_LAYER, INSTANT
+	buildMode = "SEQUENTIAL"
+
+#Flex recipes ("mode": "flex"): one run takes several kinds of item at once (e.g. mixed seeds).
+[flex]
+	#How the other consumed inputs of a flex run (energy, fluids, items...) grow with the number of kinds it takes.
+	#LINEAR: cost x kinds (10 kinds cost 10 times one kind). ONCE: the same cost for any number of kinds.
+	#TABLE: the multiplier comes from costTable. A recipe can override this with "flex_cost". Default: LINEAR
+	#Allowed Values: LINEAR, ONCE, TABLE
+	costScaling = "LINEAR"
+	#For costScaling = TABLE: "kinds=multiplier" steps; a run uses the step with the most kinds not above its own.
+	#Example: ["1=1", "4=2", "7=3.5"] means 1-3 kinds x1, 4-6 kinds x2, 7 or more x3.5. Default: ["1=1"]
+	costTable = ["1=1"]
 
