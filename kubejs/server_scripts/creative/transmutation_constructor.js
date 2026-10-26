@@ -33,12 +33,6 @@ ServerEvents.recipes((event) => {
             item: "reach_for_the_stars:mars_core",
           },
         },
-        {
-          count: 1,
-          ingredient: {
-            item: "twilightforest:mazebreaker_pickaxe",
-          },
-        },
       ],
       result: {
         item: "projecte:transmutation_table",

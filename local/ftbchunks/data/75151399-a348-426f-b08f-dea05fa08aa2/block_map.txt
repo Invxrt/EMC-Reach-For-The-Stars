@@ -1,3 +1,6 @@
+#2CBBD7 rechiseled:amethyst_block_diagonal_tiles
+#0399A2 rechiseled:amethyst_block_diagonal_tiles_stairs
+#903E81 rechiseled:amethyst_block_pillar_connecting
 #D8EEF2 chipped:ancient_gold_block
 #FA75A8 minecraft:andesite
 #161AE7 minecraft:bamboo
@@ -5,6 +8,7 @@
 #9CC7E6 chipped:barred_dark_oak_trapdoor
 #74451D chipped:barred_mangrove_trapdoor
 #3DE8FE minecraft:birch_leaves
+#B78DDF minecraft:birch_sign
 #9CFEB8 minecraft:black_concrete
 #89CCFB bloodmagic:blankrune
 #A68AEF minecraft:blue_stained_glass
@@ -26,6 +30,7 @@
 #058353 minecraft:cobblestone
 #7331AC minecraft:cobblestone_slab
 #3D8BFC minecraft:cobblestone_stairs
+#0D24C2 reach_for_the_stars:completion_trophy
 #2518F2 pneumaticcraft:compressed_brick_stairs
 #8F803E pneumaticcraft:compressed_stone_slab
 #6E76AF minecraft:copper_ore
@@ -80,8 +85,11 @@
 #83CED3 minecraft:lava
 #1D77AB chipped:leafy_vine
 #BC63C8 bloodmagic:life_essence_block
+#A0FD54 minecraft:light_blue_concrete
 #5FDE95 minecraft:light_blue_stained_glass_pane
+#CBF1B4 minecraft:light_blue_terracotta
 #2BCDEC minecraft:light_gray_stained_glass_pane
+#EC280B minecraft:light_gray_terracotta
 #7482E4 minecraft:lilac
 #282763 minecraft:lime_stained_glass_pane
 #F100D3 chisel:limestone/raw
@@ -124,6 +132,7 @@
 #557634 advanced_ae:quantum_alloy_block
 #5EAF21 advanced_ae:quantum_alloy_stairs
 #DDAACF ae2:quartz_vibrant_glass
+#025A66 minecraft:red_concrete
 #7EFF77 create:red_seat
 #7D9298 quark:red_shingles_stairs
 #CFE6E6 minecraft:red_stained_glass
@@ -132,6 +141,7 @@
 #E52A78 justdirethings:refined_t4_fluid_block
 #31B0B4 minecraft:repeating_command_block
 #AAB547 reach_for_the_stars:ritual_site_controller
+#4CE490 create:rose_quartz_lamp
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
 #9D474B minecraft:sandstone_slab
@@ -151,6 +161,7 @@
 #13D503 minecraft:smooth_sandstone
 #046DFC minecraft:smooth_sandstone_slab
 #70F44C minecraft:smooth_sandstone_stairs
+#D05D2A ae2:smooth_sky_stone_chest
 #B4B2D9 ae2:spatial_pylon
 #5B4130 chipped:spiraled_crying_obsidian
 #13F5AC minecraft:spruce_leaves
@@ -163,6 +174,7 @@
 #B21185 minecraft:stone_brick_slab
 #5CF3F1 minecraft:sugar_cane
 #9209D8 minecraft:terracotta
+#6C49DC chipped:tiled_yellow_stained_glass
 #B50B59 mekanism:tin_ore
 #3CAB33 mysticalagriculture:tinkering_table
 #D02C7E reach_for_the_stars:transmutation_constructor_controller
@@ -172,6 +184,7 @@
 #811F36 ad_astra:venus_globe
 #5BD5C8 minecraft:warped_sign
 #C6D1CE minecraft:white_concrete
+#2524DF projectexpansion:white_matter_block
 #B5D07E minecraft:white_stained_glass
 #49E28F minecraft:white_stained_glass_pane
 #CE8FAE minecraft:white_terracotta

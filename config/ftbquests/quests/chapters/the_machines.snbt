@@ -1392,6 +1392,24 @@
 			x: 4.0d
 			y: 0.5d
 		}
+		{
+			description: [
+				"The &bCSS! &rBring Space straight to your Front Door!"
+				""
+				"Usage Instructions:"
+				"To use the &bCCS,&r simply enter the front door and Jump! The Travel Anchor will take you right to the main Stabilizer Ring. You wanna make sure this is active before entry, can't have you being swallowed by that pesky Black Hole! You will also find the Energy Input right behind you, convenient! Now Sneak your way back down and make your way up those stairs, the wonderful planets of our Solar System will greet you. The Console in the center of the room allows for input of both Items and Fluid into the gravity collider. After you input the approved set of items and fluids, you will find the result on the platform above the console, Wow!"
+				""
+				"&cLegal Agreement: We are not liable for any &4Dismemberment, Death, Time Dilation, &cand &4World Ending Events &cthat come from Misuse of our construct."
+			]
+			id: "5C3224979AAFA088"
+			tasks: [{
+				id: "2C1A4C91CCF6FDCE"
+				title: "CSS"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	title: "&#9863E7C&#8D66E9r&#8268EAe&#776BECa&#6D6EEEt&#6271F0i&#5773F1v&#4C76F3e &#367BF6I&#2B7EF8t&#2181FAe&#1684FCm&#0B86FDs&#0089FF!"
 }
