@@ -1,5 +1,6 @@
 #05B minecraft:bamboo_jungle
 #556 minecraft:beach
+#47F minecraft:birch_forest
 #2DC minecraft:deep_dark
 #008 minecraft:desert
 #4CA minecraft:dripstone_caves
@@ -16,4 +17,5 @@
 #67B minecraft:savanna
 #4E5 minecraft:snowy_plains
 #3AF minecraft:sparse_jungle
+#51A minecraft:stony_shore
 #4C3 minecraft:windswept_hills

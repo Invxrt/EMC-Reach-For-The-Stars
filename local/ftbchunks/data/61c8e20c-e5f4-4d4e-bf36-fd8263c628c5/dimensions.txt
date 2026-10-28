@@ -1,1 +1,3 @@
 minecraft:overworld
+minecraft:the_nether
+twilightforest:twilight_forest

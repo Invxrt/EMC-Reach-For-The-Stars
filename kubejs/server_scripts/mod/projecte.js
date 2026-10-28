@@ -9,4 +9,15 @@ ServerEvents.recipes((event) => {
       C: "reach_for_the_stars:mercury_ingot",
     },
   );
+  event.remove({ output: "projecte:gem_leggings" })
+  event.shaped(
+    Item.of("projecte:gem_leggings"),
+    ['12 ', '34 ', '   '],
+    {
+      1: "projecte:rm_leggings",
+      2: "projecte:black_hole_band",
+      3: "justdirethings:time_wand",
+      4: "projecte:klein_star_omega"
+    }
+  )
 });
