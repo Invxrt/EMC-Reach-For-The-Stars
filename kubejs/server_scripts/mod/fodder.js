@@ -14,12 +14,7 @@ ServerEvents.recipes((event) => {
         C: "#forge:chests",
         D: 'toms_storage:ts.inventory_cable',
         E: 'minecraft:redstone'
-    });
-    // Random Progression items
-    event.shaped(Item.of('reach_for_the_stars:mars_clay', 4), ['AB ', 'BA ', '   '], {
-        A: "minecraft:clay",
-        B: "ad_astra:mars_sand"
-    });      
+    });    
     // RANDOM
     event.shaped(Item.of('tconstruct:sky_slime_ball', 1), ['AAA', 'ABA', 'AAA'], {
         A: "reach_for_the_stars:air_essence",
