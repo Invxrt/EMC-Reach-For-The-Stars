@@ -6,12 +6,12 @@
 	icon: "reach_for_the_stars:mars_core"
 	id: "279B5F8DF1CB6087"
 	images: [{
-		height: 15.0d
+		height: 5.0d
 		image: "reach_for_the_stars:item/mars_core"
 		rotation: 0.0d
-		width: 15.0d
+		width: 5.0d
 		x: 0.0d
-		y: 0.5d
+		y: 1.0d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -53,8 +53,8 @@
 				item: { Count: 16, id: "ad_astra:ostrum_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34F112811B778101"]
@@ -183,8 +183,8 @@
 				type: "item"
 			}]
 			title: "Desh Drill"
-			x: -2.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34F112811B778101"]
@@ -216,8 +216,8 @@
 				item: "ad_astra:mars_globe"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1326898EEF99EDB4"]
@@ -227,8 +227,8 @@
 				item: "resource_capsules:resource_gen_tier_3"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "&#EA0000M&#F12A2Aa&#F85454r&#FF7E7Es"

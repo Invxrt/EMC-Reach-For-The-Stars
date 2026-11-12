@@ -6,12 +6,12 @@
 	icon: "reach_for_the_stars:moon_core"
 	id: "22B0609A16EFE463"
 	images: [{
-		height: 5.0d
+		height: 4.0d
 		image: "reach_for_the_stars:item/mars_core"
 		rotation: 0.0d
-		width: 5.0d
+		width: 4.0d
 		x: 4.5d
-		y: -3.5d
+		y: -3.0d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -363,7 +363,7 @@
 			}]
 			title: "Tier 2 Rocket Assembly"
 			x: 4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6991CC371654E1C1"]
