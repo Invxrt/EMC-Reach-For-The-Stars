@@ -17,6 +17,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Mars, the Red Planet, a coating of Iron Oxide gives it this iconic color. Remember how we stated that one of your criteria for this assessment is setting up mining operations? That starts right here! After our very profitable merger with Drift Drills, we have the equipment to mass build drills on every planet. Well, you don't currently have that luxury, so you better get to work!"
+				""
+				"*EX-Port Inc. recommends you take your mandated 30 minute break every 24hrs. Overworking yourself does not increase the amount you are paid unless you are doing a great job!"
+			]
 			id: "34F112811B778101"
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -64,48 +69,119 @@
 		}
 		{
 			dependencies: ["146FE43D3DD2F004"]
-			id: "2173B557C551FEAF"
-			subtitle: "ALL DRILLS MUST BE ON THEIR PLANET"
-			tasks: [
-				{
-					count: 38L
-					id: "23C9D37E76CF97B4"
-					item: { Count: 38, id: "ad_astra:desh_block" }
-					type: "item"
-				}
-				{
-					count: 40L
-					id: "223000B5D068704F"
-					item: { Count: 40, id: "ad_astra:glowing_desh_pillar" }
-					type: "item"
-				}
-				{
-					count: 48L
-					id: "5EC272CA8C0CD153"
-					item: { Count: 48, id: "minecraft:glass" }
-					type: "item"
-				}
-				{
-					id: "06A67596B1785057"
-					item: "reach_for_the_stars:item_output_hatch"
-					type: "item"
-				}
-				{
-					id: "46DD87181242AAEF"
-					item: "reach_for_the_stars:fluid_input_hatch"
-					type: "item"
-				}
-				{
-					id: "365BBF846B3547E7"
-					item: "reach_for_the_stars:energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "5A3C04B815DDF772"
-					item: "reach_for_the_stars:desh_drill_controller"
-					type: "item"
-				}
+			description: [
+				"The Desh Drill is the first of many drills you will construct for us (if you are to be hired). Now this being a simulation we are going to restrict its outputs, instead of the valuable ores and minerals we would be extracting normally, we will be giving you... souvenirs. Think of these as your digital welcome package!"
+				""
+				"*Note: There is no physical Welcome Package if you are hired by EX-Port Inc."
 			]
+			id: "2173B557C551FEAF"
+			rewards: [{
+				id: "3A7176DBA26DE024"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "tconstruct:clear_glass"
+										}
+										ItemAmount: 48
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:clear_glass\"}},\"translate\":\"block.tconstruct.clear_glass\"},{\"color\":\"black\",\"text\":\"\\n x48\"},{\"color\":\"gray\",\"text\":\" | 0▤ +48\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:desh_block"
+										}
+										ItemAmount: 38
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:desh_block\"}},\"translate\":\"block.ad_astra.desh_block\"},{\"color\":\"black\",\"text\":\"\\n x38\"},{\"color\":\"gray\",\"text\":\" | 0▤ +38\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:desh_drill_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:desh_drill_controller\"}},\"translate\":\"block.reach_for_the_stars.desh_drill_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_desh_pillar"
+										}
+										ItemAmount: 40
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_desh_pillar\"}},\"translate\":\"block.ad_astra.glowing_desh_pillar\"},{\"color\":\"black\",\"text\":\"\\n x40\"},{\"color\":\"gray\",\"text\":\" | 0▤ +40\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [{
+									Checked: 0b
+									Icon: {
+										Count: 1b
+										id: "ad_astra:mars_sand"
+									}
+									ItemAmount: 15
+									Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:mars_sand\"}},\"translate\":\"block.ad_astra.mars_sand\"},{\"color\":\"black\",\"text\":\"\\n x15\"},{\"color\":\"gray\",\"text\":\" | 0▤ +15\"}],\"text\":\"\"}"
+								}]
+							}
+						]
+						PreviouslyOpenedPage: 0
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"Desh Drill Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "ALL DRILLS MUST BE ON THEIR PLANET"
+			tasks: [{
+				id: "5A3C04B815DDF772"
+				item: "reach_for_the_stars:desh_drill_controller"
+				type: "item"
+			}]
 			title: "Desh Drill"
 			x: -2.0d
 			y: 0.0d

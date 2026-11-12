@@ -17,145 +17,289 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "06797A5133B66231"
-			tasks: [
-				{
-					count: 8L
-					id: "6947941D6369A4B5"
-					item: { Count: 8, id: "ad_astra:ostrum_block" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "5E9B80425BE414B3"
-					item: { Count: 5, id: "ae2:smooth_sky_stone_block" }
-					type: "item"
-				}
-				{
-					count: 56L
-					id: "730BEF4A08DF65D3"
-					item: { Count: 56, id: "ad_astra:glowing_ostrum_pillar" }
-					type: "item"
-				}
-				{
-					count: 44L
-					id: "2ACC798C9A8526DD"
-					item: { Count: 44, id: "ae2:quartz_block" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "3D8A1700E0C1801A"
-					item: { Count: 4, id: "powah:nitro_crystal_block" }
-					type: "item"
-				}
-				{
-					id: "14995CBD21C62FAF"
-					item: "reach_for_the_stars:energy_input_hatch"
-					type: "item"
-				}
-				{
-					count: 36L
-					id: "2091E8FB2A5B772C"
-					item: { Count: 36, id: "ae2:fluix_block" }
-					type: "item"
-				}
-				{
-					id: "7A29B0933765FBE9"
-					item: "powah:energy_cable_niotic"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "375DECB63328F7E1"
-					item: { Count: 8, id: "powah:blazing_crystal_block" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "5AA953EE7BDBBF43"
-					item: { Count: 10, id: "powah:energized_steel_block" }
-					type: "item"
-				}
-				{
-					id: "65BC6E8B3D440460"
-					item: "reach_for_the_stars:t3_rocket_assembler_controller"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "48BE86FBFFEF7F49"
-					item: { Count: 25, id: "minecraft:glass" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "551FB9D1BC53C8DB"
-					item: { Count: 10, id: "powah:niotic_crystal_block" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "62E5B087CA2353A0"
-					item: { Count: 8, id: "powah:spirited_crystal_block" }
-					type: "item"
-				}
-				{
-					id: "080E90C6695CFA15"
-					item: "reach_for_the_stars:item_input_hatch"
-					type: "item"
-				}
-				{
-					id: "37B1B127A56057C2"
-					item: "reach_for_the_stars:item_output_hatch"
-					type: "item"
-				}
-				{
-					id: "04CD6EB84A8513EA"
-					item: "powah:energy_cable_hardened"
-					type: "item"
-				}
-				{
-					id: "738142D80788838A"
-					item: "powah:energy_cable_blazing"
-					type: "item"
-				}
-				{
-					id: "0B01486C77452D6D"
-					item: "powah:energy_cable_spirited"
-					type: "item"
-				}
-				{
-					id: "16C1693888BC7512"
-					item: "powah:energy_cable_nitro"
-					type: "item"
-				}
-				{
-					id: "23E58958E246617D"
-					item: "powah:energizing_rod_hardened"
-					type: "item"
-				}
-				{
-					id: "418A55D88EA8BC70"
-					item: "powah:energizing_rod_blazing"
-					type: "item"
-				}
-				{
-					id: "6477C28399CF1CC2"
-					item: "powah:energizing_rod_niotic"
-					type: "item"
-				}
-				{
-					id: "199603A892282706"
-					item: "powah:energizing_rod_spirited"
-					type: "item"
-				}
-				{
-					id: "01A4299193926CB5"
-					item: "powah:energizing_rod_nitro"
-					type: "item"
-				}
+			description: [
+				"Excellent, your Operation is fully setup on Mars, you are among the top 90 candidates for the Expert Explorer position! Now it is time for you to take a step back, literally. Mercury is your next destination. Due to planetary conditions caused by being so close to the Sun, you will want to make sure your power generation is in the best possible position before proceeding."
+				""
+				"*Your Premium Assessment includes 3 free Therapy sessions with our in-house physician. If you happen to overshot Mercury and fly straight into the simulated Sun, feel free to use them!"
 			]
+			id: "06797A5133B66231"
+			rewards: [{
+				id: "6D02A002959186C3"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:blazing_crystal_block"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:blazing_crystal_block\"}},\"translate\":\"block.powah.blazing_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energized_steel_block"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energized_steel_block\"}},\"translate\":\"block.powah.energized_steel_block\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:niotic_crystal_block"
+										}
+										ItemAmount: 10
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:niotic_crystal_block\"}},\"translate\":\"block.powah.niotic_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x10\"},{\"color\":\"gray\",\"text\":\" | 0▤ +10\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:nitro_crystal_block"
+										}
+										ItemAmount: 4
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:nitro_crystal_block\"}},\"translate\":\"block.powah.nitro_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:spirited_crystal_block"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:spirited_crystal_block\"}},\"translate\":\"block.powah.spirited_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ae2:quartz_block"
+										}
+										ItemAmount: 44
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:quartz_block\"}},\"translate\":\"block.ae2.quartz_block\"},{\"color\":\"black\",\"text\":\"\\n x44\"},{\"color\":\"gray\",\"text\":\" | 0▤ +44\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "tconstruct:clear_glass"
+										}
+										ItemAmount: 25
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:clear_glass\"}},\"translate\":\"block.tconstruct.clear_glass\"},{\"color\":\"black\",\"text\":\"\\n x25\"},{\"color\":\"gray\",\"text\":\" | 0▤ +25\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energizing_rod_blazing"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energizing_rod_blazing\"}},\"translate\":\"block.powah.energizing_rod_blazing\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energizing_rod_hardened"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energizing_rod_hardened\"}},\"translate\":\"block.powah.energizing_rod_hardened\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energizing_rod_niotic"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energizing_rod_niotic\"}},\"translate\":\"block.powah.energizing_rod_niotic\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energizing_rod_nitro"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energizing_rod_nitro\"}},\"translate\":\"block.powah.energizing_rod_nitro\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energizing_rod_spirited"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energizing_rod_spirited\"}},\"translate\":\"block.powah.energizing_rod_spirited\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energy_cable_blazing"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energy_cable_blazing\"}},\"translate\":\"block.powah.energy_cable_blazing\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energy_cable_hardened"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energy_cable_hardened\"}},\"translate\":\"block.powah.energy_cable_hardened\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energy_cable_niotic"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energy_cable_niotic\"}},\"translate\":\"block.powah.energy_cable_niotic\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energy_cable_nitro"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energy_cable_nitro\"}},\"translate\":\"block.powah.energy_cable_nitro\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:energy_cable_spirited"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:energy_cable_spirited\"}},\"translate\":\"block.powah.energy_cable_spirited\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ae2:fluix_block"
+										}
+										ItemAmount: 36
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:fluix_block\"}},\"translate\":\"block.ae2.fluix_block\"},{\"color\":\"black\",\"text\":\"\\n x36\"},{\"color\":\"gray\",\"text\":\" | 0▤ +36\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_ostrum_pillar"
+										}
+										ItemAmount: 56
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_ostrum_pillar\"}},\"translate\":\"block.ad_astra.glowing_ostrum_pillar\"},{\"color\":\"black\",\"text\":\"\\n x56\"},{\"color\":\"gray\",\"text\":\" | 0▤ +56\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:ostrum_block"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:ostrum_block\"}},\"translate\":\"block.ad_astra.ostrum_block\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ae2:smooth_sky_stone_block"
+										}
+										ItemAmount: 5
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:smooth_sky_stone_block\"}},\"translate\":\"block.ae2.smooth_sky_stone_block\"},{\"color\":\"black\",\"text\":\"\\n x5\"},{\"color\":\"gray\",\"text\":\" | 0▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:t3_rocket_assembler_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:t3_rocket_assembler_controller\"}},\"translate\":\"block.reach_for_the_stars.t3_rocket_assembler_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						PreviouslyOpenedPage: 1
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"T3 Rocket Assembler Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65BC6E8B3D440460"
+				item: "reach_for_the_stars:t3_rocket_assembler_controller"
+				type: "item"
+			}]
 			title: "Tier 3 Rocket Assembly"
 			x: -1.0d
 			y: 1.5d
@@ -178,6 +322,106 @@
 		{
 			dependencies: ["02C82D39A458CEC6"]
 			id: "0C7204E09DB39A5F"
+			rewards: [{
+				id: "1D8FADCFA719152E"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_ostrum_pillar"
+										}
+										ItemAmount: 84
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_ostrum_pillar\"}},\"translate\":\"block.ad_astra.glowing_ostrum_pillar\"},{\"color\":\"black\",\"text\":\"\\n x84\"},{\"color\":\"gray\",\"text\":\" | 1▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:mercury_stone"
+										}
+										ItemAmount: 49
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:mercury_stone\"}},\"translate\":\"block.ad_astra.mercury_stone\"},{\"color\":\"black\",\"text\":\"\\n x49\"},{\"color\":\"gray\",\"text\":\" | 0▤ +49\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:ostrum_block"
+										}
+										ItemAmount: 107
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:ostrum_block\"}},\"translate\":\"block.ad_astra.ostrum_block\"},{\"color\":\"black\",\"text\":\"\\n x107\"},{\"color\":\"gray\",\"text\":\" | 1▤ +43\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:ostrum_drill_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:ostrum_drill_controller\"}},\"translate\":\"block.reach_for_the_stars.ostrum_drill_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [{
+									Checked: 0b
+									Icon: {
+										Count: 1b
+										id: "ae2:quartz_vibrant_glass"
+									}
+									ItemAmount: 196
+									Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:quartz_vibrant_glass\"}},\"translate\":\"block.ae2.quartz_vibrant_glass\"},{\"color\":\"black\",\"text\":\"\\n x196\"},{\"color\":\"gray\",\"text\":\" | 3▤ +4\"}],\"text\":\"\"}"
+								}]
+							}
+						]
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"Ostrum Drill Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "694977CC5E4532BB"
 				item: "reach_for_the_stars:ostrum_drill_controller"

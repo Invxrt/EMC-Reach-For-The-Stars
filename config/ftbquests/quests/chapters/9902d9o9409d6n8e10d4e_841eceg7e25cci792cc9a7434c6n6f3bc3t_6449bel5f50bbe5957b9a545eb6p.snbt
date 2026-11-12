@@ -17,6 +17,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["You have successfully done what most people in the 21st century achieved, you are only 300 years behind all of mankind! Now that you have passed your basic training, its time to fully leave Earth's planetary bounds. Mars is your next destination and major test. EX-Port requires employees to master the elements of all planets before the next can be reached. You will need to pressurize the basic energies of Earth together to form a Core, this will allow you to mass produce the planet's resources and achieve your flight to Mars."]
 			id: "58E4574A0C1EC90F"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -177,6 +178,11 @@
 		}
 		{
 			dependencies: ["4C1221F3AD7DD2F6"]
+			description: [
+				"The EX-Port Resource Generators are a work of pure genius. Simply insert the condensed planetary mass, a \"Core\", to start producing \"Shard\" copies that can then be refined into new resources."
+				""
+				"*Dropping a Planetary \"Core\" may be harmful to the simulation's stability, it is not recommended and should be avoided at all cost for the safety of the company."
+			]
 			id: "71448CBF5506B76E"
 			tasks: [{
 				id: "26E7FD9AA521988C"
@@ -220,70 +226,141 @@
 		}
 		{
 			id: "6991CC371654E1C1"
-			tasks: [
-				{
-					count: 8L
-					id: "7AF4B06CEEF5E6CB"
-					item: { Count: 8, id: "ad_astra:desh_block" }
-					type: "item"
+			rewards: [{
+				id: "04EC20D6F32C39AE"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ars_nouveau:arcane_platform"
+										}
+										ItemAmount: 5
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:arcane_platform\"}},\"translate\":\"block.ars_nouveau.arcane_platform\"},{\"color\":\"black\",\"text\":\"\\n x5\"},{\"color\":\"gray\",\"text\":\" | 0▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "tconstruct:clear_glass"
+										}
+										ItemAmount: 9
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:clear_glass\"}},\"translate\":\"block.tconstruct.clear_glass\"},{\"color\":\"black\",\"text\":\"\\n x9\"},{\"color\":\"gray\",\"text\":\" | 0▤ +9\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:desh_block"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:desh_block\"}},\"translate\":\"block.ad_astra.desh_block\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:desh_pillar"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:desh_pillar\"}},\"translate\":\"block.ad_astra.desh_pillar\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_desh_pillar"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_desh_pillar\"}},\"translate\":\"block.ad_astra.glowing_desh_pillar\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "pneumaticcraft:pressure_chamber_wall"
+										}
+										ItemAmount: 22
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"pneumaticcraft:pressure_chamber_wall\"}},\"translate\":\"block.pneumaticcraft.pressure_chamber_wall\"},{\"color\":\"black\",\"text\":\"\\n x22\"},{\"color\":\"gray\",\"text\":\" | 0▤ +22\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ars_nouveau:sourcestone"
+										}
+										ItemAmount: 23
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:sourcestone\"}},\"translate\":\"block.ars_nouveau.sourcestone\"},{\"color\":\"black\",\"text\":\"\\n x23\"},{\"color\":\"gray\",\"text\":\" | 0▤ +23\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:t2_rocket_assembler_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:t2_rocket_assembler_controller\"}},\"translate\":\"block.reach_for_the_stars.t2_rocket_assembler_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						PreviouslyOpenedPage: 0
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"T2 Rocket Assembler Checklist\"}"
+						}
+					}
 				}
-				{
-					count: 20L
-					id: "62845CA9CC00CC76"
-					item: { Count: 20, id: "ad_astra:glowing_desh_pillar" }
-					type: "item"
-				}
-				{
-					count: 22L
-					id: "3DD5E060BBA35EF6"
-					item: { Count: 22, id: "pneumaticcraft:pressure_chamber_wall" }
-					type: "item"
-				}
-				{
-					count: 23L
-					id: "419EE0CF9D6D7C3F"
-					item: { Count: 23, id: "ars_nouveau:sourcestone" }
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "790ADD9774B5F9CF"
-					item: { Count: 12, id: "ad_astra:desh_pillar" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "49924B55BD57D8C3"
-					item: { Count: 9, id: "tconstruct:clear_glass" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "216080DDAB8B0A03"
-					item: { Count: 5, id: "ars_nouveau:arcane_platform" }
-					type: "item"
-				}
-				{
-					id: "53951C449ABC3496"
-					item: "reach_for_the_stars:energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "1D5EEC1ECBB7B2E4"
-					item: "reach_for_the_stars:item_input_hatch"
-					type: "item"
-				}
-				{
-					id: "496842D0D533D754"
-					item: "reach_for_the_stars:t2_rocket_assembler_controller"
-					type: "item"
-				}
-				{
-					id: "13CE132A4134E7B5"
-					item: "reach_for_the_stars:item_output_hatch"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "496842D0D533D754"
+				item: "reach_for_the_stars:t2_rocket_assembler_controller"
+				type: "item"
+			}]
 			title: "Tier 2 Rocket Assembly"
 			x: 4.5d
 			y: -2.5d

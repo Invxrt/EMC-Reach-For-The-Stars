@@ -1,8 +1,12 @@
 
 #General settings
 [general]
-	#Items that should not be transferred to curios slots (format: 'modid:item')
+	#Items that should not be transferred to curios slots (format: 'modid:item' or '#modid:tag')
 	blacklisted_items = []
 	#Whether cursed items should be transferred back to curios slots (true = transfer cursed items, false = don't transfer)
 	transfer_cursed_items = false
+	#Curio slot types that items should never be restored into (e.g. 'ring', 'back')
+	blacklisted_slots = []
+	#If the original curio slot is already occupied, put the restored item back into it and move the current item to the inventory (items with Curse of Binding are never swapped out)
+	swap_occupied_slots = false
 

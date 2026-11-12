@@ -16,7 +16,8 @@ ServerEvents.recipes((event) => {
 
   // ROCKETS
   event.custom({
-    type: "reach_for_the_stars:t4_rocket_assembler",
+    type: "reach_for_the_stars:rocket_assembler",
+    tier: 4,
     ingredients: [
       {
         count: 1,
@@ -61,7 +62,8 @@ ServerEvents.recipes((event) => {
     },
   });
   event.custom({
-    type: "reach_for_the_stars:t5_rocket_assembler",
+    type: "reach_for_the_stars:rocket_assembler",
+    tier: 5,
     ingredients: [
       {
         count: 1,

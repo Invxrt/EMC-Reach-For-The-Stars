@@ -47,16 +47,5 @@ ServerEvents.recipes((event) => {
     6: "reach_for_the_stars:venus_ingot",
     7: "reach_for_the_stars:glacio_ingot",
   });
-  event.custom({
-      type: "reach_for_the_stars:glacio_drill",
-      fluid: {
-        amount: 1000,
-        fluid: "reach_for_the_stars:glacio_drill_fluid",
-    },
-        dimension: "ad_astra:glacio",
-        result: {
-            count: 1,
-            item: "ad_astra:glacio_globe",
-        }
-    }).id("glacio_drill");
+ 
 })

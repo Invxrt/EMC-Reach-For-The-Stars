@@ -806,55 +806,113 @@
 		}
 		{
 			dependencies: ["03868A6ACABE51CD"]
-			description: ["Press \"U\" on the controller block to see how to construct the multiblock!"]
 			id: "446143E642B2FC50"
-			subtitle: "Read me!"
-			tasks: [
-				{
-					count: 12L
-					id: "0F4BEB0DFB60DBCB"
-					item: { Count: 12, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
+			rewards: [{
+				id: "14A57CEB52911680"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "tconstruct:clear_glass"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:clear_glass\"}},\"translate\":\"block.tconstruct.clear_glass\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fuel_distillery_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fuel_distillery_controller\"}},\"translate\":\"block.reach_for_the_stars.fuel_distillery_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:rs_engineering"
+										}
+										ItemAmount: 2
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:rs_engineering\"}},\"translate\":\"block.immersiveengineering.rs_engineering\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:steel_scaffolding_standard"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:steel_scaffolding_standard\"}},\"translate\":\"block.immersiveengineering.steel_scaffolding_standard\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [{
+									Checked: 0b
+									Icon: {
+										Count: 1b
+										id: "immersiveengineering:sheetmetal_steel"
+									}
+									ItemAmount: 8
+									Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:sheetmetal_steel\"}},\"translate\":\"block.immersiveengineering.sheetmetal_steel\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+								}]
+							}
+						]
+						PreviouslyOpenedPage: 0
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"Fuel Distillery Checklist\"}"
+						}
+					}
 				}
-				{
-					count: 2L
-					id: "2968243DAD4D6064"
-					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "78EB4D3E421A11E8"
-					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "301B576527D41FD1"
-					item: "tconstruct:clear_glass"
-					type: "item"
-				}
-				{
-					id: "743497595C1D806F"
-					item: "reach_for_the_stars:fluid_input_hatch"
-					type: "item"
-				}
-				{
-					id: "43574A0CB33C75F2"
-					item: "reach_for_the_stars:fluid_output_hatch"
-					type: "item"
-				}
-				{
-					id: "2EFC84707C49AD29"
-					item: "reach_for_the_stars:energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "49759266AD8A2224"
-					item: "reach_for_the_stars:fuel_distillery_controller"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "49759266AD8A2224"
+				item: "reach_for_the_stars:fuel_distillery_controller"
+				type: "item"
+			}]
 			title: "The Fuel Distillery"
 			x: -1.0d
 			y: 5.0d
@@ -911,7 +969,7 @@
 		}
 		{
 			description: [
-				"&eLocate \"Reach For The Stars\" to see all the multiblock's in the pack!"
+				"&eLocate \"RFTS\" to see some of the multiblocks, I did try adding them all but it didn't work for some reason."
 				""
 				"&cSHIFT+SCROLL to rotate"
 				""

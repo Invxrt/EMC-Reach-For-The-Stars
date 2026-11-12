@@ -18,6 +18,153 @@
 	quests: [
 		{
 			id: "0643149A35400A1E"
+			rewards: [{
+				id: "715FA5A767ED59AE"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:calorite_block"
+										}
+										ItemAmount: 16
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:calorite_block\"}},\"translate\":\"block.ad_astra.calorite_block\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chisel:futura/controller"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chisel:futura/controller\"}},\"translate\":\"block.chisel.futura.controller\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chisel:futura/mysterious_cube"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chisel:futura/mysterious_cube\"}},\"translate\":\"block.chisel.futura.mysterious_cube\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "chisel:futura/wavy"
+										}
+										ItemAmount: 21
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"chisel:futura/wavy\"}},\"translate\":\"block.chisel.futura.wavy\"},{\"color\":\"black\",\"text\":\"\\n x21\"},{\"color\":\"gray\",\"text\":\" | 0▤ +21\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_calorite_pillar"
+										}
+										ItemAmount: 72
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_calorite_pillar\"}},\"translate\":\"block.ad_astra.glowing_calorite_pillar\"},{\"color\":\"black\",\"text\":\"\\n x72\"},{\"color\":\"gray\",\"text\":\" | 1▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:block_osmium"
+										}
+										ItemAmount: 84
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:block_osmium\"}},\"translate\":\"block.mekanism.block_osmium\"},{\"color\":\"black\",\"text\":\"\\n x84\"},{\"color\":\"gray\",\"text\":\" | 1▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:block_refined_glowstone"
+										}
+										ItemAmount: 70
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:block_refined_glowstone\"}},\"translate\":\"block.mekanism.block_refined_glowstone\"},{\"color\":\"black\",\"text\":\"\\n x70\"},{\"color\":\"gray\",\"text\":\" | 1▤ +6\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:block_refined_obsidian"
+										}
+										ItemAmount: 70
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:block_refined_obsidian\"}},\"translate\":\"block.mekanism.block_refined_obsidian\"},{\"color\":\"black\",\"text\":\"\\n x70\"},{\"color\":\"gray\",\"text\":\" | 1▤ +6\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:structural_glass"
+										}
+										ItemAmount: 49
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:structural_glass\"}},\"translate\":\"block.mekanism.structural_glass\"},{\"color\":\"black\",\"text\":\"\\n x49\"},{\"color\":\"gray\",\"text\":\" | 0▤ +49\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:t4_rocket_assembler_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:t4_rocket_assembler_controller\"}},\"translate\":\"block.reach_for_the_stars.t4_rocket_assembler_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"T4 Rocket Assembler Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "742E1E046AE84C3D"
 				item: "reach_for_the_stars:t4_rocket_assembler_controller"
@@ -44,6 +191,117 @@
 		{
 			dependencies: ["596B62D63E1DB114"]
 			id: "095A213CB95085F9"
+			rewards: [{
+				id: "0573BB60F57A5817"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:nitro_crystal_block"
+										}
+										ItemAmount: 16
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:nitro_crystal_block\"}},\"translate\":\"block.powah.nitro_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:calorite_block"
+										}
+										ItemAmount: 94
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:calorite_block\"}},\"translate\":\"block.ad_astra.calorite_block\"},{\"color\":\"black\",\"text\":\"\\n x94\"},{\"color\":\"gray\",\"text\":\" | 1▤ +30\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:calorite_drill_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:calorite_drill_controller\"}},\"translate\":\"block.reach_for_the_stars.calorite_drill_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:fluid_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:fluid_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.fluid_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_calorite_pillar"
+										}
+										ItemAmount: 81
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_calorite_pillar\"}},\"translate\":\"block.ad_astra.glowing_calorite_pillar\"},{\"color\":\"black\",\"text\":\"\\n x81\"},{\"color\":\"gray\",\"text\":\" | 1▤ +17\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:structural_glass"
+										}
+										ItemAmount: 196
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:structural_glass\"}},\"translate\":\"block.mekanism.structural_glass\"},{\"color\":\"black\",\"text\":\"\\n x196\"},{\"color\":\"gray\",\"text\":\" | 3▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:venus_sand"
+										}
+										ItemAmount: 49
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:venus_sand\"}},\"translate\":\"block.ad_astra.venus_sand\"},{\"color\":\"black\",\"text\":\"\\n x49\"},{\"color\":\"gray\",\"text\":\" | 0▤ +49\"}],\"text\":\"\"}"
+									}
+								]
+							}
+						]
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"Calorite Drill Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "737C5A9B1038A08C"
 				item: "reach_for_the_stars:calorite_drill_controller"

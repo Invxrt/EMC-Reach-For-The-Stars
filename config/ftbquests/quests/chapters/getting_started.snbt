@@ -27,6 +27,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Thank you potential new Employee for purchasing the Premium Immersive Aptitude Assessment! We at EX-Port Inc. are excited that you are wanting to join the ranks of our Expert Explorers. The requirements for this assessment are to set up mining operations on various planets for their valuable resources. Your first major task is a test of ingenuity, you must build a rocket and get to the moon."
+				""
+				"Now as you know from the Contract and Waiver you signed upon purchase, this is merely a simulation. Anything you do and happens to you will *probably* not alter the real world or you. Death is *likely* not the end, but should still be avoided as it will reflect poorly on your final review."
+				""
+				"EX-plore. EX-ploit. EX-Port!"
+			]
 			id: "2F5B8C54E72D691A"
 			rewards: [{
 				id: "6E3AC5CACE7E955A"
@@ -344,6 +351,7 @@
 		}
 		{
 			dependencies: ["449E67E77DF52A08"]
+			description: ["A wise man once said \"Give a rock to a peasant and they will build us a bridge to a new world.\" While we will not be permitting you to haphazardly put your machinery together using rocks, a bit of iron tied to a stick will be sufficient."]
 			icon: {
 				Count: 1
 				id: "immersiveengineering:hammer"
@@ -486,6 +494,11 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"While we pride ourselves on our extensive space travel equipment, when it comes to space travel we outsource our rocket and construction equipment blueprints to our sibling company Ad Astra LLC.. You will be constructing all rockets based on their plans."
+				""
+				"*Any inquiries or problems with the Rockets or Rocket Constructing equipment should be submitted through EX-Port Inc. and not taken directly to Ad Astra LLC."
+			]
 			id: "314F20A540EFEE53"
 			tasks: [{
 				id: "1067CECDF9BB9114"
@@ -524,52 +537,111 @@
 		{
 			dependencies: ["314F20A540EFEE53"]
 			id: "53ED406C1257A716"
-			tasks: [
-				{
-					count: 8L
-					id: "3516B70B306A475A"
-					item: { Count: 8, id: "immersiveengineering:light_engineering" }
-					type: "item"
+			rewards: [{
+				id: "0F8C6FA1A2BB63FD"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:light_engineering"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:light_engineering\"}},\"translate\":\"block.immersiveengineering.light_engineering\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:rs_engineering"
+										}
+										ItemAmount: 2
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:rs_engineering\"}},\"translate\":\"block.immersiveengineering.rs_engineering\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:steel_scaffolding_standard"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:steel_scaffolding_standard\"}},\"translate\":\"block.immersiveengineering.steel_scaffolding_standard\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "immersiveengineering:sheetmetal_steel"
+										}
+										ItemAmount: 12
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"immersiveengineering:sheetmetal_steel\"}},\"translate\":\"block.immersiveengineering.sheetmetal_steel\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [{
+									Checked: 0b
+									Icon: {
+										Count: 1b
+										id: "reach_for_the_stars:t1_rocket_assembler_controller"
+									}
+									ItemAmount: 1
+									Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:t1_rocket_assembler_controller\"}},\"translate\":\"block.reach_for_the_stars.t1_rocket_assembler_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+								}]
+							}
+						]
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"T1 Rocket Assembler Checklist\"}"
+						}
+					}
 				}
-				{
-					count: 12L
-					id: "1B3F2287D028736A"
-					item: { Count: 12, id: "immersiveengineering:sheetmetal_steel" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "78E3622AD7EA7800"
-					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "46D8A351C1A7B0FF"
-					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
-				}
-				{
-					id: "38C7CC301E00152B"
-					item: "reach_for_the_stars:item_input_hatch"
-					type: "item"
-				}
-				{
-					id: "5C5B2BC3BD41ED70"
-					item: "reach_for_the_stars:item_output_hatch"
-					type: "item"
-				}
-				{
-					id: "5AEF588104B2FF09"
-					item: "reach_for_the_stars:energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "6321B52DDE0A86D9"
-					item: "reach_for_the_stars:t1_rocket_assembler_controller"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "6321B52DDE0A86D9"
+				item: "reach_for_the_stars:t1_rocket_assembler_controller"
+				type: "item"
+			}]
 			title: "T1 Rocket Assembly"
 			x: 16.5d
 			y: -0.5d

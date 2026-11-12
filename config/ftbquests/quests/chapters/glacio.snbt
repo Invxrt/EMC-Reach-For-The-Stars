@@ -18,6 +18,177 @@
 	quests: [
 		{
 			id: "4B74FC1BDE79C22E"
+			rewards: [{
+				id: "59B98BC799F0B9EE"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: {
+						Pages: [
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "powah:nitro_crystal_block"
+										}
+										ItemAmount: 66
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"powah:nitro_crystal_block\"}},\"translate\":\"block.powah.nitro_crystal_block\"},{\"color\":\"black\",\"text\":\"\\n x66\"},{\"color\":\"gray\",\"text\":\" | 1▤ +2\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "botania:terrasteel_block"
+										}
+										ItemAmount: 131
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:terrasteel_block\"}},\"translate\":\"block.botania.terrasteel_block\"},{\"color\":\"black\",\"text\":\"\\n x131\"},{\"color\":\"gray\",\"text\":\" | 2▤ +3\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:calorite_block"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:calorite_block\"}},\"translate\":\"block.ad_astra.calorite_block\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:energy_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:energy_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.energy_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_calorite_pillar"
+										}
+										ItemAmount: 40
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_calorite_pillar\"}},\"translate\":\"block.ad_astra.glowing_calorite_pillar\"},{\"color\":\"black\",\"text\":\"\\n x40\"},{\"color\":\"gray\",\"text\":\" | 0▤ +40\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_desh_pillar"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_desh_pillar\"}},\"translate\":\"block.ad_astra.glowing_desh_pillar\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_iron_pillar"
+										}
+										ItemAmount: 37
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_iron_pillar\"}},\"translate\":\"block.ad_astra.glowing_iron_pillar\"},{\"color\":\"black\",\"text\":\"\\n x37\"},{\"color\":\"gray\",\"text\":\" | 0▤ +37\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_ostrum_pillar"
+										}
+										ItemAmount: 8
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_ostrum_pillar\"}},\"translate\":\"block.ad_astra.glowing_ostrum_pillar\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "ad_astra:glowing_steel_pillar"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ad_astra:glowing_steel_pillar\"}},\"translate\":\"block.ad_astra.glowing_steel_pillar\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_input_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_input_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_input_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:item_output_hatch"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:item_output_hatch\"}},\"translate\":\"block.reach_for_the_stars.item_output_hatch\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:sps_casing"
+										}
+										ItemAmount: 65
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:sps_casing\"}},\"translate\":\"block.mekanism.sps_casing\"},{\"color\":\"black\",\"text\":\"\\n x65\"},{\"color\":\"gray\",\"text\":\" | 1▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mysticalagriculture:supremium_block"
+										}
+										ItemAmount: 98
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mysticalagriculture:supremium_block\"}},\"translate\":\"block.mysticalagriculture.supremium_block\"},{\"color\":\"black\",\"text\":\"\\n x98\"},{\"color\":\"gray\",\"text\":\" | 1▤ +34\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "reach_for_the_stars:t5_rocket_assembler_controller"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"reach_for_the_stars:t5_rocket_assembler_controller\"}},\"translate\":\"block.reach_for_the_stars.t5_rocket_assembler_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+									}
+								]
+							}
+							{
+								Entries: [{
+									Checked: 0b
+									Icon: {
+										Count: 1b
+										id: "ae2:quartz_vibrant_glass"
+									}
+									ItemAmount: 363
+									Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ae2:quartz_vibrant_glass\"}},\"translate\":\"block.ae2.quartz_vibrant_glass\"},{\"color\":\"black\",\"text\":\"\\n x363\"},{\"color\":\"gray\",\"text\":\" | 5▤ +43\"}],\"text\":\"\"}"
+								}]
+							}
+						]
+						Readonly: 1b
+						RepairCost: 0
+						Type: 1
+						display: {
+							Name: "{\"text\":\"T5 Rocket Assembler Checklist\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4725A7E29B39AFEF"
 				item: "reach_for_the_stars:t5_rocket_assembler_controller"
@@ -52,7 +223,7 @@
 			dependencies: ["589B5793D73A980A"]
 			id: "7C16AC020E4C43B5"
 			rewards: [{
-				id: "06409E57B89E2E5C"
+				id: "07EB4989089E5742"
 				item: {
 					Count: 1
 					id: "create:clipboard"
@@ -640,11 +811,12 @@
 								]
 							}
 						]
-						PreviouslyOpenedPage: 0
+						PreviouslyOpenedPage: 8
 						Readonly: 1b
+						RepairCost: 0
 						Type: 1
 						display: {
-							Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+							Name: "{\"text\":\"Glacio Drill Checklist\"}"
 						}
 					}
 				}

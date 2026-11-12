@@ -1,11 +1,13 @@
 ServerEvents.recipes((event) => {
-    event
+  event
     .custom({
       type: "reach_for_the_stars:printer_3d",
-      fluid: {
-        amount: 1000,
-        fluid: "pneumaticcraft:plastic",
-      },
+      fluids: [
+        {
+          amount: 1000,
+          fluid: "pneumaticcraft:plastic",
+        },
+      ],
       ingredients: [
         {
           count: 24,
@@ -75,13 +77,15 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("energy_cube");
-    event
+  event
     .custom({
       type: "reach_for_the_stars:printer_3d",
-      fluid: {
-        amount: 1000,
-        fluid: "pneumaticcraft:plastic",
-      },
+      fluids: [
+        {
+          amount: 1000,
+          fluid: "pneumaticcraft:plastic",
+        },
+      ],
       ingredients: [
         {
           count: 500,
@@ -156,13 +160,15 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("creative_iron");
-    event
+  event
     .custom({
       type: "reach_for_the_stars:printer_3d",
-      fluid: {
-        amount: 1000,
-        fluid: "pneumaticcraft:plastic",
-      },
+      fluids: [
+        {
+          amount: 1000,
+          fluid: "pneumaticcraft:plastic",
+        },
+      ],
       ingredients: [
         {
           count: 32,
@@ -225,13 +231,15 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("creative_tank");
-    event
+  event
     .custom({
       type: "reach_for_the_stars:printer_3d",
-      fluid: {
-        amount: 1000,
-        fluid: "pneumaticcraft:plastic",
-      },
+      fluids: [
+        {
+          amount: 1000,
+          fluid: "pneumaticcraft:plastic",
+        },
+      ],
       ingredients: [
         {
           count: 1,
@@ -252,13 +260,14 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("creative_chemical");
-    event
+  event
     .custom({
       type: "reach_for_the_stars:printer_3d",
-      fluid: {
+      fluids: [{
         amount: 1000,
         fluid: "pneumaticcraft:plastic",
       },
+    ],
       ingredients: [
         {
           count: 64,
@@ -323,4 +332,62 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("creative_motor");
-})
+  event
+    .custom({
+      type: "reach_for_the_stars:printer_3d",
+      fluids: [{
+        amount: 1000,
+        fluid: "pneumaticcraft:plastic",
+      },
+    ],
+      ingredients: [
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:earth_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:moon_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:mars_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:mercury_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:venus_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "ad_astra:glacio_globe",
+          },
+        },
+        {
+          count: 1,
+          ingredient: {
+            item: "reach_for_the_stars:winner_planet",
+          },
+        },
+      ],
+      result: {
+        item: "reach_for_the_stars:contained_space_station_controller",
+        count: 1,
+      },
+    })
+    .id("css_controller");
+});
