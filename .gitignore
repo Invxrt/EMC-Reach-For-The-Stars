@@ -24,6 +24,7 @@ crash-reports/
 # Runtime/cache
 .cache/
 .minecraft/
+.curseclient
 
 # Temporary files
 *.tmp
